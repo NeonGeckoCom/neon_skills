@@ -3,6 +3,8 @@
 
 [About](https://github.com/neongeckocom/skill-about) - Skill used to provide information about Neon
 
+[Alerts](https://github.com/NeonGeckoCom/skill-alerts.git) - A skill to schedule alarms, timers, and reminders
+
 [CaffeineWiz](https://github.com/NeonGeckoCom/skill-caffeinewiz.git) - Provides the caffeine content of various drinks on request.
 
 [Camera](https://github.com/NeonGeckoCom/skill-camera.git) - Take pictures and videos.
