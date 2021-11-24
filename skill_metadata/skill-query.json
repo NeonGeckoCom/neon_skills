@@ -1,0 +1,45 @@
+{
+  "title": "Query",
+  "url": "https://github.com/NeonGeckoCom/skill-query",
+  "summary": "Negotiates the best answer to a question",
+  "short_description": "Negotiates the best answer to a question",
+  "description": "Negotiates handling of questions by calling all registered Common Query Skills. This is done by sending a `question:query` message with the utterance to give the skills the posibility to report back if they can answer the question and at which confidence.",
+  "examples": [
+    "how tall is abraham lincoln?",
+    "what is an aardwark?"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "BSD-3-Clause",
+  "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/question.svg",
+  "category": "Information",
+  "categories": [
+    "Information"
+  ],
+  "tags": [
+    "system"
+  ],
+  "credits": [
+    "Mycroft AI",
+    "NeonDaniel",
+    "NeonAndrii"
+  ],
+  "skillname": "Query",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}

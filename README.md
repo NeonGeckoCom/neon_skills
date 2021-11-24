@@ -25,6 +25,8 @@
 
 [Speed Test](https://github.com/NeonGeckoCom/skill-speed_test.git) - Skill used to test your internet speed
 
+[Support Helper](https://github.com/NeonGeckoCom/skill-support_helper) - Provides an option to send current logs via email.
+
 [Synonyms](https://github.com/NeonGeckoCom/skill-synonyms.git) - This skill handles setting and calling synonym (aliased) commands.
 
 [Translation](https://github.com/NeonGeckoCom/skill-translation.git) - Translates phrases between languages. Also handles switching TTS/STT languages under Neon Core.
@@ -32,7 +34,39 @@
 [User Settings](https://github.com/NeonGeckoCom/skill-user_settings.git) - Have Neon help you change and control your user settings.
 
 # Neon Modified Skills
+[Audio Record](https://github.com/NeonGeckoCom/skill-audio_record) - Record and playback short audio clips with Neon.
 
+[Date Time](https://github.com/neongeckocom/skill-date_time) - Get Neon to speak the time, date, or day of the week of any city around the globe.
+
+[DuckDuckGo](https://github.com/NeonGeckoCom/skill-fallback_duckduckgo) - Use DuckDuckGo to answer questions
+
+[IP Address](https://github.com/NeonGeckoCom/skill-ip_address.git) - Retrieve the [IP address](https://en.wikipedia.org/wiki/IP_address), also known as the "network address" of the Device and respond verbally to the user, and if the Device supports it, display the IP address.
+
+[Latest news](https://github.com/NeonGeckoCom/skill-news) - Listen to the latest news report from your favorite broadcast
+
+[Personal](https://github.com/NeonGeckoCom/skill-personal) - Skill used for introduction between the user and Neon.
+
+[Playback Control](https://github.com/NeonGeckoCom/skill-playback_control) - Common playback control system
+
+[Query](https://github.com/NeonGeckoCom/skill-query) - Negotiates the best answer to a question
+
+[Speak](https://github.com/NeonGeckoCom/skill-speak) - Make Mycroft repeat whatever you want
+
+[Spelling](https://github.com/NeonGeckoCom/skill-spelling) - Let Mycroft help you spell words
+
+[Stock](https://github.com/NeonGeckoCom/skill-stock) - This skill provides stock values.
+
+[Stop](https://github.com/NeonGeckoCom/skill-stop) - Stop the actions of any skill that is in progress.
+
+[Volume](https://github.com/NeonGeckoCom/skill-volume) - Control microphone and speaker audio levels.
+
+[Weather](https://github.com/NeonGeckoCom/skill-weather) - Get current weather and forecast info.
+
+[Wikipedia](https://github.com/NeonGeckoCom/skill-wikipedia) - Wikipedia ![](./logo.png)
+
+[Wolfram Alpha](https://github.com/NeonGeckoCom/skill-fallback_wolfram_alpha) - General knowledge fallback handler based on [Wolfram Alpha](https://wolframalpha.com) services
+
+[fallback-unknown](https://github.com/NeonGeckoCom/skill-fallback_unknown) - Unknown request fallback handler. Executes if every other step failed to answer the question.
 
 # Neon Premium Skills
 [Conversations by Example](https://github.com/NeonGeckoCom/skill-conversation_by_example.git) - Coming Soon

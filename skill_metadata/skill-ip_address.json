@@ -1,0 +1,52 @@
+{
+  "title": "IP Address",
+  "url": "https://github.com/NeonGeckoCom/skill-ip_address.git",
+  "summary": "Retrieve the [IP address](https://en.wikipedia.org/wiki/IP_address), also known as the \"network address\" of the Device and respond verbally to the user, and if the Device supports it, display the IP address.",
+  "short_description": "Retrieve the [IP address](https://en.wikipedia.org/wiki/IP_address), also known as the \"network address\" of the Device and respond verbally to the user, and if the Device supports it, display the IP address.",
+  "description": "Returns the known IP addresses to the user, if requested. Useful for testing.",
+  "examples": [
+    "what's your ip address?",
+    "tell me your ip address.",
+    "what is my public ip address?"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "requests~=2.20",
+      "netifaces==0.10.6",
+      "neon-utils>=0.5.7"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "BSD-3-Clause",
+  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+  "category": "",
+  "categories": [
+    ""
+  ],
+  "tags": [
+    ""
+  ],
+  "credits": [
+    "Mycroft AI",
+    "NeonDaniel",
+    "reginaneon",
+    "Ryan Sipes",
+    "Steve Penrod"
+  ],
+  "skillname": "IP Address",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}
