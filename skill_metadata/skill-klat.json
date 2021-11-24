@@ -1,6 +1,6 @@
 {
   "title": "Klat",
-  "url": "https://github.com/NeonGeckoCom/klat.neon",
+  "url": "https://github.com/NeonGeckoCom/skill-klat.git",
   "summary": "Skill that acts as a connector to klat.com via the klat_api",
   "short_description": "Skill that acts as a connector to klat.com via the klat_api",
   "description": "Enables logging in to klat.com, navigating to conversations, and sending/receiving shouts.",

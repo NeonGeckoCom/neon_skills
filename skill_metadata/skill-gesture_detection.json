@@ -1,6 +1,6 @@
 {
   "title": "Gesture Detection",
-  "url": "https://github.com/NeonGeckoCom/skill-gesture-detection",
+  "url": "https://github.com/NeonGeckoCom/skill-gesture_detection.git",
   "summary": "Recognizes claps and other gestures and execute some action.",
   "short_description": "Recognizes claps and other gestures and execute some action.",
   "description": "Provides controls to enable/disable gestures and translates detected gestures into actions.",

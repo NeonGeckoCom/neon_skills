@@ -1,6 +1,6 @@
 {
   "title": "Symptom Checker",
-  "url": "https://github.com/NeonGeckoCom/symptom-checker.neon",
+  "url": "https://github.com/NeonGeckoCom/skill-symptom_checker",
   "summary": "A skill to gather reported symptoms of users.",
   "short_description": "A skill to gather reported symptoms of users.",
   "description": "The skill provides functionality to gather reported symptoms, provide basic information about possible causes and remedies, and to inform caregivers. In case no symptoms are gathered, the skills starts a friendly conversation with the user (custom-conversations skills is required).",

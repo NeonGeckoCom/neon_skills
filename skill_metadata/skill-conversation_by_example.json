@@ -1,9 +1,9 @@
 {
-  "title": "Script Generator",
-  "url": "https://github.com/NeonGeckoCom/generate-script.neon",
-  "summary": "A skill that generates scripts, which can be used by custom-conversations.neon after compiling",
-  "short_description": "A skill that generates scripts, which can be used by custom-conversations.neon after compiling",
-  "description": "A skill that generates scripts, which can be used by custom-conversations.neon after compiling",
+  "title": "Conversations by Example",
+  "url": "https://github.com/NeonGeckoCom/skill-conversation_by_example.git",
+  "summary": "Coming Soon",
+  "short_description": "Coming Soon",
+  "description": "Coming Soon",
   "examples": null,
   "desktopFile": false,
   "warning": "",
@@ -36,7 +36,7 @@
     "NeonGeckoCom",
     "NeonAndrii"
   ],
-  "skillname": "Script Generator",
+  "skillname": "Conversations by Example",
   "authorname": "NeonGeckoCom",
   "foldername": null
 }

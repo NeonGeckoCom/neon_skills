@@ -1,6 +1,6 @@
 {
   "title": "I Like Brands",
-  "url": "https://github.com/NeonGeckoCom/i-like-brands.neon",
+  "url": "https://github.com/NeonGeckoCom/skill-i_like_brands.git",
   "summary": "Skill that lets Neon catch user\u2019s preferences from the list of available brands.",
   "short_description": "Skill that lets Neon catch user\u2019s preferences from the list of available brands.",
   "description": "This is a skill that acts as a support for Neon\u2019s coupons generation. I-like-brands is listening for user\u2019s utterances mentioning preferred brands anywhere in the speech throughout the day, given appropriate permissions. Obtained information is then saved as a part of the selected transcriptions - `ts_selected_transcripts` - accessible to the user, along with the associated user\u2019s audio file, which can be found at `ts_transcript_audio_segments`. Every match will be announced with the \u201cding\u201d sound. Then, if requested, those lines that should follow the pattern of `I like *brandname*` are exported to the internal Coupons.py class to generate coupons for discounts and good offers for the user. That request can be made through my-coupons skill. Before generating any new responses, Neon will check with our remote server to see if any new brands became available for processing. This skill is a good demonstration on Neon\u2019s handling for information acquisition and work with the remote server.",

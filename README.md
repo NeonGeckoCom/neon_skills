@@ -29,21 +29,22 @@
 
 [User Settings](https://github.com/NeonGeckoCom/skill-user_settings.git) - Have Neon help you change and control your user settings.
 
-# Neon Premium Skills
-[Conversations by Example](https://github.com/neongeckocom/conversation-by-example.neon) - Coming Soon
-
-[Klat](https://github.com/NeonGeckoCom/klat.neon) - Skill that acts as a connector to klat.com via the klat_api
-
-[Script Generator](https://github.com/NeonGeckoCom/generate-script.neon) - A skill that generates scripts, which can be used by custom-conversations.neon after compiling
-
-[Gesture Detection](https://github.com/NeonGeckoCom/skill-gesture-detection) - Recognizes claps and other gestures and execute some action.
-
-[I Like Brands](https://github.com/NeonGeckoCom/i-like-brands.neon) - Skill that lets Neon catch user’s preferences from the list of available brands.
-
-[Symptom Checker](https://github.com/NeonGeckoCom/symptom-checker.neon) - A skill to gather reported symptoms of users.
-
-[I Like Coupons](https://github.com/NeonGeckoCom/i-like-coupons.neon) - Request the list of coupons, relevant to your current interests.
-
-[Running Out](https://github.com/NeonGeckoCom/running-out.neon) - Notify a caregiver when a user is running out of something
-
 # Neon Modified Skills
+
+
+# Neon Premium Skills
+[Conversations by Example](https://github.com/NeonGeckoCom/skill-conversation_by_example.git) - Coming Soon
+
+[Gesture Detection](https://github.com/NeonGeckoCom/skill-gesture_detection.git) - Recognizes claps and other gestures and execute some action.
+
+[I Like Brands](https://github.com/NeonGeckoCom/skill-i_like_brands.git) - Skill that lets Neon catch user’s preferences from the list of available brands.
+
+[I Like Coupons](https://github.com/NeonGeckoCom/skill-i_like_coupons.git) - Request the list of coupons, relevant to your current interests.
+
+[Klat](https://github.com/NeonGeckoCom/skill-klat.git) - Skill that acts as a connector to klat.com via the klat_api
+
+[Running Out](https://github.com/NeonGeckoCom/skill-running_out.git) - Notify a caregiver when a user is running out of something
+
+[Script Generator](https://github.com/NeonGeckoCom/skill-generate_script.git) - A skill that generates scripts, which can be used by custom-conversations.neon after compiling
+
+[Symptom Checker](https://github.com/NeonGeckoCom/skill-symptom_checker) - A skill to gather reported symptoms of users.

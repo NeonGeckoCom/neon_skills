@@ -1,6 +1,6 @@
 {
   "title": "Running Out",
-  "url": "https://github.com/NeonGeckoCom/running-out.neon",
+  "url": "https://github.com/NeonGeckoCom/skill-running_out.git",
   "summary": "Notify a caregiver when a user is running out of something",
   "short_description": "Notify a caregiver when a user is running out of something",
   "description": "This example skill is used to listen for a user running out of a specific set of things.",
@@ -14,7 +14,7 @@
   "systemDeps": false,
   "requirements": {
     "python": [
-      "git+https://github.com/neongeckocom/neon-skill-utils"
+      "neon-utils>=0.5.7"
     ],
     "system": {},
     "skill": []
