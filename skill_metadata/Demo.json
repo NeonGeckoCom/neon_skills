@@ -1,0 +1,47 @@
+{
+  "title": "Demo",
+  "url": "https://github.com/NeonGeckoCom/skill-demo",
+  "summary": "Skill to demo Neon capabilities",
+  "short_description": "Skill to demo Neon capabilities",
+  "description": "The demo skill will prompt on first run if you'd like to see a demo. User may accept or decline and optionally choose to be asked again on next run. The demo may also be run at any time via intent.",
+  "examples": [
+    "show me the demo"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "neon-utils>=0.5.7"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "BSD-3-Clause",
+  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+  "category": "Information",
+  "categories": [
+    "Information"
+  ],
+  "tags": [
+    "NeonGecko",
+    "NeonAI",
+    "Demo"
+  ],
+  "credits": [
+    "NeonDaniel",
+    "NeonGeckoCom"
+  ],
+  "skillname": "Demo",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}

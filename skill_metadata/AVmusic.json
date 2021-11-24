@@ -1,0 +1,52 @@
+{
+  "title": "AVmusic",
+  "url": "https://github.com/NeonGeckoCom/skill-avmusic.git",
+  "summary": "Play a song or video requested by the user.",
+  "short_description": "Play a song or video requested by the user.",
+  "description": "The skill provides the functionality to playback any audio or video requested by the user. No need to specify the location of the files or register any accounts. Just say what you would like to listen to and enjoy. AVmusic implements full integration of youtube_dl services and supports requests including but not limited to: - Music bands - Albums - Playlists - Specific songs - Radio - News clips - Tutorials - Mixes - Publicly available episodes of TV shows - Publicly available movies - Short clips AVmusic supports audio commands to stop, pause, and resume the playback of the currently playing video. If you requested a playlist, [you will see a list of available titles](#picture) on the left side of your opened video-player window. As of now, you can only have one instance (window) of MPV open at a time. If you invoke another playback request while watching something else, your current window will be closed and the new one will popup in its place. If you are typing your command in the terminal instead of audibly speaking it, don\u2019t worry about the typos or spelling - AVmusic will correct it for you.",
+  "examples": [
+    "play some imagine dragons music on repeat",
+    "av play study music playlist",
+    "play a cookie baking tutorial video"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "youtube-dl>=2021.5.16",
+      "pafy~=0.5.5",
+      "git+https://github.com/neondaniel/youtube_searcher",
+      "neon-utils>=0.5.7"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "BSD-3-Clause",
+  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+  "category": "",
+  "categories": [
+    ""
+  ],
+  "tags": [
+    ""
+  ],
+  "credits": [
+    "reginaneon",
+    "NeonGeckoCom",
+    "augustnmonteiro"
+  ],
+  "skillname": "AVmusic",
+  "authorname": "NeonGeckoCom",
+  "foldername": null,
+  "troubleshooting": "There is a [known issue](https://github.com/ytdl-org/youtube-dl/issues/154) for youtube_dl, where the playback for certain videos and audio files will be temporarily unavailable if you request to listen to the same song and/or video multiple times in a row over a few days. The solution is to avoid requesting the same playback over and over again, try to word your request differently, or wait some time for the limitations to wear off. Additionally, youtube_dl is currently under active development. Make sure to stay up-to-date by running Neon's update script or use the [manual requirements instructions](#requirements) to do it yourself."
+}

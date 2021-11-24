@@ -1,0 +1,63 @@
+{
+  "title": "Device Control Center",
+  "url": "https://github.com/NeonGeckoCom/skill-device_controls.git",
+  "summary": "Handles system-wide settings and controls.",
+  "short_description": "Handles system-wide settings and controls.",
+  "description": "Device Control skill handles base core/OS controls and interactions It is responsible for: -   Changing dialog modes; -   Clearing recorded likes, audio, selected and full text transcriptions, and the rest of the user\u2019s data; -   Audible commands to switch between skipping and requiring wake words in two modes: dev and user; -   Shutting down the whole device; -   Exiting from Neon\u2019s process;",
+  "examples": [
+    "change your dialog mode to (random/default)",
+    "clear my user (profile/transcripts/likes/media/preferences/languages)",
+    "skip wake words",
+    "require wake words",
+    "i want you to exit",
+    "i want you to shutdown",
+    "i want you to restart"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "gitpython~=3.1",
+      "neon-utils>=0.12.2"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "BSD-3-Clause",
+  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+  "category": "Configuration",
+  "categories": [
+    "Configuration",
+    "Daily"
+  ],
+  "tags": [
+    "NeonGecko",
+    "NeonAI",
+    "controls",
+    "device",
+    "wake words",
+    "power",
+    "settings"
+  ],
+  "credits": [
+    "NeonGeckoCom",
+    "reginaneon",
+    "NeonDaniel"
+  ],
+  "skillname": "Device Control Center",
+  "authorname": "NeonGeckoCom",
+  "foldername": null,
+  "change dialog mode": "I want you to begin {dialogmode} (dialog|dialogue) mode Change your (dialog|dialogue) mode to {dialogmode} Where *dialog mode* is one of the following: -   random -   default -   primary -   normal",
+  "clear variety of recorded data": "    I want to clear my user *data option*     neon clear my user *data option*     erase all of my user *data option* where *data option* is one of the following: -   data -   transcripts -   selected transcriptions -   like -   brands -   ignored brands -   pictures and videos -   media -   preferences -   languages -   cached responses -   profile",
+  "switch between skipping and requiring wake words": "If you are in devMode, your commands are limited to the following in order to avoid false-positives:     -   require {ww}     -   quit skipping {ww} and     -   skip {ww}     -   begin skipping {ww} where *{ww}* stands for wake words. If you are in user mode, you can use the following commands to use wakewords:     -   solo mode     -   I am in (a group |group)     -   I am not alone     -   use {ww}     -   require {ww}     -   begin requiring {ww}     -   stop (skipping {ww} |solo mode )     -   end (skipping {ww} |solo mode )     -   deny (skipping {ww} |solo mode )     -   quit (skipping {ww} |solo mode ) And the following to start skipping the wakewords:     -   I am alone     -   skip {ww}     -   start ( skipping {ww} | solo mode )     -   begin ( skipping {ww} | solo mode )     -   allow ( skipping {ww} | solo mode )     -   enter ( skipping {ww} | solo mode ) Most likely, Neon will ask for the confirmation to most of the choices available above. Follow the prompts and reply either with simple positive or negative answer, or follow it up by the requested 3-digit code. Wait for the successful confirmation or action execution from Neon. Most commands should be instantaneous."
+}

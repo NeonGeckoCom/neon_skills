@@ -1,0 +1,50 @@
+{
+  "title": "Translation",
+  "url": "https://github.com/NeonGeckoCom/skill-translation.git",
+  "summary": "Translates phrases between languages. Also handles switching TTS/STT languages under Neon Core.",
+  "short_description": "Translates phrases between languages. Also handles switching TTS/STT languages under Neon Core.",
+  "description": "Use this skill to switch between languages for your TTS or STT preferences and to get individual words or sentences translations. Note you can have two STT languages active at the same time. They are called `primary` and `secondary` languages. For example, you can have Neon reply to you in both English and Russian at the same time. The order will be determined by which language is set to primary. TTS (Neon Speech) options are:     Danish     Dutch     English, Australian     English, British     English, Indian     English, US     English, Welsh     French     French, Canadian     German     Italian     Japanese     Korean     Polish     Portuguese, Brazilian     Portuguese, European     Russian     Spanish, European     Spanish, Mexican     Spanish, US     Swedish     Turkish     Chinese STT (User Speech) options are:     Arabic     Chinese (Simplified)     Chinese (Traditional)     Czech     Danish     Dutch     English     Finnish     French     German     Hebrew     Indonesian     Italian     Japanese     Korean     Polish     Portuguese     Russian     Spanish     Swedish     Turkish",
+  "examples": [
+    "speak to me in * (and *)",
+    "i prefer ...",
+    "my language is *",
+    "translate * to *",
+    "what are my language settings"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "neon-utils>=0.5.7"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "BSD-3-Clause",
+  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+  "category": "",
+  "categories": [
+    ""
+  ],
+  "tags": [
+    ""
+  ],
+  "credits": [
+    "NeonDaniel",
+    "NeonGeckoCom",
+    "reginaneon"
+  ],
+  "skillname": "Translation",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}
