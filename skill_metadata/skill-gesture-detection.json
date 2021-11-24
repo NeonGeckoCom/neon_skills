@@ -1,0 +1,49 @@
+{
+  "title": "Gesture Detection",
+  "url": "https://github.com/NeonGeckoCom/skill-gesture-detection",
+  "summary": "Recognizes claps and other gestures and execute some action.",
+  "short_description": "Recognizes claps and other gestures and execute some action.",
+  "description": "Provides controls to enable/disable gestures and translates detected gestures into actions.",
+  "examples": [
+    "(enable/disable) clap commands",
+    "change clap commands to my (home/audio/default) set"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "neon-utils>=0.5.7",
+      "pyaudio",
+      "numpy"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": null,
+  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+  "category": "",
+  "categories": [
+    ""
+  ],
+  "tags": [
+    "NeonGecko Original",
+    "Neon Premium"
+  ],
+  "credits": [
+    "NeonGeckoCom",
+    "NeonDaniel"
+  ],
+  "skillname": "Gesture Detection",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}

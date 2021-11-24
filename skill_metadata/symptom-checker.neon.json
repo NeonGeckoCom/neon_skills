@@ -1,0 +1,46 @@
+{
+  "title": "Symptom Checker",
+  "url": "https://github.com/NeonGeckoCom/symptom-checker.neon",
+  "summary": "A skill to gather reported symptoms of users.",
+  "short_description": "A skill to gather reported symptoms of users.",
+  "description": "The skill provides functionality to gather reported symptoms, provide basic information about possible causes and remedies, and to inform caregivers. In case no symptoms are gathered, the skills starts a friendly conversation with the user (custom-conversations skills is required).",
+  "examples": [
+    "i feel sad today",
+    "my left eye is itchy and has been watering for a few hours",
+    "my right elbow hurts"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "lingua-franca~=0.3.1",
+      "git+https://github.com/neongeckocom/neon-skill-utils"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": null,
+  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+  "category": "",
+  "categories": [
+    ""
+  ],
+  "tags": [
+    "NeonGecko Original",
+    "Neon Premium"
+  ],
+  "credits": null,
+  "skillname": "Symptom Checker",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}

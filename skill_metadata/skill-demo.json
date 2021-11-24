@@ -1,11 +1,11 @@
 {
-  "title": "Neon Updates",
-  "url": "https://github.com/NeonGeckoCom/skill-update",
-  "summary": "Skill to update Neon Core",
-  "short_description": "Skill to update Neon Core",
-  "description": "The update skill will check for new neon-core releases on PyPI. If permitted in settings, the skill will check for updates at startup and notify the user that updates are available for installation.",
+  "title": "Demo",
+  "url": "https://github.com/NeonGeckoCom/skill-demo",
+  "summary": "Skill to demo Neon capabilities",
+  "short_description": "Skill to demo Neon capabilities",
+  "description": "The demo skill will prompt on first run if you'd like to see a demo. User may accept or decline and optionally choose to be asked again on next run. The demo may also be run at any time via intent.",
   "examples": [
-    "check for updates"
+    "show me the demo"
   ],
   "desktopFile": false,
   "warning": "",
@@ -27,13 +27,13 @@
   ],
   "branch": "master",
   "license": "BSD-3-Clause",
-  "icon": "logo.svg",
+  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
   "category": "Information",
   "categories": [
     "Information"
   ],
   "tags": [
-    "NeonGecko",
+    "NeonGecko Original",
     "NeonAI",
     "Demo"
   ],
@@ -41,7 +41,7 @@
     "NeonDaniel",
     "NeonGeckoCom"
   ],
-  "skillname": "Neon Updates",
+  "skillname": "Demo",
   "authorname": "NeonGeckoCom",
   "foldername": null
 }
