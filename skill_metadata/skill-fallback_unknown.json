@@ -1,5 +1,5 @@
 {
-  "title": "fallback-unknown",
+  "title": "Fallback Unknown",
   "url": "https://github.com/NeonGeckoCom/skill-fallback_unknown",
   "summary": "Unknown request fallback handler. Executes if every other step failed to answer the question.",
   "short_description": "Unknown request fallback handler. Executes if every other step failed to answer the question.",
@@ -29,15 +29,16 @@
     ""
   ],
   "tags": [
-    ""
+    "fallback",
+    "unknown",
+    "system"
   ],
   "credits": [
     "Mycroft AI",
     "NeonDaniel",
     "reginaneon"
   ],
-  "skillname": "fallback-unknown",
+  "skillname": "Fallback Unknown",
   "authorname": "NeonGeckoCom",
-  "foldername": null,
-  "troubleshooting": "Check your signal handling in `/mycroft/ipc` if you are receiving response from this skill while skipping wake words."
+  "foldername": null
 }

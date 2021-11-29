@@ -50,6 +50,5 @@
   ],
   "skillname": "Audio Record",
   "authorname": "NeonGeckoCom",
-  "foldername": null,
-  "troubleshooting": "This skill is designed to help troubleshoot microphone issues. If you have any problems with skill\u2019s execution, try executing the subprocess command, which is called from the skill, after filling in the placeholders -     subprocess.Popen([\"arecord\", \"-r\", str(rate), \"-c\", str(channels), \"-d\", str(duration), file_path]) Manually and see if you have similar results. You microphone issue may be system-wide or limited to Neon and this will help determine that."
+  "foldername": null
 }

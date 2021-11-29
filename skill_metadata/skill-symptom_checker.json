@@ -15,7 +15,7 @@
   "requirements": {
     "python": [
       "lingua-franca~=0.3.1",
-      "git+https://github.com/neongeckocom/neon-skill-utils"
+      "neon-utils>=0.5.7"
     ],
     "system": {},
     "skill": []
@@ -29,7 +29,7 @@
     "arm"
   ],
   "branch": "master",
-  "license": null,
+  "license": "NeonAI License v2.0",
   "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
   "category": "",
   "categories": [
@@ -39,7 +39,10 @@
     "NeonGecko Original",
     "Neon Premium"
   ],
-  "credits": null,
+  "credits": [
+    "NeonDaniel",
+    "NeonGeckoCom"
+  ],
   "skillname": "Symptom Checker",
   "authorname": "NeonGeckoCom",
   "foldername": null

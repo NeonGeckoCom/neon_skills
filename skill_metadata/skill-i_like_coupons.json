@@ -30,7 +30,7 @@
     "arm"
   ],
   "branch": "master",
-  "license": null,
+  "license": "NeonAI License v2.0",
   "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
   "category": "",
   "categories": [
@@ -42,10 +42,9 @@
   ],
   "credits": [
     "reginaneon",
-    "[neongeckocom](https://neongecko.com/)"
+    "NeonGeckoCom"
   ],
   "skillname": "I Like Coupons",
   "authorname": "NeonGeckoCom",
-  "foldername": null,
-  "troubleshooting": "If you don't seem to be able to connect to our server in order to get new brand-coupon pair, check that you ssh keys were integrated appropriately. Please see Instructions.md for more information."
+  "foldername": null
 }

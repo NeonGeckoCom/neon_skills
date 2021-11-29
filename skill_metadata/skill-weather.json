@@ -45,6 +45,5 @@
   ],
   "skillname": "Weather",
   "authorname": "NeonGeckoCom",
-  "foldername": null,
-  "troubleshooting": "Try asking for a different location or changing your default location by saying `Neon change my location to Seattle`."
+  "foldername": null
 }

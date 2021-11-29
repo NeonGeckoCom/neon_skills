@@ -37,7 +37,11 @@
     "system": {},
     "skill": []
   },
-  "incompatible_skills": [],
+  "incompatible_skills": [
+    "https://github.com/mycroftai/skill-reminder",
+    "https://github.com/mycroftai/skill-alarm",
+    "https://github.com/mycroftai/mycroft-timer"
+  ],
   "platforms": [
     "i386",
     "x86_64",
@@ -68,11 +72,5 @@
   ],
   "skillname": "Alerts",
   "authorname": "NeonGeckoCom",
-  "foldername": null,
-  "incompatible skills": [
-    "this skill has known intent collisions with the following skills:",
-    "[skill-reminder.mycroftai](https://github.com/mycroftai/skill-reminder)",
-    "[skill-alarm.mycroftai](https://github.com/mycroftai/skill-alarm)",
-    "[mycroft-timer.mycroftai](https://github.com/mycroftai/mycroft-timer)"
-  ]
+  "foldername": null
 }

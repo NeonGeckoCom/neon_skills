@@ -27,7 +27,7 @@
     "arm"
   ],
   "branch": "master",
-  "license": null,
+  "license": "NeonAI License v2.0",
   "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
   "category": "",
   "categories": [
@@ -39,10 +39,9 @@
   ],
   "credits": [
     "reginaneon",
-    "[neongeckocom](https://neongecko.com/)"
+    "NeonGeckoCom"
   ],
   "skillname": "I Like Brands",
   "authorname": "NeonGeckoCom",
-  "foldername": null,
-  "troubleshooting": "If you don\u2019t hear a ding for confirmation, check your user\u2019s yaml settings or contact us for more assistance."
+  "foldername": null
 }

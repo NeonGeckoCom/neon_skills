@@ -45,6 +45,5 @@
   ],
   "skillname": "Camera",
   "authorname": "NeonGeckoCom",
-  "foldername": null,
-  "troubleshooting": "Ensure your webcam is connected and working in Ubuntu, you can check functionality in `Cheese`.     ```bash     sudo apt install cheese     ```"
+  "foldername": null
 }

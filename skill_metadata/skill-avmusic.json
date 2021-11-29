@@ -51,6 +51,5 @@
   ],
   "skillname": "AVmusic",
   "authorname": "NeonGeckoCom",
-  "foldername": null,
-  "troubleshooting": "There is a [known issue](https://github.com/ytdl-org/youtube-dl/issues/154) for youtube_dl, where the playback for certain videos and audio files will be temporarily unavailable if you request to listen to the same song and/or video multiple times in a row over a few days. The solution is to avoid requesting the same playback over and over again, try to word your request differently, or wait some time for the limitations to wear off. Additionally, youtube_dl is currently under active development. Make sure to stay up-to-date by running Neon's update script or use the [manual requirements instructions](#requirements) to do it yourself."
+  "foldername": null
 }
