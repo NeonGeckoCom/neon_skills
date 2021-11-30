@@ -1,0 +1,56 @@
+{
+  "title": "Playback Control",
+  "url": "https://github.com/NeonGeckoCom/skill-playback_control",
+  "summary": "Common playback control system",
+  "short_description": "Common playback control system",
+  "description": "This Skill doesn't do anything by itself, but it provides an important common language for audio playback skills.  By handling simple phrases like 'pause', this one Skill can turn around and rebroadcast the [messagebus](https://mycroft.ai/documentation/message-bus/) command `mycroft.audio.service.pause`, allowing several music services to share common terminology such as \"pause\". Additionally, this implements the common Play handler.  This allows playback services to negotiate which is best suited to play back a specific request. This capability is used by the [Spotify](https://github.com/forslund/spotify-skill) and [Pandora](https://github.com/mycroftai/pianobar-skill) Skills, among others.",
+  "examples": [
+    "play my summer playlist",
+    "play pandora",
+    "pause",
+    "resume",
+    "next song",
+    "next track",
+    "previous track",
+    "previous song"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "BSD-3-Clause",
+  "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/play.svg",
+  "category": "Music",
+  "categories": [
+    "Music"
+  ],
+  "tags": [
+    "music",
+    "play",
+    "playback",
+    "pause",
+    "resume",
+    "next",
+    "system"
+  ],
+  "credits": [
+    "Mycroft AI",
+    "NeonDaniel"
+  ],
+  "skillname": "Playback Control",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}

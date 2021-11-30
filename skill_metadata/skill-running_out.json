@@ -1,0 +1,51 @@
+{
+  "title": "Running Out",
+  "url": "https://github.com/NeonGeckoCom/skill-running_out.git",
+  "summary": "Notify a caregiver when a user is running out of something",
+  "short_description": "Notify a caregiver when a user is running out of something",
+  "description": "This example skill is used to listen for a user running out of a specific set of things.",
+  "examples": [
+    "i'm out of toothpaste",
+    "i can't find my toothbrush",
+    "i need a new toothbrush"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "neon-utils>=0.5.7"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "NeonAI License v2.0",
+  "icon": "logo.svg",
+  "category": "Daily",
+  "categories": [
+    "Daily"
+  ],
+  "tags": [
+    "NeonAI",
+    "Healthcare",
+    "Assisted Living",
+    "NeonGecko Original",
+    "Neon Premium"
+  ],
+  "credits": [
+    "NeonGeckoCom",
+    "NeonDaniel"
+  ],
+  "skillname": "Running Out",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}

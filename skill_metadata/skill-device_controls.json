@@ -1,0 +1,60 @@
+{
+  "title": "Device Control Center",
+  "url": "https://github.com/NeonGeckoCom/skill-device_controls.git",
+  "summary": "Handles system-wide settings and controls.",
+  "short_description": "Handles system-wide settings and controls.",
+  "description": "Device Control skill handles base core/OS controls and interactions It is responsible for: -   Changing dialog modes; -   Clearing recorded likes, audio, selected and full text transcriptions, and the rest of the user\u2019s data; -   Audible commands to switch between skipping and requiring wake words in two modes: dev and user; -   Shutting down the whole device; -   Exiting from Neon\u2019s process;",
+  "examples": [
+    "change your dialog mode to (random/default)",
+    "clear my user (profile/transcripts/likes/media/preferences/languages)",
+    "skip wake words",
+    "require wake words",
+    "i want you to exit",
+    "i want you to shutdown",
+    "i want you to restart"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "gitpython~=3.1",
+      "neon-utils>=0.12.2"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "BSD-3-Clause",
+  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+  "category": "Configuration",
+  "categories": [
+    "Configuration",
+    "Daily"
+  ],
+  "tags": [
+    "NeonGecko Original",
+    "NeonAI",
+    "controls",
+    "device",
+    "wake words",
+    "power",
+    "settings"
+  ],
+  "credits": [
+    "NeonGeckoCom",
+    "reginaneon",
+    "NeonDaniel"
+  ],
+  "skillname": "Device Control Center",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}

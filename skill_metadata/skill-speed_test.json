@@ -1,0 +1,51 @@
+{
+  "title": "Speed Test",
+  "url": "https://github.com/NeonGeckoCom/skill-speed_test.git",
+  "summary": "Skill used to test your internet speed",
+  "short_description": "Skill used to test your internet speed",
+  "description": "This skill uses speedtest.net to check your internet speed",
+  "examples": [
+    "run a speed test"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "neon-utils>=0.5.7",
+      "speedtest-cli"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "BSD-3-Clause",
+  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+  "category": "Daily",
+  "categories": [
+    "Daily",
+    "Productivity"
+  ],
+  "tags": [
+    "NeonGecko Original",
+    "NeonAI",
+    "Internet",
+    "Utilities"
+  ],
+  "credits": [
+    "NeonDaniel",
+    "NeonGeckoCom",
+    "reginaneon"
+  ],
+  "skillname": "Speed Test",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}

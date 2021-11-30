@@ -1,0 +1,47 @@
+{
+  "title": "Klat",
+  "url": "https://github.com/NeonGeckoCom/skill-klat.git",
+  "summary": "Skill that acts as a connector to klat.com via the klat_api",
+  "short_description": "Skill that acts as a connector to klat.com via the klat_api",
+  "description": "Enables logging in to klat.com, navigating to conversations, and sending/receiving shouts.",
+  "examples": [
+    "(enable/disable) klat connection"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "git+https://github.com/neongeckocom/klat-connector",
+      "neon-utils>=0.5.7"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "NeonAI License v2.0",
+  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+  "category": "",
+  "categories": [
+    ""
+  ],
+  "tags": [
+    "NeonGecko Original",
+    "Neon Premium"
+  ],
+  "credits": [
+    "NeonDaniel",
+    "NeonGeckoCom"
+  ],
+  "skillname": "Klat",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}

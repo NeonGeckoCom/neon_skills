@@ -1,0 +1,58 @@
+{
+  "title": "Wikipedia",
+  "url": "https://github.com/NeonGeckoCom/skill-wikipedia",
+  "summary": "Wikipedia ![](./logo.png)",
+  "short_description": "Wikipedia ![](./logo.png)",
+  "description": "Query [Wikipedia](https://www.wikipedia.org) for answers to all your questions.  Get just a summary, or ask for more to get in-depth information.  This Skill uses the [Wikipedia for humans](https://github.com/HelloChatterbox/wikipedia_for_humans). NOTE: this will blacklist the official mycroft skill ![](./gui.gif) ![](./gui2.gif)",
+  "examples": [
+    "tell me about elon musk",
+    "tell me about beans",
+    "random wikipedia",
+    "check wikipedia for beans",
+    "tell me about the pembroke welsh corgi",
+    "search for chocolate",
+    "\"more information\" (followup after an initial summary)",
+    "\"tell me more\" (followup after an initial summary)"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "wikipedia_for_humans>=0.2.3",
+      "ovos_utils"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "BSD-3-Clause",
+  "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/brands/wikipedia-w.svg",
+  "category": "Information",
+  "categories": [
+    "Information"
+  ],
+  "tags": [
+    "wikipedia",
+    "encyclopedia",
+    "general-knowledge",
+    "wiki",
+    "question",
+    "query"
+  ],
+  "credits": [
+    "JarbasAl",
+    "NeonDaniel"
+  ],
+  "skillname": "Wikipedia",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Speak",
+  "url": "https://github.com/NeonGeckoCom/skill-speak",
+  "summary": "Make Mycroft repeat whatever you want",
+  "short_description": "Make Mycroft repeat whatever you want",
+  "description": "Turn Mycroft into a parrot.  Speak a phrase and listen to it repeated in Mycroft's selected voice.",
+  "examples": [
+    "say goodnight, gracie",
+    "repeat once upon a midnight dreary, while i pondered, weak and weary, over many a quaint and curious volume of forgotten lore",
+    "speak i can say anything you'd like!"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "BSD-3-Clause",
+  "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/bullhorn.svg",
+  "category": "Entertainment",
+  "categories": [
+    "Entertainment"
+  ],
+  "tags": [
+    "speak",
+    "say",
+    "repeat",
+    "system"
+  ],
+  "credits": [
+    "Mycroft AI",
+    "NeonDaniel"
+  ],
+  "skillname": "Speak",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}

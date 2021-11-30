@@ -1,0 +1,49 @@
+{
+  "title": "Camera",
+  "url": "https://github.com/NeonGeckoCom/skill-camera.git",
+  "summary": "Take pictures and videos.",
+  "short_description": "Take pictures and videos.",
+  "description": "The skill allows you to capture pictures and videos and saves them to your local device.",
+  "examples": [
+    "take a picture",
+    "take a video",
+    "record for 30 seconds",
+    "show me my last picture"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "neon-utils>=0.5.7"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "BSD-3-Clause",
+  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+  "category": "",
+  "categories": [
+    ""
+  ],
+  "tags": [
+    "NeonGecko Original",
+    "NeonAI"
+  ],
+  "credits": [
+    "NeonGeckoCom",
+    "reginaneon"
+  ],
+  "skillname": "Camera",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}

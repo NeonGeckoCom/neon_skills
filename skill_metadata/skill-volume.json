@@ -1,0 +1,53 @@
+{
+  "title": "Volume",
+  "url": "https://github.com/NeonGeckoCom/skill-volume",
+  "summary": "Control microphone and speaker audio levels.",
+  "short_description": "Control microphone and speaker audio levels.",
+  "description": "This skill controls the audio level and mute status for the default input and output device. You may increment volume, set to a specified level, or mute/unmute. You may also query the current volume and microphone level.",
+  "examples": [
+    "mute speakers",
+    "unmute speakers",
+    "set microphone to 70 percent",
+    "decrease volume",
+    "what is the volume"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "neon-utils>=0.5.7"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "BSD-3-Clause",
+  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+  "category": "Configuration",
+  "categories": [
+    "Configuration"
+  ],
+  "tags": [
+    "volume",
+    "volume-control",
+    "sound",
+    "system"
+  ],
+  "credits": [
+    "Mycroft AI",
+    "NeonDaniel",
+    "reginaneon"
+  ],
+  "skillname": "Volume",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}

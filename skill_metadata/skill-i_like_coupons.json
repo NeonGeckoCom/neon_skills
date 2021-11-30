@@ -1,0 +1,50 @@
+{
+  "title": "I Like Coupons",
+  "url": "https://github.com/NeonGeckoCom/skill-i_like_coupons.git",
+  "summary": "Request the list of coupons, relevant to your current interests.",
+  "short_description": "Request the list of coupons, relevant to your current interests.",
+  "description": "Skill, which works using [track my brands](http://trackmybrands.com/) database and goes in pair with \u201ci-like-brands\u201d skill, provides the user with a list of the current coupons relevant to the user's areas of interests. Generated coupons, along with transcriptions, can be emailed via `send me my coupons` command. Coupons are generated based on the information from selected transcripts file, which gets populater from \u201ci-like-brands\u201d skill. Alternatively, user can ask for specific brand-based coupons, such as `tell me coupons for Neon` if they do not wish to use \u201ci-like-brands\u201d skill recordings or transcriptions. In addition, upon request, Neon could recite text or replay audio in user\u2019s voice saying the list of brands that the user showed interest in. The data is collected via \u201ci-like-brands\u201d skill, same as previously. For example: - List the brands I like - Here are your brands: *list of names of the brand in the user's voice*",
+  "examples": [
+    "tell me my likes",
+    "read me my likes",
+    "tell me coupons for neon",
+    "tell me my coupons",
+    "email me my coupons"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "neon-utils>=0.5.7"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "NeonAI License v2.0",
+  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+  "category": "",
+  "categories": [
+    ""
+  ],
+  "tags": [
+    "NeonGecko Original",
+    "Neon Premium"
+  ],
+  "credits": [
+    "reginaneon",
+    "NeonGeckoCom"
+  ],
+  "skillname": "I Like Coupons",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}

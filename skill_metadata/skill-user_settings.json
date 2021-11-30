@@ -1,0 +1,55 @@
+{
+  "title": "User Settings",
+  "url": "https://github.com/NeonGeckoCom/skill-user_settings.git",
+  "summary": "Have Neon help you change and control your user settings.",
+  "short_description": "Have Neon help you change and control your user settings.",
+  "description": "Neon can help you control your user preference settings via this skill.",
+  "examples": [
+    "change my units to (metric/imperial)",
+    "enable listening confirmation",
+    "(enable/disable) clap commands",
+    "talk to me (faster/slower/normally)",
+    "change my wakeword to \"okay computer\"",
+    "(enable/disable) (audio recording/transcriptions)",
+    "change my location to (seattle)",
+    "change clap commands to my (home/audio/default) set",
+    "show neon brain"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "phoneme_guesser",
+      "neon-utils>=0.5.7"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "BSD-3-Clause",
+  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+  "category": "",
+  "categories": [
+    ""
+  ],
+  "tags": [
+    "NeonGecko Original",
+    "NeonAI"
+  ],
+  "credits": [
+    "reginaneon",
+    "NeonGeckoCom"
+  ],
+  "skillname": "User Settings",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}

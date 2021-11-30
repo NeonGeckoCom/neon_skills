@@ -1,0 +1,42 @@
+{
+  "title": "Script Generator",
+  "url": "https://github.com/NeonGeckoCom/skill-generate_script.git",
+  "summary": "A skill that generates scripts, which can be used by custom-conversations.neon after compiling",
+  "short_description": "A skill that generates scripts, which can be used by custom-conversations.neon after compiling",
+  "description": "A skill that generates scripts, which can be used by custom-conversations.neon after compiling",
+  "examples": null,
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "NeonAI License v2.0",
+  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+  "category": "Daily",
+  "categories": [
+    "Daily"
+  ],
+  "tags": [
+    "NeonGecko Original",
+    "Neon Premium"
+  ],
+  "credits": [
+    "NeonGeckoCom",
+    "NeonAndrii"
+  ],
+  "skillname": "Script Generator",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}

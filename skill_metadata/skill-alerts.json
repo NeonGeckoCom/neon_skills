@@ -1,0 +1,76 @@
+{
+  "title": "Alerts",
+  "url": "https://github.com/NeonGeckoCom/skill-alerts.git",
+  "summary": "A skill to schedule alarms, timers, and reminders",
+  "short_description": "A skill to schedule alarms, timers, and reminders",
+  "description": "The skill provides functionality to create alarms, timers and reminders, remove them by name, time, or type, and ask for what is active. You may also silence all alerts and ask for a summary of what was missed if you were away, your device was off, or you had quiet hours enabled. Alarms and reminders may be set to recur daily or weekly. An active alert may be snoozed for a specified amount of time while it is active. Any alerts that are not acknowledged will be added to a list of missed alerts that may be read and cleared when requested.",
+  "examples": [
+    "set an alarm for 8 am",
+    "when is my next alarm",
+    "cancel my 8 am alarm",
+    "set a 5 minute timer",
+    "how much time is left",
+    "remind me to go home at 6",
+    "remind me to take out the trash every thursday at 7 pm",
+    "what are my reminders",
+    "cancel all (alarms/timers/reminders)",
+    "go to sleep",
+    "quiet hours",
+    "stop",
+    "snooze",
+    "snooze for 1 minute",
+    "wake up",
+    "what did i miss",
+    "did i miss anything"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "json_database~=0.5.5",
+      "lingua-franca",
+      "spacy~=2.3.1",
+      "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz",
+      "neon-utils>=0.5.7"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [
+    "https://github.com/mycroftai/skill-reminder",
+    "https://github.com/mycroftai/skill-alarm",
+    "https://github.com/mycroftai/mycroft-timer"
+  ],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "BSD-3-Clause",
+  "icon": "logo.svg",
+  "category": "Productivity",
+  "categories": [
+    "Productivity",
+    "Daily"
+  ],
+  "tags": [
+    "NeonGecko Original",
+    "NeonAI",
+    "alert",
+    "alarm",
+    "timer",
+    "reminder",
+    "schedule"
+  ],
+  "credits": [
+    "NeonGeckoCom",
+    "NeonDaniel"
+  ],
+  "skillname": "Alerts",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}

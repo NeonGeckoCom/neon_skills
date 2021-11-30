@@ -1,0 +1,51 @@
+{
+  "title": "Synonyms",
+  "url": "https://github.com/NeonGeckoCom/skill-synonyms.git",
+  "summary": "This skill handles setting and calling synonym (aliased) commands.",
+  "short_description": "This skill handles setting and calling synonym (aliased) commands.",
+  "description": "You may define a phrase as a synonym for a Neon command. Any time you ask something, this skill will check to see if it is a synonym for something else and complete that other action.",
+  "examples": [
+    "make 'good morning' a synonym for 'what is the weather'"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "neon-utils>=0.5.7"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "BSD-3-Clause",
+  "icon": "logo.svg",
+  "category": "Daily",
+  "categories": [
+    "Daily",
+    "Productivity"
+  ],
+  "tags": [
+    "NeonGecko Original",
+    "NeonAI",
+    "synonym",
+    "alias",
+    "commands"
+  ],
+  "credits": [
+    "NeonDaniel",
+    "NeonGeckoCom",
+    "reginaneon"
+  ],
+  "skillname": "Synonyms",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}

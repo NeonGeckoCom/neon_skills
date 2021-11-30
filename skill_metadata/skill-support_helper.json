@@ -1,0 +1,47 @@
+{
+  "title": "Support Helper",
+  "url": "https://github.com/NeonGeckoCom/skill-support_helper",
+  "summary": "Provides an option to send current logs via email.",
+  "short_description": "Provides an option to send current logs via email.",
+  "description": "The skill provides the functionality to truncate and upload Neon logs that are then sent to the user email configured in `ngi_user_info.yml`.",
+  "examples": [
+    "create a troubleshooting package"
+  ],
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "requirements": {
+    "python": [
+      "neon-utils>=0.5.7"
+    ],
+    "system": {},
+    "skill": []
+  },
+  "incompatible_skills": [],
+  "platforms": [
+    "i386",
+    "x86_64",
+    "ia64",
+    "arm64",
+    "arm"
+  ],
+  "branch": "master",
+  "license": "BSD-3-Clause",
+  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+  "category": "",
+  "categories": [
+    ""
+  ],
+  "tags": [
+    "NeonGecko Original",
+    "NeonAI"
+  ],
+  "credits": [
+    "NeonGeckoCom",
+    "reginaneon",
+    "NeonDaniel"
+  ],
+  "skillname": "Support Helper",
+  "authorname": "NeonGeckoCom",
+  "foldername": null
+}
