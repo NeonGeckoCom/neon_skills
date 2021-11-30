@@ -11,6 +11,8 @@
 
 [Communication](https://github.com/NeonGeckoCom/skill-communication.git) - Skill for the Common Message Skill framework.
 
+[Custom Conversations](https://github.com/neongeckocom/skill-custom_conversation) - Create your own or use text script files shared by other users.
+
 [Demo](https://github.com/NeonGeckoCom/skill-demo) - Skill to demo Neon capabilities
 
 [Device Control Center](https://github.com/NeonGeckoCom/skill-device_controls.git) - Handles system-wide settings and controls.
