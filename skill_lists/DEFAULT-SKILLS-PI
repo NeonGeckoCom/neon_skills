@@ -1,7 +1,7 @@
 https://github.com/NeonGeckoCom/skill-avmusic/tree/master
 https://github.com/neongeckocom/skill-about/tree/master
 https://github.com/NeonGeckoCom/skill-alerts/tree/BETA_PiCompat
-https://github.com/NeonGeckoCom/skill-caffeinewiz/tree/master
+https://github.com/NeonGeckoCom/skill-caffeinewiz/tree/FIX_CheckForInternet
 https://github.com/NeonGeckoCom/skill-camera/tree/master
 https://github.com/NeonGeckoCom/skill-communication/tree/master
 https://github.com/neongeckocom/skill-custom_conversation/tree/master
@@ -14,7 +14,7 @@ https://github.com/NeonGeckoCom/skill-synonyms/tree/master
 https://github.com/NeonGeckoCom/skill-translation/tree/master
 https://github.com/NeonGeckoCom/skill-user_settings/tree/master
 https://github.com/NeonGeckoCom/skill-audio_record/tree/master
-https://github.com/neongeckocom/skill-date_time/tree/master
+https://github.com/NeonGeckoCom/skill-date_time/tree/FIX_AddMissingSetting
 https://github.com/NeonGeckoCom/skill-fallback_duckduckgo/tree/master
 https://github.com/NeonGeckoCom/skill-fallback_unknown/tree/master
 https://github.com/NeonGeckoCom/skill-ip_address/tree/master
