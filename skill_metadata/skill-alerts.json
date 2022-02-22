@@ -28,7 +28,7 @@
   "systemDeps": false,
   "requirements": {
     "python": [
-      "json_database~=0.5.5",
+      "json_database~=0.5",
       "lingua-franca",
       "spacy~=2.3.1",
       "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz",
