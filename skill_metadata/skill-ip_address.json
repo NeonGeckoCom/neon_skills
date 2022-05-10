@@ -15,7 +15,7 @@
   "requirements": {
     "python": [
       "requests~=2.20",
-      "netifaces==0.10.6",
+      "ifaddr~=0.1",
       "neon-utils>=0.5.7"
     ],
     "system": {},
