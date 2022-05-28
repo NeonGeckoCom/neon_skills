@@ -1,6 +1,6 @@
 {
   "title": "Alerts",
-  "url": "https://github.com/NeonGeckoCom/skill-alerts.git",
+  "url": "https://github.com/NeonGeckoCom/skill-alerts",
   "summary": "A skill to schedule alarms, timers, and reminders",
   "short_description": "A skill to schedule alarms, timers, and reminders",
   "description": "The skill provides functionality to create alarms, timers and reminders, remove them by name, time, or type, and ask for what is active. You may also silence all alerts and ask for a summary of what was missed if you were away, your device was off, or you had quiet hours enabled. Alarms and reminders may be set to recur daily or weekly. An active alert may be snoozed for a specified amount of time while it is active. Any alerts that are not acknowledged will be added to a list of missed alerts that may be read and cleared when requested.",
@@ -29,7 +29,7 @@
   "requirements": {
     "python": [
       "json_database~=0.5",
-      "neon-utils>=0.5.7"
+      "neon-utils~=0.6"
     ],
     "system": {},
     "skill": []
@@ -67,7 +67,7 @@
     "NeonGeckoCom",
     "NeonDaniel"
   ],
-  "skillname": "Alerts",
+  "skillname": "skill-alerts",
   "authorname": "NeonGeckoCom",
   "foldername": null
 }

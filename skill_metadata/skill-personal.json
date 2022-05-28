@@ -3,20 +3,19 @@
   "url": "https://github.com/NeonGeckoCom/skill-personal",
   "summary": "Skill used for introduction between the user and Neon.",
   "short_description": "Skill used for introduction between the user and Neon.",
-  "description": "Personal skill is responsible for introductions and information-acquiring communications between Neon and the user. Neon will use it to introduce himself, explain what and who he is, where he was born, and when it happened. In addition, it will obtain the user\u2019s full, partial, or just a first name, along with the email address, in order to use it for coupons and transcriptions.",
+  "description": "Personal skill provides responses to questions about who Neon is.",
   "examples": [
     "who are you",
     "who made you",
-    "my name is...",
-    "my email address is...",
-    "my klat username is...",
-    "my password is..."
+    "when were you born"
   ],
   "desktopFile": false,
   "warning": "",
   "systemDeps": false,
   "requirements": {
-    "python": [],
+    "python": [
+      "neon-utils~=0.15"
+    ],
     "system": {},
     "skill": []
   },
@@ -31,20 +30,19 @@
   "branch": "master",
   "license": "BSD-3-Clause",
   "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
-  "category": "Configuration",
+  "category": "Entertainment",
   "categories": [
-    "Configuration",
-    "Entertainment"
+    "Entertainment",
+    "Daily",
+    "Information"
   ],
-  "tags": [
-    ""
-  ],
+  "tags": [],
   "credits": [
     "Mycroft AI",
     "NeonDaniel",
     "reginaneon"
   ],
-  "skillname": "Personal",
+  "skillname": "skill-personal",
   "authorname": "NeonGeckoCom",
   "foldername": null
 }

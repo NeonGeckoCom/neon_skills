@@ -1,6 +1,6 @@
 {
   "title": "Launcher",
-  "url": "https://github.com/NeonGeckoCom/skill-launcher.git",
+  "url": "https://github.com/NeonGeckoCom/skill-launcher",
   "summary": "Skill used to launch programs and navigate websites",
   "short_description": "Skill used to launch programs and navigate websites",
   "description": "This example skill is used to launch desktop applications and browse web pages.",
@@ -15,7 +15,7 @@
   "systemDeps": false,
   "requirements": {
     "python": [
-      "neon-utils>=0.5.7"
+      "neon-utils~=0.6"
     ],
     "system": {},
     "skill": []
@@ -48,7 +48,7 @@
     "NeonDaniel",
     "reginaneon"
   ],
-  "skillname": "Launcher",
+  "skillname": "skill-launcher",
   "authorname": "NeonGeckoCom",
   "foldername": null
 }

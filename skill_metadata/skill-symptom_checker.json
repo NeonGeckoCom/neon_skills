@@ -14,7 +14,6 @@
   "systemDeps": false,
   "requirements": {
     "python": [
-      "lingua-franca~=0.3.1",
       "neon-utils>=0.5.7"
     ],
     "system": {},

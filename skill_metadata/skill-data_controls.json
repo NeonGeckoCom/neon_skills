@@ -1,19 +1,20 @@
 {
-  "title": "Speed Test",
-  "url": "https://github.com/NeonGeckoCom/skill-speed_test",
-  "summary": "Skill used to test your internet speed",
-  "short_description": "Skill used to test your internet speed",
-  "description": "This skill uses speedtest.net to check your internet speed",
+  "title": "Data Controls",
+  "url": "https://github.com/NeonGeckoCom/skill-data_controls",
+  "summary": "Manage user data",
+  "short_description": "Manage user data",
+  "description": "Manage saved transcriptions and other user-generated media.",
   "examples": [
-    "run a speed test"
+    "clear my user transcriptions",
+    "erase all pictures",
+    "delete my profile"
   ],
   "desktopFile": false,
   "warning": "",
   "systemDeps": false,
   "requirements": {
     "python": [
-      "neon-utils~=0.6",
-      "speedtest-cli"
+      "neon-utils~=0.16,>=0.16.1a4"
     ],
     "system": {},
     "skill": []
@@ -29,23 +30,23 @@
   "branch": "master",
   "license": "BSD-3-Clause",
   "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
-  "category": "Daily",
+  "category": "category** {categories}",
   "categories": [
-    "Daily",
-    "Productivity"
+    "category** {categories}"
   ],
   "tags": [
     "NeonGecko Original",
     "NeonAI",
-    "Internet",
-    "Utilities"
+    "Data",
+    "Settings",
+    "Privacy",
+    "Profile"
   ],
   "credits": [
-    "NeonDaniel",
     "NeonGeckoCom",
-    "reginaneon"
+    "NeonDaniel"
   ],
-  "skillname": "skill-speed_test",
+  "skillname": "skill-data_controls",
   "authorname": "NeonGeckoCom",
   "foldername": null
 }

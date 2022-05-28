@@ -42,7 +42,7 @@
     "Mycroft AI",
     "NeonDaniel"
   ],
-  "skillname": "Speak",
+  "skillname": "skill-speak",
   "authorname": "NeonGeckoCom",
   "foldername": null
 }

@@ -12,7 +12,10 @@
   "warning": "",
   "systemDeps": false,
   "requirements": {
-    "python": [],
+    "python": [
+      "mycroft-messagebus-client~=0.9",
+      "neon-utils~=0.6"
+    ],
     "system": {},
     "skill": []
   },
@@ -39,7 +42,7 @@
     "NeonDaniel",
     "NeonAndrii"
   ],
-  "skillname": "Query",
+  "skillname": "skill-query",
   "authorname": "NeonGeckoCom",
   "foldername": null
 }

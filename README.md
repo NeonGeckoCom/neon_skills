@@ -15,7 +15,9 @@
 
 [Demo](https://github.com/NeonGeckoCom/skill-demo) - Skill to demo Neon capabilities
 
-[Device Control Center](https://github.com/NeonGeckoCom/skill-device_controls.git) - Handles system-wide settings and controls.
+[Device Controls](https://github.com/NeonGeckoCom/skill-device_controls.git) - Handles system-wide settings and controls.
+
+[Data Controls](https://github.com/NeonGeckoCom/skill-data_controls) - Manage user data
 
 [Launcher](https://github.com/NeonGeckoCom/skill-launcher.git) - Skill used to launch programs and navigate websites
 
@@ -60,13 +62,9 @@
 
 [Stock](https://github.com/NeonGeckoCom/skill-stock) - This skill provides stock values.
 
-[Stop](https://github.com/NeonGeckoCom/skill-stop) - Stop the actions of any skill that is in progress.
-
-[Volume](https://github.com/NeonGeckoCom/skill-volume) - Control microphone and speaker audio levels.
-
 [Weather](https://github.com/NeonGeckoCom/skill-weather) - Get current weather and forecast info.
 
-[Wikipedia](https://github.com/NeonGeckoCom/skill-wikipedia) - Wikipedia ![](./logo.png)
+[Wikipedia](https://github.com/NeonGeckoCom/skill-wikipedia) - Wikipedia
 
 [Wolfram Alpha](https://github.com/NeonGeckoCom/skill-fallback_wolfram_alpha) - General knowledge fallback handler based on [Wolfram Alpha](https://wolframalpha.com) services
 

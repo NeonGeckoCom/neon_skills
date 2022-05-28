@@ -1,9 +1,9 @@
 {
   "title": "Support Helper",
   "url": "https://github.com/NeonGeckoCom/skill-support_helper",
-  "summary": "Provides an option to send current logs via email.",
-  "short_description": "Provides an option to send current logs via email.",
-  "description": "The skill provides the functionality to truncate and upload Neon logs that are then sent to the user email configured in `ngi_user_info.yml`.",
+  "summary": "Get diagnostic information sent via email.",
+  "short_description": "Get diagnostic information sent via email.",
+  "description": "The skill provides the functionality to get core module status information and message information, including user profile information, sent to the user via email.",
   "examples": [
     "create a troubleshooting package"
   ],
@@ -12,7 +12,7 @@
   "systemDeps": false,
   "requirements": {
     "python": [
-      "neon-utils>=0.5.7"
+      "neon-utils~=0.16,>=0.16.1a6"
     ],
     "system": {},
     "skill": []
@@ -27,21 +27,22 @@
   ],
   "branch": "master",
   "license": "BSD-3-Clause",
-  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+  "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/life-ring.svg",
   "category": "",
-  "categories": [
-    ""
-  ],
+  "categories": [],
   "tags": [
     "NeonGecko Original",
-    "NeonAI"
+    "NeonAI",
+    "Support",
+    "Help"
   ],
   "credits": [
     "NeonGeckoCom",
-    "reginaneon",
-    "NeonDaniel"
+    "NeonDaniel",
+    "reginaneon"
   ],
-  "skillname": "Support Helper",
+  "skillname": "skill-support_helper",
   "authorname": "NeonGeckoCom",
-  "foldername": null
+  "foldername": null,
+  "troubleshooting": "If you do not see your troubleshooting email, check your spam folder."
 }
