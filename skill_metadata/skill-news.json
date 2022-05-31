@@ -17,7 +17,8 @@
   "requirements": {
     "python": [
       "beautifulsoup4==4.9.0",
-      "feedparser~=6.0.0"
+      "feedparser~=6.0.0",
+      "neon-utils~=0.6"
     ],
     "system": {},
     "skill": []
@@ -46,7 +47,7 @@
     "Mycroft AI",
     "NeonDaniel"
   ],
-  "skillname": "Latest news",
+  "skillname": "skill-news",
   "authorname": "NeonGeckoCom",
   "foldername": null
 }

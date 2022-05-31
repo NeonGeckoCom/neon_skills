@@ -13,8 +13,8 @@
   "systemDeps": false,
   "requirements": {
     "python": [
-      "requests>=2.13.0",
-      "git+https://github.com/neongeckocom/neon-skill-utils"
+      "neon-utils~=0.7",
+      "neon_api_proxy~=0.3"
     ],
     "system": {},
     "skill": []
@@ -46,7 +46,7 @@
     "NeonDaniel",
     "reginaneon"
   ],
-  "skillname": "Stock",
+  "skillname": "skill-stock",
   "authorname": "NeonGeckoCom",
   "foldername": null
 }

@@ -1,6 +1,6 @@
 {
   "title": "Date and Time",
-  "url": "https://github.com/neongeckocom/skill-date_time",
+  "url": "https://github.com/NeonGeckoCom/skill-date_time",
   "summary": "Get the time, date, day of the week",
   "short_description": "Get the time, date, day of the week",
   "description": "Get the local time or time for major cities around the world.  Times are given in 12-hour (2:30 pm) or 24-hour format (14:30) based on the Time Format setting at [Home](https://home.mycroft.ai/#/setting/basic) Time can optionally be shown on a display, like a digital clock.  See the [Skill Setting](https://home.mycroft.ai/#/skill).",
@@ -17,12 +17,12 @@
   "systemDeps": false,
   "requirements": {
     "python": [
-      "pytz==2017.2",
-      "tzlocal==1.3",
-      "astral~=1.4",
-      "timezonefinder",
-      "geocoder",
-      "holidays"
+      "geocoder~=1.38",
+      "mycroft-messagebus-client~=0.9",
+      "neon_utils~=0.14",
+      "ovos_utils~=0.0.12",
+      "pytz~=2017.2",
+      "timezonefinder~=5.2"
     ],
     "system": {},
     "skill": []
@@ -54,7 +54,7 @@
     "Mycroft AI",
     "NeonDaniel"
   ],
-  "skillname": "Date and Time",
-  "authorname": "neongeckocom",
+  "skillname": "skill-date_time",
+  "authorname": "NeonGeckoCom",
   "foldername": null
 }

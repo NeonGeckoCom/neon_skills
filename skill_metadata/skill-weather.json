@@ -14,8 +14,9 @@
   "requirements": {
     "python": [
       "multi-key-dict==2.0.3",
-      "requests>=2.13.0",
-      "neon-utils>=0.5.7"
+      "neon-api-proxy~=0.3",
+      "neon-utils~=0.17",
+      "requests>=2.13.0"
     ],
     "system": {},
     "skill": []
@@ -32,18 +33,15 @@
   "license": "BSD-3-Clause",
   "icon": "https://rawgithub.com/FortAwesome/Font-Awesome/master/svgs/solid/sun.svg",
   "category": "",
-  "categories": [
-    ""
-  ],
-  "tags": [
-    ""
-  ],
+  "categories": [],
+  "tags": [],
   "credits": [
     "Mycroft AI",
     "NeonDaniel",
     "reginaneon"
   ],
-  "skillname": "Weather",
+  "skillname": "skill-weather",
   "authorname": "NeonGeckoCom",
-  "foldername": null
+  "foldername": null,
+  "troubleshooting": "Try asking for a different location or changing your default location by saying `Neon change my location to Seattle`."
 }

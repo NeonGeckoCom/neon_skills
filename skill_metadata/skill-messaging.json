@@ -1,6 +1,6 @@
 {
   "title": "Messaging",
-  "url": "https://github.com/NeonGeckoCom/skill-messaging.git",
+  "url": "https://github.com/NeonGeckoCom/skill-messaging",
   "summary": "Handles mobile requests for phone calls, SMS, and emails.",
   "short_description": "Handles mobile requests for phone calls, SMS, and emails.",
   "description": "This handles SMS, phone call, and email requests.",
@@ -15,7 +15,8 @@
   "systemDeps": false,
   "requirements": {
     "python": [
-      "phonenumbers>=8.12.0"
+      "neon-utils~=0.6",
+      "phonenumbers~=8.12"
     ],
     "system": {},
     "skill": []
@@ -32,9 +33,7 @@
   "license": "BSD-3-Clause",
   "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
   "category": "",
-  "categories": [
-    ""
-  ],
+  "categories": [],
   "tags": [
     "NeonGecko Original",
     "NeonAI",
@@ -48,7 +47,7 @@
     "NeonDaniel",
     "NeonGeckoCom"
   ],
-  "skillname": "Messaging",
+  "skillname": "skill-messaging",
   "authorname": "NeonGeckoCom",
   "foldername": null
 }

@@ -1,6 +1,6 @@
 {
   "title": "IP Address",
-  "url": "https://github.com/NeonGeckoCom/skill-ip_address.git",
+  "url": "https://github.com/NeonGeckoCom/skill-ip_address",
   "summary": "Retrieve the [IP address](https://en.wikipedia.org/wiki/IP_address), also known as the \"network address\" of the Device and respond verbally to the user, and if the Device supports it, display the IP address.",
   "short_description": "Retrieve the [IP address](https://en.wikipedia.org/wiki/IP_address), also known as the \"network address\" of the Device and respond verbally to the user, and if the Device supports it, display the IP address.",
   "description": "Returns the known IP addresses to the user, if requested. Useful for testing.",
@@ -14,9 +14,9 @@
   "systemDeps": false,
   "requirements": {
     "python": [
-      "requests~=2.20",
       "ifaddr~=0.1",
-      "neon-utils>=0.5.7"
+      "neon-utils~=0.6",
+      "requests~=2.20"
     ],
     "system": {},
     "skill": []
@@ -50,7 +50,7 @@
     "Ryan Sipes",
     "Steve Penrod"
   ],
-  "skillname": "IP Address",
+  "skillname": "skill-ip_address",
   "authorname": "NeonGeckoCom",
   "foldername": null
 }

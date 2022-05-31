@@ -41,7 +41,7 @@
     "Mycroft AI",
     "NeonDaniel"
   ],
-  "skillname": "Spelling",
+  "skillname": "skill-spelling",
   "authorname": "NeonGeckoCom",
   "foldername": null
 }
