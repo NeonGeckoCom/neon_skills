@@ -8,7 +8,13 @@
   "desktopFile": false,
   "warning": "",
   "systemDeps": false,
-  "requirements": "No special required packages for this skill.",
+  "requirements": {
+    "python": [
+      "neon-utils~=0.6"
+    ],
+    "system": {},
+    "skill": []
+  },
   "incompatible_skills": [],
   "platforms": [
     "i386",

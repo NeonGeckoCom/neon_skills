@@ -14,7 +14,14 @@
   "desktopFile": false,
   "warning": "",
   "systemDeps": false,
-  "requirements": "No special required packages for this skill.",
+  "requirements": {
+    "python": [
+      "gitpython~=3.1",
+      "neon-utils~=0.13"
+    ],
+    "system": {},
+    "skill": []
+  },
   "incompatible_skills": [],
   "platforms": [
     "i386",
