@@ -37,6 +37,8 @@
 
 [User Settings](https://github.com/NeonGeckoCom/skill-user_settings.git) - Have Neon help you change and control your user settings.
 
+[Instructions](https://github.com/NeonGeckoCom/skill-instructions.git) - Neon skill for instructions reading and implementation
+
 # Neon Modified Skills
 [Audio Record](https://github.com/NeonGeckoCom/skill-audio_record) - Record and playback short audio clips with Neon.
 
@@ -51,10 +53,6 @@
 [Latest news](https://github.com/NeonGeckoCom/skill-news) - Listen to the latest news report from your favorite broadcast
 
 [Personal](https://github.com/NeonGeckoCom/skill-personal) - Skill used for introduction between the user and Neon.
-
-[Playback Control](https://github.com/NeonGeckoCom/skill-playback_control) - Common playback control system
-
-[Query](https://github.com/NeonGeckoCom/skill-query) - Negotiates the best answer to a question
 
 [Speak](https://github.com/NeonGeckoCom/skill-speak) - Make Mycroft repeat whatever you want
 

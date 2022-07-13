@@ -15,9 +15,10 @@
   "systemDeps": false,
   "requirements": {
     "python": [
-      "requests>=2.13.0",
       "mtranslate",
-      "neon-utils>=0.5.7"
+      "neon-api-proxy~=0.3,>=0.3.2a1",
+      "neon-utils>=1.0.0a16,<2.0.0",
+      "requests>=2.13.0"
     ],
     "system": {},
     "skill": []
@@ -34,18 +35,15 @@
   "license": "BSD-3-Clause",
   "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/question.svg",
   "category": "",
-  "categories": [
-    ""
-  ],
-  "tags": [
-    ""
-  ],
+  "categories": [],
+  "tags": [],
   "credits": [
     "Mycroft AI",
     "NeonDaniel",
     "reginaneon"
   ],
-  "skillname": "Wolfram Alpha",
+  "skillname": "skill-fallback_wolfram_alpha",
   "authorname": "NeonGeckoCom",
-  "foldername": null
+  "foldername": null,
+  "troubleshooting": "Make sure that your wolfram credentials are active and in the correct format before starting the work with this skill or if you are experiencing any problems with it."
 }

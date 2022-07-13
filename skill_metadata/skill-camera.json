@@ -1,6 +1,6 @@
 {
   "title": "Camera",
-  "url": "https://github.com/NeonGeckoCom/skill-camera.git",
+  "url": "https://github.com/NeonGeckoCom/skill-camera",
   "summary": "Take pictures and videos.",
   "short_description": "Take pictures and videos.",
   "description": "The skill allows you to capture pictures and videos and saves them to your local device.",
@@ -15,7 +15,7 @@
   "systemDeps": false,
   "requirements": {
     "python": [
-      "neon-utils>=0.5.7"
+      "neon-utils>=0.5.7,<2.0.0"
     ],
     "system": {},
     "skill": []
@@ -32,9 +32,7 @@
   "license": "BSD-3-Clause",
   "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
   "category": "",
-  "categories": [
-    ""
-  ],
+  "categories": [],
   "tags": [
     "NeonGecko Original",
     "NeonAI"
@@ -43,7 +41,8 @@
     "NeonGeckoCom",
     "reginaneon"
   ],
-  "skillname": "Camera",
+  "skillname": "skill-camera",
   "authorname": "NeonGeckoCom",
-  "foldername": null
+  "foldername": null,
+  "troubleshooting": "This skill requires a camera connected and configured to work in Linux. [fswebcam](http://manpages.ubuntu.com/manpages/bionic/man1/fswebcam.1.html) [streamer](http://manpages.ubuntu.com/manpages/xenial/man1/streamer.1.html) [MPV](https://mpv.io/) The above requirements should be installed automatically, but can be installed manually:     ```bash     sudo apt install fswebcam streamer mpv     ``` Ensure your webcam is connected and working in Ubuntu, you can check functionality in `Cheese`.     ```bash     sudo apt install cheese     ```"
 }

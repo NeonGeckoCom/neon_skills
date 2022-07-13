@@ -19,19 +19,20 @@
   "systemDeps": false,
   "requirements": {
     "python": [
-      "wikipedia_for_humans>=0.2.3",
-      "ovos_utils"
+      "neon-utils>=0.5.7,<2.0.0",
+      "ovos_utils",
+      "wikipedia_for_humans>=0.2.3"
     ],
     "system": {},
     "skill": []
   },
   "incompatible_skills": [],
   "platforms": [
+    "arm",
+    "arm64",
     "i386",
     "x86_64",
-    "ia64",
-    "arm64",
-    "arm"
+    "ia64"
   ],
   "branch": "master",
   "license": "BSD-3-Clause",
@@ -52,7 +53,9 @@
     "JarbasAl",
     "NeonDaniel"
   ],
-  "skillname": "Wikipedia",
+  "skillname": "skill-wikipedia",
   "authorname": "NeonGeckoCom",
-  "foldername": null
+  "foldername": null,
+  "logo": "logo.png",
+  "name": "Wikipedia"
 }
