@@ -14,7 +14,9 @@
   "warning": "",
   "systemDeps": false,
   "requirements": {
-    "python": [],
+    "python": [
+      "neon-utils>=0.6,<2.0.0"
+    ],
     "system": {},
     "skill": []
   },

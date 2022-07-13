@@ -12,7 +12,7 @@
   "systemDeps": false,
   "requirements": {
     "python": [
-      "neon-utils~=0.6",
+      "neon-utils>=0.6,<2.0.0",
       "speedtest-cli"
     ],
     "system": {},
