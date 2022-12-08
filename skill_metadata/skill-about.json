@@ -5,8 +5,9 @@
     "short_description": "Skill used to provide information about Neon",
     "description": "This skill provides information about Neon. You can ask about licensing and your Neon installation.",
     "examples": [
-        "tell me my license",
-        "tell me my skills"
+        "tell me my license.",
+        "tell me my skills.",
+        "what can you do?"
     ],
     "desktopFile": false,
     "warning": "",
