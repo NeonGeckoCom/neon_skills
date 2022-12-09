@@ -1,49 +1,49 @@
 {
-  "title": "Synonyms",
-  "url": "https://github.com/NeonGeckoCom/skill-synonyms",
-  "summary": "This skill handles setting and calling synonym (aliased) commands.",
-  "short_description": "This skill handles setting and calling synonym (aliased) commands.",
-  "description": "You may define a phrase as a synonym for a Neon command. Any time you ask something, this skill will check to see if it is a synonym for something else and complete that other action.",
-  "examples": [],
-  "desktopFile": false,
-  "warning": "",
-  "systemDeps": false,
-  "requirements": {
-    "python": [
-      "neon-utils>=0.6,<2.0.0"
+    "title": "Synonyms",
+    "url": "https://github.com/NeonGeckoCom/skill-synonyms",
+    "summary": "This skill handles setting and calling synonym (aliased) commands.",
+    "short_description": "This skill handles setting and calling synonym (aliased) commands.",
+    "description": "You may define a phrase as a synonym for a Neon command. Any time you ask something, this skill will check to see if it is a synonym for something else and complete that other action.",
+    "examples": [],
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "neon-utils>=0.6,<2.0.0"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
     ],
-    "system": {},
-    "skill": []
-  },
-  "incompatible_skills": [],
-  "platforms": [
-    "i386",
-    "x86_64",
-    "ia64",
-    "arm64",
-    "arm"
-  ],
-  "branch": "master",
-  "license": "BSD-3-Clause",
-  "icon": "logo.svg",
-  "category": "Daily",
-  "categories": [
-    "Daily",
-    "Productivity"
-  ],
-  "tags": [
-    "NeonGecko Original",
-    "NeonAI",
-    "synonym",
-    "alias",
-    "commands"
-  ],
-  "credits": [
-    "NeonDaniel",
-    "NeonGeckoCom",
-    "reginaneon"
-  ],
-  "skillname": "skill-synonyms",
-  "authorname": "NeonGeckoCom",
-  "foldername": null
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "logo.svg",
+    "category": "Daily",
+    "categories": [
+        "Daily",
+        "Productivity"
+    ],
+    "tags": [
+        "NeonGecko Original",
+        "NeonAI",
+        "synonym",
+        "alias",
+        "commands"
+    ],
+    "credits": [
+        "NeonDaniel",
+        "NeonGeckoCom",
+        "reginaneon"
+    ],
+    "skillname": "skill-synonyms",
+    "authorname": "NeonGeckoCom",
+    "foldername": null
 }
