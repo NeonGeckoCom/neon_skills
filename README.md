@@ -19,6 +19,8 @@
 
 [Device Control Center](https://github.com/NeonGeckoCom/skill-device_controls) - Handles system-wide settings and controls.
 
+[Free Music Archive](https://github.com/NeonGeckoCom/skill-free_music_archive) - [OCP](https://github.com/OpenVoiceOS/ovos-ocp-audio-plugin) skill to play royalty free music from [Free Music Archive](https://freemusicarchive.org/).
+
 [Instructions](https://github.com/NeonGeckoCom/skill-instructions) - Neon skill for instructions reading and implementation
 
 [Launcher](https://github.com/NeonGeckoCom/skill-launcher) - Skill used to launch programs and navigate websites
