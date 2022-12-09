@@ -1,55 +1,55 @@
 {
-  "title": "Audio Record",
-  "url": "https://github.com/NeonGeckoCom/skill-audio_record",
-  "summary": "Record and playback short audio clips with Neon.",
-  "short_description": "Record and playback short audio clips with Neon.",
-  "description": "This Skill records audio from the microphone and allows you to play back that recording. Note that this Skill is particularly useful when trying to diagnose microphone issues because it allows you to \"hear\" what Neon is hearing - For example, if you have multiple audio inputs or are working on the new skill that requires pure microphone feed.",
-  "examples": [
-    "record audio",
-    "record audio for 30 seconds",
-    "record my daily prescriptions",
-    "record my daily prescriptions for 1 minute"
-  ],
-  "desktopFile": false,
-  "warning": "",
-  "systemDeps": false,
-  "requirements": {
-    "python": [
-      "neon-utils>=0.6,<2.0.0",
-      "psutil~=5.7"
+    "title": "Audio Record",
+    "url": "https://github.com/NeonGeckoCom/skill-audio_record",
+    "summary": "Record and playback short audio clips with Neon.",
+    "short_description": "Record and playback short audio clips with Neon.",
+    "description": "This Skill records audio from the microphone and allows you to play back that recording. Note that this Skill is particularly useful when trying to diagnose microphone issues because it allows you to \"hear\" what Neon is hearing - For example, if you have multiple audio inputs or are working on the new skill that requires pure microphone feed.",
+    "examples": [
+        "record audio",
+        "record audio for 30 seconds",
+        "record my daily prescriptions",
+        "record my daily prescriptions for 1 minute"
     ],
-    "system": {},
-    "skill": []
-  },
-  "incompatible_skills": [],
-  "platforms": [
-    "i386",
-    "x86_64",
-    "ia64",
-    "arm64",
-    "arm"
-  ],
-  "branch": "master",
-  "license": "BSD-3-Clause",
-  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
-  "category": "Configuration",
-  "categories": [
-    "Configuration"
-  ],
-  "tags": [
-    "audio",
-    "record",
-    "record-audio",
-    "microphone",
-    "configuration"
-  ],
-  "credits": [
-    "Mycroft AI",
-    "NeonDaniel",
-    "reginaneon"
-  ],
-  "skillname": "skill-audio_record",
-  "authorname": "NeonGeckoCom",
-  "foldername": null,
-  "troubleshooting": "This skill is designed to help troubleshoot microphone issues. If you have any problems with skill\u2019s execution, try executing the subprocess command, which is called from the skill, after filling in the placeholders -     subprocess.Popen([\"arecord\", \"-r\", str(rate), \"-c\", str(channels), \"-d\", str(duration), file_path]) Manually and see if you have similar results. You microphone issue may be system-wide or limited to Neon and this will help determine that."
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "neon-utils>=0.6,<2.0.0",
+            "psutil~=5.6"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+    "category": "Configuration",
+    "categories": [
+        "Configuration"
+    ],
+    "tags": [
+        "audio",
+        "record",
+        "record-audio",
+        "microphone",
+        "configuration"
+    ],
+    "credits": [
+        "Mycroft AI",
+        "NeonDaniel",
+        "reginaneon"
+    ],
+    "skillname": "skill-audio_record",
+    "authorname": "NeonGeckoCom",
+    "foldername": null,
+    "troubleshooting": "This skill is designed to help troubleshoot microphone issues. If you have any problems with skill\u2019s execution, try executing the subprocess command, which is called from the skill, after filling in the placeholders -     subprocess.Popen([\"arecord\", \"-r\", str(rate), \"-c\", str(channels), \"-d\", str(duration), file_path]) Manually and see if you have similar results. You microphone issue may be system-wide or limited to Neon and this will help determine that."
 }
