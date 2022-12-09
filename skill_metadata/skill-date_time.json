@@ -1,60 +1,60 @@
 {
-  "title": "Date and Time",
-  "url": "https://github.com/NeonGeckoCom/skill-date_time",
-  "summary": "Get the time, date, day of the week",
-  "short_description": "Get the time, date, day of the week",
-  "description": "Get the local time or time for major cities around the world.  Times are given in 12-hour (2:30 pm) or 24-hour format (14:30) based on the Time Format setting at [Home](https://home.mycroft.ai/#/setting/basic) Time can optionally be shown on a display, like a digital clock.  See the [Skill Setting](https://home.mycroft.ai/#/skill).",
-  "examples": [
-    "what time is it?",
-    "what time is it in paris?",
-    "show me the time",
-    "what's the date?",
-    "tell me the day of the week",
-    "what day is memorial day 2020?"
-  ],
-  "desktopFile": false,
-  "warning": "",
-  "systemDeps": false,
-  "requirements": {
-    "python": [
-      "geocoder~=1.38",
-      "mycroft-messagebus-client~=0.9",
-      "neon_utils>=0.14.0,<2.0.0",
-      "ovos_utils~=0.0.12",
-      "pytz>=2017.2,<=2022.1",
-      "timezonefinder~=5.2"
+    "title": "Date and Time",
+    "url": "https://github.com/NeonGeckoCom/skill-date_time",
+    "summary": "Get the time, date, day of the week",
+    "short_description": "Get the time, date, day of the week",
+    "description": "Get the local time or time for major cities around the world.  Times are given in 12-hour (2:30 pm) or 24-hour format (14:30) based on the Time Format setting at [Home](https://home.mycroft.ai/#/setting/basic) Time can optionally be shown on a display, like a digital clock.  See the [Skill Setting](https://home.mycroft.ai/#/skill).",
+    "examples": [
+        "What time is it?",
+        "What time is it in Paris?",
+        "Show me the time.",
+        "What's the date?",
+        "Tell me the day of the week.",
+        "What day is Memorial Day 2020?"
     ],
-    "system": {},
-    "skill": []
-  },
-  "incompatible_skills": [],
-  "platforms": [
-    "i386",
-    "x86_64",
-    "ia64",
-    "arm64",
-    "arm"
-  ],
-  "branch": "master",
-  "license": "BSD-3-Clause",
-  "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/calendar.svg",
-  "category": "Daily",
-  "categories": [
-    "Daily"
-  ],
-  "tags": [
-    "date",
-    "time",
-    "clock",
-    "world-time",
-    "world-clock",
-    "date-time"
-  ],
-  "credits": [
-    "Mycroft AI",
-    "NeonDaniel"
-  ],
-  "skillname": "skill-date_time",
-  "authorname": "NeonGeckoCom",
-  "foldername": null
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "geocoder~=1.38",
+            "mycroft-messagebus-client~=0.9",
+            "neon_utils>=0.14.0,<2.0.0",
+            "ovos_utils~=0.0.12",
+            "pytz>=2017.2,<=2022.1",
+            "timezonefinder~=5.2"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/calendar.svg",
+    "category": "Daily",
+    "categories": [
+        "Daily"
+    ],
+    "tags": [
+        "date",
+        "time",
+        "clock",
+        "world-time",
+        "world-clock",
+        "date-time"
+    ],
+    "credits": [
+        "Mycroft AI",
+        "NeonDaniel"
+    ],
+    "skillname": "skill-date_time",
+    "authorname": "NeonGeckoCom",
+    "foldername": null
 }
