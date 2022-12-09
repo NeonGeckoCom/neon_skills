@@ -1,48 +1,48 @@
 {
-  "title": "Recipes",
-  "url": "https://github.com/NeonGeckoCom/skill-recipes",
-  "summary": "Get help making a meal.",
-  "short_description": "Get help making a meal.",
-  "description": "Uses themealdb.com to find recipes",
-  "examples": [
-    "what can i cook with chicken?",
-    "how do i cook lasagna?"
-  ],
-  "desktopFile": false,
-  "warning": "",
-  "systemDeps": false,
-  "requirements": {
-    "python": [
-      "neon-utils~=0.6"
+    "title": "Recipes",
+    "url": "https://github.com/NeonGeckoCom/skill-recipes",
+    "summary": "Get help making a meal.",
+    "short_description": "Get help making a meal.",
+    "description": "Uses themealdb.com to find recipes",
+    "examples": [
+        "what can i cook with chicken?",
+        "how do i cook lasagna?"
     ],
-    "system": {},
-    "skill": []
-  },
-  "incompatible_skills": [],
-  "platforms": [
-    "i386",
-    "x86_64",
-    "ia64",
-    "arm64",
-    "arm"
-  ],
-  "branch": "master",
-  "license": "BSD-3-Clause",
-  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
-  "category": "Information",
-  "categories": [
-    "Information",
-    "Daily"
-  ],
-  "tags": [
-    "NeonGecko Original",
-    "NeonAI"
-  ],
-  "credits": [
-    "NeonGeckoCom",
-    "NeonAndrii"
-  ],
-  "skillname": "skill-recipes",
-  "authorname": "NeonGeckoCom",
-  "foldername": null
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "neon-utils~=0.6"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+    "category": "Information",
+    "categories": [
+        "Information",
+        "Daily"
+    ],
+    "tags": [
+        "NeonGecko Original",
+        "NeonAI"
+    ],
+    "credits": [
+        "NeonGeckoCom",
+        "NeonAndrii"
+    ],
+    "skillname": "skill-recipes",
+    "authorname": "NeonGeckoCom",
+    "foldername": null
 }
