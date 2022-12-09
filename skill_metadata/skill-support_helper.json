@@ -1,48 +1,49 @@
 {
-  "title": "Support Helper",
-  "url": "https://github.com/NeonGeckoCom/skill-support_helper",
-  "summary": "Get diagnostic information sent via email.",
-  "short_description": "Get diagnostic information sent via email.",
-  "description": "The skill provides the functionality to get core module status information and message information, including user profile information, sent to the user via email.",
-  "examples": [
-    "create a troubleshooting package"
-  ],
-  "desktopFile": false,
-  "warning": "",
-  "systemDeps": false,
-  "requirements": {
-    "python": [
-      "neon-utils>=0.17,<2.0.0"
+    "title": "Support Helper",
+    "url": "https://github.com/NeonGeckoCom/skill-support_helper",
+    "summary": "Get diagnostic information sent via email.",
+    "short_description": "Get diagnostic information sent via email.",
+    "description": "The skill provides the functionality to get core module status information and message information, including user profile information, sent to the user via email.",
+    "examples": [
+        "Create a troubleshooting package.",
+        "Create a support ticket."
     ],
-    "system": {},
-    "skill": []
-  },
-  "incompatible_skills": [],
-  "platforms": [
-    "i386",
-    "x86_64",
-    "ia64",
-    "arm64",
-    "arm"
-  ],
-  "branch": "master",
-  "license": "BSD-3-Clause",
-  "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/life-ring.svg",
-  "category": "",
-  "categories": [],
-  "tags": [
-    "NeonGecko Original",
-    "NeonAI",
-    "Support",
-    "Help"
-  ],
-  "credits": [
-    "NeonGeckoCom",
-    "NeonDaniel",
-    "reginaneon"
-  ],
-  "skillname": "skill-support_helper",
-  "authorname": "NeonGeckoCom",
-  "foldername": null,
-  "troubleshooting": "If you do not see your troubleshooting email, check your spam folder."
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "neon-utils~=1.1"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/life-ring.svg",
+    "category": "",
+    "categories": [],
+    "tags": [
+        "NeonGecko Original",
+        "NeonAI",
+        "Support",
+        "Help"
+    ],
+    "credits": [
+        "NeonGeckoCom",
+        "NeonDaniel",
+        "reginaneon"
+    ],
+    "skillname": "skill-support_helper",
+    "authorname": "NeonGeckoCom",
+    "foldername": null,
+    "troubleshooting": "If you do not see your troubleshooting email, check your spam folder."
 }
