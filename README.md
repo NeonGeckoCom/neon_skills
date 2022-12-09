@@ -1,58 +1,62 @@
 # Neon Original Skills
-[AVmusic](https://github.com/NeonGeckoCom/skill-avmusic.git) - Play a song or video requested by the user.
+[AVmusic](https://github.com/NeonGeckoCom/skill-avmusic) - Play a song or video requested by the user.
 
-[About](https://github.com/neongeckocom/skill-about) - Skill used to provide information about Neon
+[About](https://github.com/NeonGeckoCom/skill-about) - Skill used to provide information about Neon
 
-[Alerts](https://github.com/NeonGeckoCom/skill-alerts.git) - A skill to schedule alarms, timers, and reminders
+[Alerts](https://github.com/NeonGeckoCom/skill-alerts) - A skill to schedule alarms, timers, and reminders
 
-[CaffeineWiz](https://github.com/NeonGeckoCom/skill-caffeinewiz.git) - Provides the caffeine content of various drinks on request.
+[CaffeineWiz](https://github.com/NeonGeckoCom/skill-caffeinewiz) - Provides the caffeine content of various drinks on request.
 
-[Camera](https://github.com/NeonGeckoCom/skill-camera.git) - Take pictures and videos.
+[Camera](https://github.com/NeonGeckoCom/skill-camera) - Take pictures and videos.
 
-[Communication](https://github.com/NeonGeckoCom/skill-communication.git) - Skill for the Common Message Skill framework.
+[Communication](https://github.com/NeonGeckoCom/skill-communication) - Skill for the Common Message Skill framework.
 
-[Custom Conversations](https://github.com/neongeckocom/skill-custom_conversation) - Create your own or use text script files shared by other users.
-
-[Demo](https://github.com/NeonGeckoCom/skill-demo) - Skill to demo Neon capabilities
-
-[Device Controls](https://github.com/NeonGeckoCom/skill-device_controls.git) - Handles system-wide settings and controls.
+[Custom Conversations](https://github.com/NeonGeckoCom/skill-custom_conversation) - Create your own or use text script files shared by other users.
 
 [Data Controls](https://github.com/NeonGeckoCom/skill-data_controls) - Manage user data
 
-[Launcher](https://github.com/NeonGeckoCom/skill-launcher.git) - Skill used to launch programs and navigate websites
+[Demo](https://github.com/NeonGeckoCom/skill-demo) - Skill to demo Neon capabilities
 
-[Messaging](https://github.com/NeonGeckoCom/skill-messaging.git) - Handles mobile requests for phone calls, SMS, and emails.
+[Device Control Center](https://github.com/NeonGeckoCom/skill-device_controls) - Handles system-wide settings and controls.
+
+[Instructions](https://github.com/NeonGeckoCom/skill-instructions) - Neon skill for instructions reading and implementation
+
+[Launcher](https://github.com/NeonGeckoCom/skill-launcher) - Skill used to launch programs and navigate websites
+
+[Messaging](https://github.com/NeonGeckoCom/skill-messaging) - Handles mobile requests for phone calls, SMS, and emails.
 
 [Neon Updates](https://github.com/NeonGeckoCom/skill-update) - Skill to update Neon Core
 
-[Recipes](https://github.com/NeonGeckoCom/skill-recipes.git) - Get help making a meal.
+[Recipes](https://github.com/NeonGeckoCom/skill-recipes) - Get help making a meal.
 
-[Speed Test](https://github.com/NeonGeckoCom/skill-speed_test.git) - Skill used to test your internet speed
+[Speed Test](https://github.com/NeonGeckoCom/skill-speed_test) - Skill used to test your internet speed
 
-[Support Helper](https://github.com/NeonGeckoCom/skill-support_helper) - Provides an option to send current logs via email.
+[Support Helper](https://github.com/NeonGeckoCom/skill-support_helper) - Get diagnostic information sent via email.
 
-[Synonyms](https://github.com/NeonGeckoCom/skill-synonyms.git) - This skill handles setting and calling synonym (aliased) commands.
+[Synonyms](https://github.com/NeonGeckoCom/skill-synonyms) - This skill handles setting and calling synonym (aliased) commands.
 
-[Translation](https://github.com/NeonGeckoCom/skill-translation.git) - Translates phrases between languages. Also handles switching TTS/STT languages under Neon Core.
+[Translation](https://github.com/NeonGeckoCom/skill-translation) - Translate phrases between languages.
 
-[User Settings](https://github.com/NeonGeckoCom/skill-user_settings.git) - Have Neon help you change and control your user settings.
+[User Settings](https://github.com/NeonGeckoCom/skill-user_settings) - Have Neon help you change and control your user settings.
 
-[Instructions](https://github.com/NeonGeckoCom/skill-instructions.git) - Neon skill for instructions reading and implementation
+[Wikipedia](https://github.com/NeonGeckoCom/skill-wikipedia) - Wikipedia ![](./logo.png)
 
 # Neon Modified Skills
 [Audio Record](https://github.com/NeonGeckoCom/skill-audio_record) - Record and playback short audio clips with Neon.
 
-[Date and Time](https://github.com/neongeckocom/skill-date_time) - Get the time, date, day of the week
-
-[DuckDuckGo](https://github.com/NeonGeckoCom/skill-fallback_duckduckgo) - Use DuckDuckGo to answer questions
+[Date and Time](https://github.com/NeonGeckoCom/skill-date_time) - Get the time, date, day of the week
 
 [Fallback Unknown](https://github.com/NeonGeckoCom/skill-fallback_unknown) - Unknown request fallback handler. Executes if every other step failed to answer the question.
 
-[IP Address](https://github.com/NeonGeckoCom/skill-ip_address.git) - Retrieve the [IP address](https://en.wikipedia.org/wiki/IP_address), also known as the "network address" of the Device and respond verbally to the user, and if the Device supports it, display the IP address.
+[IP Address](https://github.com/NeonGeckoCom/skill-ip_address) - Retrieve the [IP address](https://en.wikipedia.org/wiki/IP_address), also known as the "network address" of the Device and respond verbally to the user, and if the Device supports it, display the IP address.
 
 [Latest news](https://github.com/NeonGeckoCom/skill-news) - Listen to the latest news report from your favorite broadcast
 
 [Personal](https://github.com/NeonGeckoCom/skill-personal) - Skill used for introduction between the user and Neon.
+
+[Playback Control](https://github.com/NeonGeckoCom/skill-playback_control) - Common playback control system
+
+[Query](https://github.com/NeonGeckoCom/skill-query) - Negotiates the best answer to a question
 
 [Speak](https://github.com/NeonGeckoCom/skill-speak) - Make Mycroft repeat whatever you want
 
@@ -61,8 +65,6 @@
 [Stock](https://github.com/NeonGeckoCom/skill-stock) - This skill provides stock values.
 
 [Weather](https://github.com/NeonGeckoCom/skill-weather) - Get current weather and forecast info.
-
-[Wikipedia](https://github.com/NeonGeckoCom/skill-wikipedia) - Wikipedia
 
 [Wolfram Alpha](https://github.com/NeonGeckoCom/skill-fallback_wolfram_alpha) - General knowledge fallback handler based on [Wolfram Alpha](https://wolframalpha.com) services
 
@@ -82,3 +84,4 @@
 [Script Generator](https://github.com/NeonGeckoCom/skill-generate_script.git) - A skill that generates scripts, which can be used by custom-conversations.neon after compiling
 
 [Symptom Checker](https://github.com/NeonGeckoCom/skill-symptom_checker) - A skill to gather reported symptoms of users.
+
