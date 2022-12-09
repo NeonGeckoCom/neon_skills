@@ -1,47 +1,47 @@
 {
-  "title": "Weather",
-  "url": "https://github.com/NeonGeckoCom/skill-weather",
-  "summary": "Get current weather and forecast info.",
-  "short_description": "Get current weather and forecast info.",
-  "description": "This skill provides current weather information at different locations and forecasts up to 5 days. Use of this skill requires use of third-party APIs. If you do not have access to Neon API servers, you may access the Alpha Vantage API directly by providing a key in `~/owm.txt`. You can generate an Open Weather Map key [here](https://home.openweathermap.org/users/sign_up)",
-  "examples": [
-    "what is the weather in los angeles",
-    "what is the forecast for friday"
-  ],
-  "desktopFile": false,
-  "warning": "",
-  "systemDeps": false,
-  "requirements": {
-    "python": [
-      "multi-key-dict==2.0.3",
-      "neon-api-proxy~=0.3,>=0.3.2a1",
-      "neon-utils>=0.17,<2.0.0",
-      "requests>=2.13.0"
+    "title": "Weather",
+    "url": "https://github.com/NeonGeckoCom/skill-weather",
+    "summary": "Get current weather and forecast info.",
+    "short_description": "Get current weather and forecast info.",
+    "description": "This skill provides current weather information at different locations and forecasts up to 5 days. Use of this skill requires use of third-party APIs. If you do not have access to Neon API servers, you may access the Alpha Vantage API directly by providing a key in `~/owm.txt`. You can generate an Open Weather Map key [here](https://home.openweathermap.org/users/sign_up)",
+    "examples": [
+        "What is the weather in Los Angeles?",
+        "What is the forecast for Friday?"
     ],
-    "system": {},
-    "skill": []
-  },
-  "incompatible_skills": [],
-  "platforms": [
-    "i386",
-    "x86_64",
-    "ia64",
-    "arm64",
-    "arm"
-  ],
-  "branch": "master",
-  "license": "BSD-3-Clause",
-  "icon": "https://rawgithub.com/FortAwesome/Font-Awesome/master/svgs/solid/sun.svg",
-  "category": "",
-  "categories": [],
-  "tags": [],
-  "credits": [
-    "Mycroft AI",
-    "NeonDaniel",
-    "reginaneon"
-  ],
-  "skillname": "skill-weather",
-  "authorname": "NeonGeckoCom",
-  "foldername": null,
-  "troubleshooting": "Try asking for a different location or changing your default location by saying `Neon change my location to Seattle`."
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "multi-key-dict==2.0.3",
+            "neon-api-proxy~=0.3,>=0.3.2a1",
+            "neon-utils>=0.17,<2.0.0",
+            "requests>=2.13.0"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "https://rawgithub.com/FortAwesome/Font-Awesome/master/svgs/solid/sun.svg",
+    "category": "",
+    "categories": [],
+    "tags": [],
+    "credits": [
+        "Mycroft AI",
+        "NeonDaniel",
+        "reginaneon"
+    ],
+    "skillname": "skill-weather",
+    "authorname": "NeonGeckoCom",
+    "foldername": null,
+    "troubleshooting": "Try asking for a different location or changing your default location by saying `Neon change my location to Seattle`."
 }
