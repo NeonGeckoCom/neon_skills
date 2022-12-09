@@ -80,7 +80,7 @@ def update_readme():
 
 
 def _format_skill_name_html(skill: dict) -> str:
-    return f'\\<a href="{skill["url"]}"\\>{skill["title"]}\\<a\\>'
+    return f'\\<a href=\\"{skill["url"]}\\"\\>{skill["title"]}\\<a\\>'
 
 
 def _format_list_html(to_format: list) -> str:
@@ -92,7 +92,7 @@ def _format_list_html(to_format: list) -> str:
 
 def _format_list_to_html(data: list) -> str:
     formatted = tabulate(data, tablefmt='html')
-    return formatted.replace("\\&lt;", "<").replace("\\&gt;", ">")
+    return formatted.replace("\\&lt;", "<").replace("\\&gt;", ">").replace('\\&quot;', '"')
 
 
 def update_neon_skills_html():
