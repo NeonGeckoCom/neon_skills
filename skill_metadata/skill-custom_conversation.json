@@ -1,55 +1,55 @@
 {
-  "title": "Custom Conversations",
-  "url": "https://github.com/NeonGeckoCom/skill-custom_conversation",
-  "summary": "Create your own or use text script files shared by other users.",
-  "short_description": "Create your own or use text script files shared by other users.",
-  "description": "Skill, which works using the custom text parsing implementation, provides the functionality to create, share, modify, and use any script files obtained from the shared library.",
-  "examples": [
-    "tell me available script files",
-    "what scripts are available",
-    "update my conversations",
-    "update my skill files",
-    "set my startup script to"
-  ],
-  "desktopFile": false,
-  "warning": "",
-  "systemDeps": false,
-  "requirements": {
-    "python": [
-      "bs4",
-      "gitpython~=3.1",
-      "neon-utils>=1.0.0a9,<2.0.0"
+    "title": "Custom Conversations",
+    "url": "https://github.com/NeonGeckoCom/skill-custom_conversation",
+    "summary": "Create your own or use text script files shared by other users.",
+    "short_description": "Create your own or use text script files shared by other users.",
+    "description": "Skill, which works using the custom text parsing implementation, provides the functionality to create, share, modify, and use any script files obtained from the shared library.",
+    "examples": [
+        "tell me available script files",
+        "what scripts are available",
+        "update my conversations",
+        "update my skill files",
+        "set my startup script to"
     ],
-    "system": {},
-    "skill": []
-  },
-  "incompatible_skills": [],
-  "platforms": [
-    "i386",
-    "x86_64",
-    "ia64",
-    "arm64",
-    "arm"
-  ],
-  "branch": "master",
-  "license": "Unknown",
-  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
-  "category": "Configuration",
-  "categories": [
-    "Configuration"
-  ],
-  "tags": [
-    "Neongecko",
-    "Neon",
-    "CustomConversations",
-    "Custom"
-  ],
-  "credits": [
-    "reginaneon",
-    "NeonDaniel",
-    "neongeckocom"
-  ],
-  "skillname": "skill-custom_conversation",
-  "authorname": "NeonGeckoCom",
-  "foldername": null
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "bs4",
+            "gitpython~=3.1",
+            "neon-utils>=1.0.0a9,<2.0.0"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "Unknown",
+    "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+    "category": "Configuration",
+    "categories": [
+        "Configuration"
+    ],
+    "tags": [
+        "Neongecko",
+        "Neon",
+        "CustomConversations",
+        "Custom"
+    ],
+    "credits": [
+        "reginaneon",
+        "NeonDaniel",
+        "neongeckocom"
+    ],
+    "skillname": "skill-custom_conversation",
+    "authorname": "NeonGeckoCom",
+    "foldername": null
 }
