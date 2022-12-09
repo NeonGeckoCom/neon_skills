@@ -1,47 +1,47 @@
 {
-  "title": "Neon Updates",
-  "url": "https://github.com/NeonGeckoCom/skill-update",
-  "summary": "Skill to update Neon Core",
-  "short_description": "Skill to update Neon Core",
-  "description": "The update skill will check for new neon-core releases on PyPI. If permitted in settings, the skill will check for updates at startup and notify the user that updates are available for installation.",
-  "examples": [
-    "check for updates"
-  ],
-  "desktopFile": false,
-  "warning": "",
-  "systemDeps": false,
-  "requirements": {
-    "python": [
-      "neon-utils>=0.5.7,<2.0.0"
+    "title": "Neon Updates",
+    "url": "https://github.com/NeonGeckoCom/skill-update",
+    "summary": "Skill to update Neon Core",
+    "short_description": "Skill to update Neon Core",
+    "description": "The update skill will check for new neon-core releases on PyPI. If permitted in settings, the skill will check for updates at startup and notify the user that updates are available for installation.",
+    "examples": [
+        "check for updates"
     ],
-    "system": {},
-    "skill": []
-  },
-  "incompatible_skills": [],
-  "platforms": [
-    "i386",
-    "x86_64",
-    "ia64",
-    "arm64",
-    "arm"
-  ],
-  "branch": "master",
-  "license": "BSD-3-Clause",
-  "icon": "logo.svg",
-  "category": "Information",
-  "categories": [
-    "Information"
-  ],
-  "tags": [
-    "NeonGecko Original",
-    "NeonAI",
-    "Update"
-  ],
-  "credits": [
-    "NeonDaniel",
-    "NeonGeckoCom"
-  ],
-  "skillname": "skill-update",
-  "authorname": "NeonGeckoCom",
-  "foldername": null
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "neon-utils>=0.5.7,<2.0.0"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "logo.svg",
+    "category": "Information",
+    "categories": [
+        "Information"
+    ],
+    "tags": [
+        "NeonGecko Original",
+        "NeonAI",
+        "Update"
+    ],
+    "credits": [
+        "NeonDaniel",
+        "NeonGeckoCom"
+    ],
+    "skillname": "skill-update",
+    "authorname": "NeonGeckoCom",
+    "foldername": null
 }
