@@ -151,7 +151,7 @@ def update_neon_mark_2_html():
 
     all_skills.sort(key=lambda s: s[0].split('>')[1].split('\\<')[0])
     all_skills.insert(0, ["Skill", "Summary", "Examples"])
-    mk2_skills_path = join(dirname(dirname(__file__)), 'html',
+    mk2_skills_path = join(dirname(__file__), 'html',
                            'mark_2_default_skills.html')
 
     with open(mk2_skills_path, 'w+') as f:
