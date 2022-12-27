@@ -41,8 +41,6 @@
 
 [User Settings](https://github.com/NeonGeckoCom/skill-user_settings) - Have Neon help you change and control your user settings.
 
-[Wikipedia](https://github.com/NeonGeckoCom/skill-wikipedia) - Wikipedia ![](./logo.png)
-
 # Neon Enhanced Skills
 [Audio Record](https://github.com/NeonGeckoCom/skill-audio_record) - Record and playback short audio clips with Neon.
 
@@ -67,6 +65,8 @@
 [Stock](https://github.com/NeonGeckoCom/skill-stock) - This skill provides stock values.
 
 [Weather](https://github.com/NeonGeckoCom/skill-weather) - Get current weather and forecast info.
+
+[Wikipedia](https://github.com/NeonGeckoCom/skill-wikipedia) - Wikipedia ![](./logo.png)
 
 [Wolfram Alpha](https://github.com/NeonGeckoCom/skill-fallback_wolfram_alpha) - General knowledge fallback handler based on [Wolfram Alpha](https://wolframalpha.com) services
 
