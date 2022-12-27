@@ -43,7 +43,7 @@
 
 [Wikipedia](https://github.com/NeonGeckoCom/skill-wikipedia) - Wikipedia ![](./logo.png)
 
-# Neon Modified Skills
+# Neon Enhanced Skills
 [Audio Record](https://github.com/NeonGeckoCom/skill-audio_record) - Record and playback short audio clips with Neon.
 
 [Date and Time](https://github.com/NeonGeckoCom/skill-date_time) - Get the time, date, day of the week
@@ -87,3 +87,5 @@
 
 [Symptom Checker](https://github.com/NeonGeckoCom/skill-symptom_checker) - A skill to gather reported symptoms of users.
 
+# In-Progress Skills
+# Retired Skills
