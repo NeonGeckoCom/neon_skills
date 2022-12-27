@@ -48,11 +48,19 @@ def update_readme():
     original_skills = list()
     modified_skills = list()
     premium_skills = list()
+    retired_skills = list()
+    wip_skills = list()
     for skill in listdir(skill_meta_path):
         skill_spec = read_skill_json(join(skill_meta_path, skill))
-        if "Neon Premium" in skill_spec["tags"]:
+        if "Retired" in skill_spec["tags"]:
+            retired_skills.append(skill_spec)
+        elif any((x in skill_spec['tags']
+                  for x in ('WIP', 'In-Progress', 'tag'))):
+            wip_skills.append(skill_spec)
+        elif "Neon Premium" in skill_spec["tags"]:
             premium_skills.append(skill_spec)
-        elif "Mycroft AI" in skill_spec["credits"]:
+        elif "Mycroft AI" in skill_spec["credits"] or \
+             "Neon Enhanced" in skill_spec["tags"]:
             modified_skills.append(skill_spec)
         elif "NeonGecko Original" in skill_spec["tags"]:
             original_skills.append(skill_spec)
@@ -62,6 +70,8 @@ def update_readme():
     original_skills.sort(key=lambda s: s['title'])
     modified_skills.sort(key=lambda s: s['title'])
     premium_skills.sort(key=lambda s: s['title'])
+    retired_skills.sort(key=lambda s: s['title'])
+    wip_skills.sort(key=lambda s: s['title'])
 
     readme_file = join(dirname(dirname(__file__)), 'README.md')
     with open(readme_file, 'w') as f:
@@ -69,12 +79,20 @@ def update_readme():
         for skill in original_skills:
             f.write(f'[{skill["title"]}]({skill["url"]}) - '
                     f'{skill["summary"]}\n\n')
-        f.write('# Neon Modified Skills\n')
+        f.write('# Neon Enhanced Skills\n')
         for skill in modified_skills:
             f.write(f'[{skill["title"]}]({skill["url"]}) - '
                     f'{skill["summary"]}\n\n')
         f.write('# Neon Premium Skills\n')
         for skill in premium_skills:
+            f.write(f'[{skill["title"]}]({skill["url"]}) - '
+                    f'{skill["summary"]}\n\n')
+        f.write('# In-Progress Skills\n')
+        for skill in wip_skills:
+            f.write(f'[{skill["title"]}]({skill["url"]}) - '
+                    f'{skill["summary"]}\n\n')
+        f.write('# Retired Skills\n')
+        for skill in retired_skills:
             f.write(f'[{skill["title"]}]({skill["url"]}) - '
                     f'{skill["summary"]}\n\n')
 
