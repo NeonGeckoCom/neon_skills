@@ -48,13 +48,9 @@
 
 [IP Address](https://github.com/NeonGeckoCom/skill-ip_address) - Retrieve the [IP address](https://en.wikipedia.org/wiki/IP_address), also known as the "network address" of the Device and respond verbally to the user, and if the Device supports it, display the IP address.
 
-[Latest news](https://github.com/NeonGeckoCom/skill-news) - Listen to the latest news report from your favorite broadcast
-
 [Personal](https://github.com/NeonGeckoCom/skill-personal) - Skill used for introduction between the user and Neon.
 
 [Playback Control](https://github.com/NeonGeckoCom/skill-playback_control) - Common playback control system
-
-[Query](https://github.com/NeonGeckoCom/skill-query) - Negotiates the best answer to a question
 
 [Speak](https://github.com/NeonGeckoCom/skill-speak) - Have Neon repeat whatever you want
 
@@ -69,10 +65,6 @@
 [Wolfram Alpha](https://github.com/NeonGeckoCom/skill-fallback_wolfram_alpha) - General knowledge fallback handler based on [Wolfram Alpha](https://wolframalpha.com) services
 
 # Neon Premium Skills
-[Conversations by Example](https://github.com/NeonGeckoCom/skill-conversation_by_example.git) - Coming Soon
-
-[Gesture Detection](https://github.com/NeonGeckoCom/skill-gesture_detection.git) - Recognizes claps and other gestures and execute some action.
-
 [I Like Brands](https://github.com/NeonGeckoCom/skill-i_like_brands.git) - Skill that lets Neon catch user’s preferences from the list of available brands.
 
 [I Like Coupons](https://github.com/NeonGeckoCom/skill-i_like_coupons.git) - Request the list of coupons, relevant to your current interests.
@@ -81,11 +73,19 @@
 
 [Running Out](https://github.com/NeonGeckoCom/skill-running_out.git) - Notify a caregiver when a user is running out of something
 
-[Script Generator](https://github.com/NeonGeckoCom/skill-generate_script.git) - A skill that generates scripts, which can be used by custom-conversations.neon after compiling
-
 [Symptom Checker](https://github.com/NeonGeckoCom/skill-symptom_checker) - A skill to gather reported symptoms of users.
 
 # In-Progress Skills
+[Conversations by Example](https://github.com/NeonGeckoCom/skill-conversation_by_example.git) - Coming Soon
+
+[Gesture Detection](https://github.com/NeonGeckoCom/skill-gesture_detection.git) - Recognizes claps and other gestures and execute some action.
+
+[Script Generator](https://github.com/NeonGeckoCom/skill-generate_script.git) - A skill that generates scripts, which can be used by custom-conversations.neon after compiling
+
 # Retired Skills
 [AVmusic](https://github.com/NeonGeckoCom/skill-avmusic) - Play a song or video requested by the user.
+
+[Latest news](https://github.com/NeonGeckoCom/skill-news) - Listen to the latest news report from your favorite broadcast
+
+[Query](https://github.com/NeonGeckoCom/skill-query) - Negotiates the best answer to a question
 
