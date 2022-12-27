@@ -35,7 +35,8 @@
   "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/play.svg",
   "category": "Music",
   "categories": [
-    "Music"
+    "Music",
+    "Retired"
   ],
   "tags": [
     "music",
