@@ -1,9 +1,9 @@
 {
     "title": "Speak",
     "url": "https://github.com/NeonGeckoCom/skill-speak",
-    "summary": "Make Mycroft repeat whatever you want",
-    "short_description": "Make Mycroft repeat whatever you want",
-    "description": "Turn Mycroft into a parrot.  Speak a phrase and listen to it repeated in Mycroft's selected voice.",
+    "summary": "Have Neon repeat whatever you want",
+    "short_description": "Have Neon repeat whatever you want",
+    "description": "Turn Neon into a parrot.  Speak a phrase and listen to it repeated in Mycroft's selected voice.",
     "examples": [
         "Say Goodnight, Gracie.",
         "Speak I can say anything you'd like!"
