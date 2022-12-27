@@ -1,9 +1,9 @@
 {
     "title": "Spelling",
     "url": "https://github.com/NeonGeckoCom/skill-spelling",
-    "summary": "Let Mycroft help you spell words",
-    "short_description": "Let Mycroft help you spell words",
-    "description": "Mycroft can spell any word which is understood by speech-to-text.  The proper spelling is pronounced on all platforms, as well as displayed by devices such as the Mark 1.",
+    "summary": "Let Neon help you spell words",
+    "short_description": "Let Neon help you spell words",
+    "description": "Neon can spell any word which is understood by speech-to-text.",
     "examples": [
         "How do you spell aardvark?",
         "Spell succotash.",
