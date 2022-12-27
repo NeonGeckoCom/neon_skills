@@ -1,6 +1,4 @@
 # Neon Original Skills
-[AVmusic](https://github.com/NeonGeckoCom/skill-avmusic) - Play a song or video requested by the user.
-
 [About](https://github.com/NeonGeckoCom/skill-about) - Skill used to provide information about Neon
 
 [Alerts](https://github.com/NeonGeckoCom/skill-alerts) - A skill to schedule alarms, timers, and reminders
@@ -89,3 +87,5 @@
 
 # In-Progress Skills
 # Retired Skills
+[AVmusic](https://github.com/NeonGeckoCom/skill-avmusic) - Play a song or video requested by the user.
+
