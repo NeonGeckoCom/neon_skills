@@ -59,7 +59,8 @@ def update_readme():
             wip_skills.append(skill_spec)
         elif "Neon Premium" in skill_spec["tags"]:
             premium_skills.append(skill_spec)
-        elif "Mycroft AI" in skill_spec["credits"]:
+        elif "Mycroft AI" in skill_spec["credits"] or \
+             "Neon Enhanced" in skill_spec["tags"]:
             modified_skills.append(skill_spec)
         elif "NeonGecko Original" in skill_spec["tags"]:
             original_skills.append(skill_spec)
