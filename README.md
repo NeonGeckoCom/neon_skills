@@ -60,9 +60,9 @@
 
 [Query](https://github.com/NeonGeckoCom/skill-query) - Negotiates the best answer to a question
 
-[Speak](https://github.com/NeonGeckoCom/skill-speak) - Make Mycroft repeat whatever you want
+[Speak](https://github.com/NeonGeckoCom/skill-speak) - Have Neon repeat whatever you want
 
-[Spelling](https://github.com/NeonGeckoCom/skill-spelling) - Let Mycroft help you spell words
+[Spelling](https://github.com/NeonGeckoCom/skill-spelling) - Let Neon help you spell words
 
 [Stock](https://github.com/NeonGeckoCom/skill-stock) - This skill provides stock values.
 
