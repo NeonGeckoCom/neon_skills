@@ -23,6 +23,8 @@
 
 [Launcher](https://github.com/NeonGeckoCom/skill-launcher) - Skill used to launch programs and navigate websites
 
+[Local Music](https://github.com/NeonGeckoCom/skill-local_music) - [OCP](https://github.com/OpenVoiceOS/ovos-ocp-audio-plugin) skill to play media from local storage.
+
 [Messaging](https://github.com/NeonGeckoCom/skill-messaging) - Handles mobile requests for phone calls, SMS, and emails.
 
 [Neon Updates](https://github.com/NeonGeckoCom/skill-update) - Skill to update Neon Core
