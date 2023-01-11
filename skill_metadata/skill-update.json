@@ -1,12 +1,14 @@
 {
     "title": "Neon Updates",
     "url": "https://github.com/NeonGeckoCom/skill-update",
-    "summary": "Skill to update Neon Core",
-    "short_description": "Skill to update Neon Core",
-    "description": "The update skill will check for new neon-core releases on PyPI. If permitted in settings, the skill will check for updates at startup and notify the user that updates are available for installation.",
+    "summary": "Skill to update Python packages, configuration, and to create new boot media.",
+    "short_description": "Skill to update Python packages, configuration, and to create new boot media.",
+    "description": "The update skill provides intents for the user to manage device updates, including core packages, skills, configuration, and creation of new boot media. ### Software Updates This skill can be used to check for software updates and to start the update process on supported devices. For most devices, updates will take 10-30 minutes, and you will not be able to use your device while it is updating. ### Configuration Updates For supported distributions, this skill allows getting updated default configuration. This can be useful for resetting skills configuration to the latest default, or for troubleshooting after making manual configuration changes. ### Create New Media For supported distributions, this skill is able to create a new boot drive from a clean image, similar to what would be distributed with a new device. This involves downloading a new image and then writing it to an available storage device. This is a multi-step process. 1. An operating system image is downloaded. Depending on internet connection    speeds, this generally takes about 15-20 minutes. 2. After user confirmation, this image is written to a non-boot drive connected    to the device. **All existing on the new boot drive is lost**. This generally    takes about 30-45 minutes. 3. After this is complete, the device is shut down so the user may unplug the old    drive and boot the new one.",
     "examples": [
         "check for updates.",
-        "do you have any updates?"
+        "do you have any updates?",
+        "update my default configuration.",
+        "create a new boot drive."
     ],
     "desktopFile": false,
     "warning": "",
