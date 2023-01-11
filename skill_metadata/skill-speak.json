@@ -6,7 +6,7 @@
     "description": "Turn Neon into a parrot.  Speak a phrase and listen to it repeated in Mycroft's selected voice.",
     "examples": [
         "Say Goodnight, Gracie.",
-        "Speak I can say anything you'd like!"
+        "Repeat I can say anything you'd like!"
     ],
     "desktopFile": false,
     "warning": "",
