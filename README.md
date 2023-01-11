@@ -27,7 +27,7 @@
 
 [Messaging](https://github.com/NeonGeckoCom/skill-messaging) - Handles mobile requests for phone calls, SMS, and emails.
 
-[Neon Updates](https://github.com/NeonGeckoCom/skill-update) - Skill to update Neon Core
+[Neon Updates](https://github.com/NeonGeckoCom/skill-update) - Skill to update Python packages, configuration, and to create new boot media.
 
 [Recipes](https://github.com/NeonGeckoCom/skill-recipes) - Get help making a meal.
 
