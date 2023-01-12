@@ -5,7 +5,7 @@
     "short_description": "This skill provides stock values.",
     "description": "Use this skill to lookup stock prices. Use of this skill requires use of third-party APIs. If you do not have access to Neon API servers, you may access the Alpha Vantage API directly by providing a key in `~/alpha_vantage.txt`. You can generate an Alpha Vantage key [here](https://www.alphavantage.co/support/#api-key)",
     "examples": [
-        "What is Amazon trading at?",
+        "What is the share price for Amazon?",
         "What is the stock price for Microsoft?"
     ],
     "desktopFile": false,
