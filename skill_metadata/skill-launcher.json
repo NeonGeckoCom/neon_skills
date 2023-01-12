@@ -1,14 +1,12 @@
 {
     "title": "Launcher",
     "url": "https://github.com/NeonGeckoCom/skill-launcher",
-    "summary": "Skill used to launch programs and navigate websites",
-    "short_description": "Skill used to launch programs and navigate websites",
-    "description": "This example skill is used to launch desktop applications and browse web pages.",
+    "summary": "Browse the web by voice",
+    "short_description": "Browse the web by voice",
+    "description": "This skill is used to browse the web.",
     "examples": [
         "browse to neon.ai",
-        "navigate to google.com",
-        "open notepad.",
-        "launch terminal."
+        "navigate to google.com"
     ],
     "desktopFile": false,
     "warning": "",
