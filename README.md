@@ -21,7 +21,7 @@
 
 [Instructions](https://github.com/NeonGeckoCom/skill-instructions) - Neon skill for instructions reading and implementation
 
-[Launcher](https://github.com/NeonGeckoCom/skill-launcher) - Skill used to launch programs and navigate websites
+[Launcher](https://github.com/NeonGeckoCom/skill-launcher) - Browse the web by voice
 
 [Local Music](https://github.com/NeonGeckoCom/skill-local_music) - [OCP](https://github.com/OpenVoiceOS/ovos-ocp-audio-plugin) skill to play media from local storage.
 
