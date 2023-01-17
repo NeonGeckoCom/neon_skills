@@ -1,52 +1,52 @@
 {
-  "title": "Stock",
-  "url": "https://github.com/NeonGeckoCom/skill-stock",
-  "summary": "This skill provides stock values.",
-  "short_description": "This skill provides stock values.",
-  "description": "Use this skill to lookup stock prices. Use of this skill requires use of third-party APIs. If you do not have access to Neon API servers, you may access the Alpha Vantage API directly by providing a key in `~/alpha_vantage.txt`. You can generate an Alpha Vantage key [here](https://www.alphavantage.co/support/#api-key)",
-  "examples": [
-    "what is * trading at",
-    "what is the stock price for *"
-  ],
-  "desktopFile": false,
-  "warning": "",
-  "systemDeps": false,
-  "requirements": {
-    "python": [
-      "neon-utils>=0.7,<2.0.0",
-      "neon_api_proxy~=0.3"
+    "title": "Stock",
+    "url": "https://github.com/NeonGeckoCom/skill-stock",
+    "summary": "This skill provides stock values.",
+    "short_description": "This skill provides stock values.",
+    "description": "Use this skill to lookup stock prices. Use of this skill requires use of third-party APIs. If you do not have access to Neon API servers, you may access the Alpha Vantage API directly by providing a key in `~/alpha_vantage.txt`. You can generate an Alpha Vantage key [here](https://www.alphavantage.co/support/#api-key)",
+    "examples": [
+        "What is the share price for Amazon?",
+        "What is the stock price for Microsoft?"
     ],
-    "system": {},
-    "skill": []
-  },
-  "incompatible_skills": [],
-  "platforms": [
-    "i386",
-    "x86_64",
-    "ia64",
-    "arm64",
-    "arm"
-  ],
-  "branch": "master",
-  "license": "BSD-3-Clause",
-  "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/money-check-alt.svg",
-  "category": "Information",
-  "categories": [
-    "Information",
-    "Daily"
-  ],
-  "tags": [
-    "NeonGecko",
-    "NeonAI",
-    "stock",
-    "finance"
-  ],
-  "credits": [
-    "Mycroft AI",
-    "NeonDaniel",
-    "reginaneon"
-  ],
-  "skillname": "skill-stock",
-  "authorname": "NeonGeckoCom",
-  "foldername": null
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "neon-utils~=1.0",
+            "neon_api_proxy~=0.3"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/money-check-alt.svg",
+    "category": "Information",
+    "categories": [
+        "Information",
+        "Daily"
+    ],
+    "tags": [
+        "NeonGecko",
+        "NeonAI",
+        "stock",
+        "finance"
+    ],
+    "credits": [
+        "Mycroft AI",
+        "NeonDaniel",
+        "reginaneon"
+    ],
+    "skillname": "skill-stock",
+    "authorname": "NeonGeckoCom",
+    "foldername": null
 }
