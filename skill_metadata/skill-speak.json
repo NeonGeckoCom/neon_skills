@@ -1,50 +1,49 @@
 {
-  "title": "Speak",
-  "url": "https://github.com/NeonGeckoCom/skill-speak",
-  "summary": "Make Mycroft repeat whatever you want",
-  "short_description": "Make Mycroft repeat whatever you want",
-  "description": "Turn Mycroft into a parrot.  Speak a phrase and listen to it repeated in Mycroft's selected voice.",
-  "examples": [
-    "say goodnight, gracie",
-    "repeat once upon a midnight dreary, while i pondered, weak and weary, over many a quaint and curious volume of forgotten lore",
-    "speak i can say anything you'd like!"
-  ],
-  "desktopFile": false,
-  "warning": "",
-  "systemDeps": false,
-  "requirements": {
-    "python": [
-      "neon-utils>0.6.0,<2.0.0"
+    "title": "Speak",
+    "url": "https://github.com/NeonGeckoCom/skill-speak",
+    "summary": "Have Neon repeat whatever you want",
+    "short_description": "Have Neon repeat whatever you want",
+    "description": "Turn Neon into a parrot.  Speak a phrase and listen to it repeated in Mycroft's selected voice.",
+    "examples": [
+        "Say Goodnight, Gracie.",
+        "Repeat I can say anything you'd like!"
     ],
-    "system": {},
-    "skill": []
-  },
-  "incompatible_skills": [],
-  "platforms": [
-    "i386",
-    "x86_64",
-    "ia64",
-    "arm64",
-    "arm"
-  ],
-  "branch": "master",
-  "license": "BSD-3-Clause",
-  "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/bullhorn.svg",
-  "category": "Entertainment",
-  "categories": [
-    "Entertainment"
-  ],
-  "tags": [
-    "speak",
-    "say",
-    "repeat",
-    "system"
-  ],
-  "credits": [
-    "Mycroft AI",
-    "NeonDaniel"
-  ],
-  "skillname": "skill-speak",
-  "authorname": "NeonGeckoCom",
-  "foldername": null
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "neon-utils~=1.0"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/bullhorn.svg",
+    "category": "Entertainment",
+    "categories": [
+        "Entertainment"
+    ],
+    "tags": [
+        "speak",
+        "say",
+        "repeat",
+        "system"
+    ],
+    "credits": [
+        "Mycroft AI",
+        "NeonDaniel"
+    ],
+    "skillname": "skill-speak",
+    "authorname": "NeonGeckoCom",
+    "foldername": null
 }
