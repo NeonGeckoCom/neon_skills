@@ -1,0 +1,53 @@
+{
+    "title": "Local Music",
+    "url": "https://github.com/NeonGeckoCom/skill-local_music",
+    "summary": "[OCP](https://github.com/OpenVoiceOS/ovos-ocp-audio-plugin) skill to play media from local storage.",
+    "short_description": "[OCP](https://github.com/OpenVoiceOS/ovos-ocp-audio-plugin) skill to play media from local storage.",
+    "description": "Search and play music saved to the local file system. By default, the contents of `/media` will be used, but this can be changed in skill settings. Tagged audio files will have image art and track info parsed from metadata, but you may also organize files in the following format to parse untagged files (i.e. `.wav` files). ``` Artist 1 | |- Album |  | |  |- 01 Song Title.wav |  |- Folder.jpg Artist 2 | |- Album 2 ... ```",
+    "examples": [
+        "play local music",
+        "play music by Daft Punk",
+        "play the black album",
+        "play stressed out by twenty one pilots"
+    ],
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "ovos-plugin-common-play~=0.0",
+            "ovos-workshop~=0.0.7"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "https://freemusicarchive.org/legacy/fma-smaller.jpg",
+    "category": "Music",
+    "categories": [
+        "Music"
+    ],
+    "tags": [
+        "music",
+        "NeonAI",
+        "NeonGecko Original",
+        "OCP",
+        "Common Play"
+    ],
+    "credits": [
+        "NeonGeckoCom",
+        "NeonDaniel"
+    ],
+    "skillname": "skill-local_music",
+    "authorname": "NeonGeckoCom",
+    "foldername": null
+}
