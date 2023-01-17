@@ -1,48 +1,54 @@
 {
-  "title": "Personal",
-  "url": "https://github.com/NeonGeckoCom/skill-personal",
-  "summary": "Skill used for introduction between the user and Neon.",
-  "short_description": "Skill used for introduction between the user and Neon.",
-  "description": "Personal skill provides responses to questions about who Neon is.",
-  "examples": [
-    "who are you",
-    "who made you",
-    "when were you born"
-  ],
-  "desktopFile": false,
-  "warning": "",
-  "systemDeps": false,
-  "requirements": {
-    "python": [
-      "neon-utils>=0.15,<2.0.0"
+    "title": "Personal",
+    "url": "https://github.com/NeonGeckoCom/skill-personal",
+    "summary": "Skill used for introduction between the user and Neon.",
+    "short_description": "Skill used for introduction between the user and Neon.",
+    "description": "Personal skill provides responses to questions about who Neon is.",
+    "examples": [
+        "Who are you?",
+        "Who made you?",
+        "When were you born?",
+        "What is your email address?",
+        "Where were you born?",
+        "What are you?",
+        "How are you?",
+        "What is your name?",
+        "Where are you?"
     ],
-    "system": {},
-    "skill": []
-  },
-  "incompatible_skills": [],
-  "platforms": [
-    "i386",
-    "x86_64",
-    "ia64",
-    "arm64",
-    "arm"
-  ],
-  "branch": "master",
-  "license": "BSD-3-Clause",
-  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
-  "category": "Entertainment",
-  "categories": [
-    "Entertainment",
-    "Daily",
-    "Information"
-  ],
-  "tags": [],
-  "credits": [
-    "Mycroft AI",
-    "NeonDaniel",
-    "reginaneon"
-  ],
-  "skillname": "skill-personal",
-  "authorname": "NeonGeckoCom",
-  "foldername": null
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "neon-utils~=1.0"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+    "category": "Entertainment",
+    "categories": [
+        "Entertainment",
+        "Daily",
+        "Information"
+    ],
+    "tags": [],
+    "credits": [
+        "Mycroft AI",
+        "NeonDaniel",
+        "reginaneon"
+    ],
+    "skillname": "skill-personal",
+    "authorname": "NeonGeckoCom",
+    "foldername": null
 }
