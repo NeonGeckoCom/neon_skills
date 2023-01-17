@@ -1,45 +1,45 @@
 {
-  "title": "Fallback Unknown",
-  "url": "https://github.com/NeonGeckoCom/skill-fallback_unknown",
-  "summary": "Unknown request fallback handler. Executes if every other step failed to answer the question.",
-  "short_description": "Unknown request fallback handler. Executes if every other step failed to answer the question.",
-  "description": "This fallback is how Neon would let you know if he can't help with what you said and answer your question. This skill will execute as a last resort, and only if you are currently in the wakewords-required mode. If you are skipping wakewords, the failed utterances will be ignored. Neon will try to match the request to Adapt skills, Padatious skills, and all of Fallbacks before finally l reaching it here.",
-  "examples": [],
-  "desktopFile": false,
-  "warning": "",
-  "systemDeps": false,
-  "requirements": {
-    "python": [
-      "neon-utils>=0.6.0,<2.0.0"
+    "title": "Fallback Unknown",
+    "url": "https://github.com/NeonGeckoCom/skill-fallback_unknown",
+    "summary": "Unknown request fallback handler. Executes if every other step failed to answer the question.",
+    "short_description": "Unknown request fallback handler. Executes if every other step failed to answer the question.",
+    "description": "This fallback is how Neon would let you know if he can't help with what you said and answer your question. This skill will execute as a last resort, and only if you are currently in the wakewords-required mode. If you are skipping wakewords, the failed utterances will be ignored. Neon will try to match the request to Adapt skills, Padatious skills, and all of Fallbacks before finally l reaching it here.",
+    "examples": [],
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "neon-utils>=1.1.3a13"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
     ],
-    "system": {},
-    "skill": []
-  },
-  "incompatible_skills": [],
-  "platforms": [
-    "i386",
-    "x86_64",
-    "ia64",
-    "arm64",
-    "arm"
-  ],
-  "branch": "master",
-  "license": "BSD-3-Clause",
-  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
-  "category": "",
-  "categories": [],
-  "tags": [
-    "fallback",
-    "unknown",
-    "system"
-  ],
-  "credits": [
-    "Mycroft AI",
-    "NeonDaniel",
-    "reginaneon"
-  ],
-  "skillname": "skill-fallback_unknown",
-  "authorname": "NeonGeckoCom",
-  "foldername": null,
-  "troubleshooting": "Check your signal handling in `/mycroft/ipc` if you are receiving response from this skill while skipping wake words."
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+    "category": "",
+    "categories": [],
+    "tags": [
+        "fallback",
+        "unknown",
+        "system"
+    ],
+    "credits": [
+        "Mycroft AI",
+        "NeonDaniel",
+        "reginaneon"
+    ],
+    "skillname": "skill-fallback_unknown",
+    "authorname": "NeonGeckoCom",
+    "foldername": null,
+    "troubleshooting": "Check your signal handling in `/mycroft/ipc` if you are receiving response from this skill while skipping wake words."
 }
