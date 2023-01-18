@@ -32,7 +32,7 @@
         "python": [
             "combo_lock~=0.2",
             "json_database~=0.5",
-            "neon-utils[network]>=1.1.3a1"
+            "neon-utils~=1.2"
         ],
         "system": {},
         "skill": []
