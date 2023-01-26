@@ -144,6 +144,13 @@ def update_neon_skills_html():
         f.write(_format_list_to_html(all_skills))
 
 
+def _format_skill_name_csv(skill: dict) -> str:
+    """
+    Parse skill name from data into a hyperlink string
+    """
+    return f'<a href="{skill["url"]}">{skill["title"]}<a>'
+
+
 def update_neon_skills_csv():
     """
     Update `neon_skills.csv` with current data from all skills
@@ -154,7 +161,7 @@ def update_neon_skills_csv():
     for skill in listdir(skill_meta_path):
         skill = read_skill_json(join(skill_meta_path, skill))
         table_data = [
-            _format_skill_name_html(skill),
+            _format_skill_name_csv(skill),
             skill["short_description"],
             ",".join(skill.get('examples') or [])
         ]
