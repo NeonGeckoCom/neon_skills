@@ -162,7 +162,7 @@ def update_neon_skills_csv():
         all_skills.append(table_data)
     data = tabulate(all_skills, tablefmt='tsv')
     csv_path = join(dirname(dirname(__file__)), 'csv',
-                    'neon_skills.csv')
+                    'neon_skills.tsv')
 
     with open(csv_path, 'w+') as f:
         f.write(data)
