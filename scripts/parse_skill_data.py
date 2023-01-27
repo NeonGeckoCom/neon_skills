@@ -157,7 +157,8 @@ def update_neon_skills_csv():
             skill["title"],
             skill["url"],
             skill["short_description"].replace('"', "'"),
-            ",".join(skill.get('examples') or []).replace('"', "'")
+            ",".join(skill.get('examples') or []).replace('"', "'") or
+            "<No Examples Provided>"
         ]
         all_skills.append(table_data)
     data = tabulate(all_skills, tablefmt='tsv')
