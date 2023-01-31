@@ -15,6 +15,7 @@
     "systemDeps": false,
     "requirements": {
         "python": [
+            "ovos-ocp-files-plugin~=0.13",
             "ovos-plugin-common-play~=0.0",
             "ovos-workshop~=0.0.7"
         ],
