@@ -31,8 +31,11 @@
     "branch": "master",
     "license": "BSD-3-Clause",
     "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
-    "category": "",
-    "categories": [],
+    "category": "Daily",
+    "categories": [
+        "Daily",
+        "Information"
+    ],
     "tags": [
         "NeonGecko Original",
         "NeonAI"
