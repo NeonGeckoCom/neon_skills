@@ -14,6 +14,7 @@
     "requirements": {
         "python": [
             "neon-utils~=1.0",
+            "ovos_utils>=0.0.28a7",
             "speedtest-cli~=2.1"
         ],
         "system": {},
