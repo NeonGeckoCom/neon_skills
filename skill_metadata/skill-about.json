@@ -1,9 +1,9 @@
 {
     "title": "About",
     "url": "https://github.com/NeonGeckoCom/skill-about",
-    "summary": "Skill used to provide information about Neon",
-    "short_description": "Skill used to provide information about Neon",
-    "description": "This skill provides information about Neon. You can ask about licensing and your Neon installation.",
+    "summary": "Skill used to provide information about this assistant.",
+    "short_description": "Skill used to provide information about this assistant.",
+    "description": "This skill provides information about Neon. You can ask about licensing and your Neon installation. This skill also provides formatted examples for installed skills.",
     "examples": [
         "Tell me my license.",
         "Tell me my skills.",
