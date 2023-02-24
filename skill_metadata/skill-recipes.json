@@ -5,8 +5,8 @@
     "short_description": "Get help making a meal.",
     "description": "Uses themealdb.com to find recipes",
     "examples": [
-        "what can i cook with chicken?",
-        "how do i cook lasagna?"
+        "what can I cook with chicken?",
+        "how do I cook lasagna?"
     ],
     "desktopFile": false,
     "warning": "",
