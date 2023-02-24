@@ -5,10 +5,10 @@
     "short_description": "Handles mobile requests for phone calls, SMS, and emails.",
     "description": "This handles SMS, phone call, and email requests.",
     "examples": [
-        "call daniel",
+        "call Daniel",
         "call 555-555-5555",
-        "send a text message to daniel that says hello",
-        "send an email to demo@neongecko.com with the subject test email"
+        "Send a text message to Daniel that says hello",
+        "Send an email to demo@neongecko.com with the subject Test Email"
     ],
     "desktopFile": false,
     "warning": "",
