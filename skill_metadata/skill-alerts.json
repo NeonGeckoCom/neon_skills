@@ -32,7 +32,8 @@
         "python": [
             "combo_lock~=0.2",
             "json_database~=0.5",
-            "neon-utils~=1.2"
+            "neon-utils~=1.2",
+            "ovos-utils~=0.0.28"
         ],
         "system": {},
         "skill": []
