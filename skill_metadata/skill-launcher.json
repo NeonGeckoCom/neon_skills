@@ -5,15 +5,16 @@
     "short_description": "Browse the web by voice",
     "description": "This skill is used to browse the web.",
     "examples": [
-        "browse to neon.ai",
-        "navigate to google.com"
+        "Browse to neon.ai",
+        "Navigate to google.com"
     ],
     "desktopFile": false,
     "warning": "",
     "systemDeps": false,
     "requirements": {
         "python": [
-            "neon-utils[network]~=1.0"
+            "neon-utils[network]~=1.0",
+            "ovos-utils~=0.0.28"
         ],
         "system": {},
         "skill": []
