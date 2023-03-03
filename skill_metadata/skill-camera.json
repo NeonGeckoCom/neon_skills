@@ -1,48 +1,45 @@
 {
-  "title": "Camera",
-  "url": "https://github.com/NeonGeckoCom/skill-camera",
-  "summary": "Take pictures and videos.",
-  "short_description": "Take pictures and videos.",
-  "description": "The skill allows you to capture pictures and videos and saves them to your local device.",
-  "examples": [
-    "take a picture",
-    "take a video",
-    "record for 30 seconds",
-    "show me my last picture"
-  ],
-  "desktopFile": false,
-  "warning": "",
-  "systemDeps": false,
-  "requirements": {
-    "python": [
-      "neon-utils>=0.5.7,<2.0.0"
+    "title": "Camera",
+    "url": "https://github.com/NeonGeckoCom/skill-camera",
+    "summary": "Take pictures and videos.",
+    "short_description": "Take pictures and videos.",
+    "description": "The skill allows you to capture pictures and videos and saves them to your local device. Note: Images and videos can be found in ~/Pictures/Neon and ~/Videos/Neon respectively. Videos aren't currently saved on MyCroft Mark II hardware.",
+    "examples": [
+        "Take a picture."
     ],
-    "system": {},
-    "skill": []
-  },
-  "incompatible_skills": [],
-  "platforms": [
-    "i386",
-    "x86_64",
-    "ia64",
-    "arm64",
-    "arm"
-  ],
-  "branch": "master",
-  "license": "BSD-3-Clause",
-  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
-  "category": "",
-  "categories": [],
-  "tags": [
-    "NeonGecko Original",
-    "NeonAI"
-  ],
-  "credits": [
-    "NeonGeckoCom",
-    "reginaneon"
-  ],
-  "skillname": "skill-camera",
-  "authorname": "NeonGeckoCom",
-  "foldername": null,
-  "troubleshooting": "This skill requires a camera connected and configured to work in Linux. [fswebcam](http://manpages.ubuntu.com/manpages/bionic/man1/fswebcam.1.html) [streamer](http://manpages.ubuntu.com/manpages/xenial/man1/streamer.1.html) [MPV](https://mpv.io/) The above requirements should be installed automatically, but can be installed manually:     ```bash     sudo apt install fswebcam streamer mpv     ``` Ensure your webcam is connected and working in Ubuntu, you can check functionality in `Cheese`.     ```bash     sudo apt install cheese     ```"
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "neon-utils~=1.0"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+    "category": "",
+    "categories": [],
+    "tags": [
+        "NeonGecko Original",
+        "NeonAI"
+    ],
+    "credits": [
+        "NeonGeckoCom",
+        "reginaneon",
+        "NeonDaniel"
+    ],
+    "skillname": "skill-camera",
+    "authorname": "NeonGeckoCom",
+    "foldername": null
 }
