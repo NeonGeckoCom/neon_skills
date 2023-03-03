@@ -1,0 +1,54 @@
+{
+    "title": "Instructions",
+    "url": "https://github.com/NeonGeckoCom/skill-instructions",
+    "summary": "Neon skill for instructions reading and implementation",
+    "short_description": "Neon skill for instructions reading and implementation",
+    "description": "Reads structured instructions and guides a user through them",
+    "examples": [
+        "start instructions"
+    ],
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "neon_utils~=1.0",
+            "numpy",
+            "ovos-utils~=0.0.28",
+            "wavfile",
+            "word2number"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+    "category": "Information",
+    "categories": [
+        "Information",
+        "Daily"
+    ],
+    "tags": [
+        "Neongecko",
+        "NeonAI",
+        "NeonGecko Original",
+        "Instructions",
+        "Custom"
+    ],
+    "credits": [
+        "NeonGeckoCom",
+        "NeonMariia"
+    ],
+    "skillname": "skill-instructions",
+    "authorname": "NeonGeckoCom",
+    "foldername": null
+}
