@@ -1,49 +1,50 @@
 {
-  "title": "Spelling",
-  "url": "https://github.com/NeonGeckoCom/skill-spelling",
-  "summary": "Let Mycroft help you spell words",
-  "short_description": "Let Mycroft help you spell words",
-  "description": "Mycroft can spell any word which is understood by speech-to-text.  The proper spelling is pronounced on all platforms, as well as displayed by devices such as the Mark 1.",
-  "examples": [
-    "how do you spell aardvark?",
-    "spell succotash",
-    "how do you spell bureacracy?",
-    "spell omnipotence"
-  ],
-  "desktopFile": false,
-  "warning": "",
-  "systemDeps": false,
-  "requirements": {
-    "python": [
-      "neon-utils>=0.6,<2.0.0"
+    "title": "Spelling",
+    "url": "https://github.com/NeonGeckoCom/skill-spelling",
+    "summary": "Let Neon help you spell words",
+    "short_description": "Let Neon help you spell words",
+    "description": "Neon can spell any word which is understood by speech-to-text.",
+    "examples": [
+        "How do you spell aardvark?",
+        "Spell succotash.",
+        "How do you spell bureacracy?",
+        "Spell omnipotence."
     ],
-    "system": {},
-    "skill": []
-  },
-  "incompatible_skills": [],
-  "platforms": [
-    "i386",
-    "x86_64",
-    "ia64",
-    "arm64",
-    "arm"
-  ],
-  "branch": "master",
-  "license": "BSD-3-Clause",
-  "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/book-reader.svg",
-  "category": "Information",
-  "categories": [
-    "Information"
-  ],
-  "tags": [
-    "spell",
-    "spelling"
-  ],
-  "credits": [
-    "Mycroft AI",
-    "NeonDaniel"
-  ],
-  "skillname": "skill-spelling",
-  "authorname": "NeonGeckoCom",
-  "foldername": null
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "neon-utils~=1.0",
+            "ovos_utils~=0.0.28"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/book-reader.svg",
+    "category": "Information",
+    "categories": [
+        "Information"
+    ],
+    "tags": [
+        "spell",
+        "spelling"
+    ],
+    "credits": [
+        "Mycroft AI",
+        "NeonDaniel"
+    ],
+    "skillname": "skill-spelling",
+    "authorname": "NeonGeckoCom",
+    "foldername": null
 }
