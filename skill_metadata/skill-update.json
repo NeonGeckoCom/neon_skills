@@ -19,7 +19,7 @@
         "python": [
             "neon-phal-plugin-core-updater~=0.1",
             "neon-utils~=1.1",
-            "ovos_utils>=0.0.28a7"
+            "ovos_utils~=0.0.28"
         ],
         "system": {},
         "skill": []
