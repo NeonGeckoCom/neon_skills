@@ -1,52 +1,53 @@
 {
-  "title": "Data Controls",
-  "url": "https://github.com/NeonGeckoCom/skill-data_controls",
-  "summary": "Manage user data",
-  "short_description": "Manage user data",
-  "description": "Manage saved transcriptions and other user-generated media.",
-  "examples": [
-    "clear my user transcriptions",
-    "erase all pictures",
-    "delete my profile"
-  ],
-  "desktopFile": false,
-  "warning": "",
-  "systemDeps": false,
-  "requirements": {
-    "python": [
-      "neon-utils>=0.17,<2.0.0"
+    "title": "Data Controls",
+    "url": "https://github.com/NeonGeckoCom/skill-data_controls",
+    "summary": "Manage user data",
+    "short_description": "Manage user data",
+    "description": "Manage saved transcriptions and other user-generated media.",
+    "examples": [
+        "Clear my user transcriptions.",
+        "Erase all pictures.",
+        "Delete my profile."
     ],
-    "system": {},
-    "skill": []
-  },
-  "incompatible_skills": [],
-  "platforms": [
-    "i386",
-    "x86_64",
-    "ia64",
-    "arm64",
-    "arm"
-  ],
-  "branch": "master",
-  "license": "BSD-3-Clause",
-  "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
-  "category": "category** {categories}",
-  "categories": [
-    "category** {categories}"
-  ],
-  "tags": [
-    "NeonGecko Original",
-    "NeonAI",
-    "Data",
-    "Settings",
-    "Privacy",
-    "Profile"
-  ],
-  "credits": [
-    "NeonGeckoCom",
-    "NeonDaniel"
-  ],
-  "skillname": "skill-data_controls",
-  "authorname": "NeonGeckoCom",
-  "foldername": null
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "neon-utils~=1.0",
+            "ovos_utils~=0.0.28"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+    "category": "Configuration",
+    "categories": [
+        "Configuration"
+    ],
+    "tags": [
+        "NeonGecko Original",
+        "NeonAI",
+        "Data",
+        "Settings",
+        "Privacy",
+        "Profile"
+    ],
+    "credits": [
+        "NeonGeckoCom",
+        "NeonDaniel"
+    ],
+    "skillname": "skill-data_controls",
+    "authorname": "NeonGeckoCom",
+    "foldername": null
 }
