@@ -17,7 +17,7 @@
     "systemDeps": false,
     "requirements": {
         "python": [
-            "neon-phal-plugin-core-updater~=0.1",
+            "neon-phal-plugin-core-updater>=0.1.0,<2.0.0",
             "neon-utils~=1.1",
             "ovos_utils~=0.0.28"
         ],
