@@ -45,7 +45,7 @@
     "systemDeps": false,
     "requirements": {
         "python": [
-            "neon-utils[network]~=1.1",
+            "neon-utils[network]~=1.1,>=1.2.5a2",
             "ovos_utils~=0.0.28"
         ],
         "system": {},
