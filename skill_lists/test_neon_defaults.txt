@@ -1,0 +1,44 @@
+# Essential
+neon-skill-about
+neon-skill-date_time
+neon-skill-demo
+neon-skill-device_controls
+neon-skill-ip_address
+
+# Default
+skill-ddg
+neon-skill-alerts
+neon-skill-caffeinewiz
+neon-skill-data_controls
+neon-skill-fallback_wolfram_alpha
+neon-skill-personal
+neon-skill-speak
+neon-skill-speed_test
+neon-skill-spelling
+neon-skill-stock
+neon-skill-support_helper
+neon-skill-user_settings
+neon-skill-weather
+neon-skill-wikipedia
+neon-skill-free_music_archive
+neon-skill-local_music
+
+# Extended
+neon-skill-audio_record
+neon-skill-custom_conversation
+neon-skill-instructions
+neon-skill-launcher
+neon-skill-messaging
+skill-news
+# neon-skill-recipes
+neon-skill-synonyms
+neon-skill-translation
+neon-skill-camera
+ovos-skill-somafm
+neon-homeassistant-skill
+
+# Pi
+neon-skill-update
+ovos-skill-homescreen
+ovos-skill-setup
+ovos-skill-volume
