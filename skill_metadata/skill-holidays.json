@@ -1,23 +1,15 @@
 {
-    "title": "Holidays",
+    "title": "{title}",
     "url": "https://github.com/NeonGeckoCom/skill-holidays",
-    "summary": "Skill to provide local holidays",
-    "short_description": "Skill to provide local holidays",
-    "description": "Queries a database of known holidays for different locales. This skill can provide dates for requested holidays and return holidays on a requested date.",
-    "examples": [
-        "When is Valentine's Day?",
-        "Tell me when April Fool's Day is.",
-        "Is June nineteenth a holiday?"
-    ],
+    "summary": "{summary}",
+    "short_description": "{summary}",
+    "description": "{description}",
+    "examples": [],
     "desktopFile": false,
     "warning": "",
     "systemDeps": false,
     "requirements": {
-        "python": [
-            "ovos-lingua-franca~=0.4, >=0.4.6",
-            "ovos-workshop~=0.0.11,>=0.0.12a4",
-            "requests~=2.0"
-        ],
+        "python": [],
         "system": {},
         "skill": []
     },
@@ -31,21 +23,18 @@
     ],
     "branch": "master",
     "license": "BSD-3-Clause",
-    "icon": "logo.svg",
-    "category": "Information",
+    "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+    "category": "category** {categories}",
     "categories": [
-        "Information",
-        "Daily"
+        "category** {categories}"
     ],
     "tags": [
-        "NeonGecko Original",
-        "Neon AI",
-        "Holiday",
-        "Dates"
+        "tag",
+        "tag2"
     ],
     "credits": [
         "NeonGeckoCom",
-        "NeonDaniel"
+        "{author_name}"
     ],
     "skillname": "skill-holidays",
     "authorname": "NeonGeckoCom",
