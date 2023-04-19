@@ -36,7 +36,8 @@
     "icon": "https://freemusicarchive.org/legacy/fma-smaller.jpg",
     "category": "Music",
     "categories": [
-        "Music"
+        "Music",
+        "Daily"
     ],
     "tags": [
         "music",
