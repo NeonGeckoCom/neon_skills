@@ -19,6 +19,8 @@
 
 [Free Music Archive](https://github.com/NeonGeckoCom/skill-free_music_archive) - [OCP](https://github.com/OpenVoiceOS/ovos-ocp-audio-plugin) skill to play royalty free music from [Free Music Archive](https://freemusicarchive.org/).
 
+[Holidays](https://github.com/NeonGeckoCom/skill-holidays) - Skill to provide local holidays
+
 [Instructions](https://github.com/NeonGeckoCom/skill-instructions) - Neon skill for instructions reading and implementation
 
 [Launcher](https://github.com/NeonGeckoCom/skill-launcher) - Browse the web by voice
