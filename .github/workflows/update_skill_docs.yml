@@ -24,6 +24,7 @@ jobs:
           python -m pip install tabulate requests
       - name: Update Files
         run: python scripts/parse_skill_data.py
+      # TODO: Push updates, PR New Additions
       - name: Push File Updates
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
