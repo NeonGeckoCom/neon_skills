@@ -23,6 +23,8 @@
 
 [Instructions](https://github.com/NeonGeckoCom/skill-instructions) - Neon skill for instructions reading and implementation
 
+[LLM Fallback](https://github.com/NeonGeckoCom/skill-fallback_llm) - Get an LLM response from the Neon Diana backend.
+
 [Launcher](https://github.com/NeonGeckoCom/skill-launcher) - Browse the web by voice
 
 [Local Music](https://github.com/NeonGeckoCom/skill-local_music) - [OCP](https://github.com/OpenVoiceOS/ovos-ocp-audio-plugin) skill to play media from local storage.
