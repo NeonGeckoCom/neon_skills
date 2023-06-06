@@ -18,7 +18,7 @@
     "requirements": {
         "python": [
             "neon-utils~=1.4",
-            "neon_mq_connector~=0.6,>=0.6.1a9",
+            "neon_mq_connector~=0.7",
             "ovos-utils~=0.0.28",
             "ovos_workshop~=0.0.11"
         ],
