@@ -10,7 +10,7 @@
     "systemDeps": false,
     "requirements": {
         "python": [
-            "neon-utils~=1.2,>=1.5.0a10",
+            "neon-utils~=1.5",
             "ovos_utils~=0.0.28"
         ],
         "system": {},
