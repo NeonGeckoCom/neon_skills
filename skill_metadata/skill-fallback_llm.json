@@ -1,0 +1,46 @@
+{
+    "title": "LLM Fallback",
+    "url": "https://github.com/NeonGeckoCom/skill-fallback_llm",
+    "summary": "Get an LLM response from the Neon Diana backend.",
+    "short_description": "Get an LLM response from the Neon Diana backend.",
+    "description": "Converse with an LLM and enable LLM responses when Neon doesn't have a better response. To send a single query to an LLM, you can ask Neon to \"ask Chat GPT <something>\". To start conversing with an LLM, ask to \"talk to Chat GPT\" and have all of your input sent to an LLM until you say goodbye or stop talking for a while. Enable fallback behavior by asking to \"enable LLM fallback skill\" or disable it by asking to \"disable LLM fallback\". To have a copy of LLM interactions sent via email, ask Neon to \"email me a copy of our conversation\".",
+    "examples": [
+        "Explain quantum computing in simple terms",
+        "Ask chat GPT what an LLM is",
+        "Talk to chat GPT",
+        "Enable LLM fallback skill",
+        "Disable LLM fallback skill",
+        "Email me a copy of our conversation"
+    ],
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "neon-utils~=1.4",
+            "neon_mq_connector~=0.7",
+            "ovos-utils~=0.0.28",
+            "ovos_workshop~=0.0.11"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "logo.svg",
+    "category": "",
+    "categories": [],
+    "tags": [],
+    "credits": [],
+    "skillname": "skill-fallback_llm",
+    "authorname": "NeonGeckoCom",
+    "foldername": null
+}
