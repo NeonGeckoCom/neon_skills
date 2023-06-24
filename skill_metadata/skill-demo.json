@@ -12,10 +12,11 @@
     "systemDeps": false,
     "requirements": {
         "python": [
+            "neon-tts-plugin-audiofiles~=0.0.2",
             "neon-utils~=1.0,>=1.2.2",
-            "neon_tts_plugin_audiofiles~=0.0.2",
+            "ovos-bus-client~=0.0.3",
             "ovos-plugin-manager~=0.0.21",
-            "ovos_utils~=0.0.28"
+            "ovos-utils~=0.0.28"
         ],
         "system": {},
         "skill": []
