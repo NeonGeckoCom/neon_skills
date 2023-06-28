@@ -14,7 +14,8 @@
     "requirements": {
         "python": [
             "neon-utils~=1.0",
-            "ovos_utils~=0.0.28",
+            "ovos-bus-client~=0.0.3",
+            "ovos-utils~=0.0.28",
             "speedtest-cli~=2.1"
         ],
         "system": {},
