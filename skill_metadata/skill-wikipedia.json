@@ -21,7 +21,8 @@
         "python": [
             "neon-utils~=1.0",
             "ovos_utils~=0.0.28",
-            "wikipedia_for_humans>=0.2.3"
+            "wikipedia-api~=0.5.8",
+            "wikipedia_for_humans~=0.2.3"
         ],
         "system": {},
         "skill": []
