@@ -33,6 +33,8 @@
 
 [Neon Updates](https://github.com/NeonGeckoCom/skill-update) - Skill to update Python packages, configuration, and to create new boot media.
 
+[Ready](https://github.com/NeonGeckoCom/skill-core_ready) - Skill to speak when Neon is ready
+
 [Recipes](https://github.com/NeonGeckoCom/skill-recipes) - Get help making a meal.
 
 [Speed Test](https://github.com/NeonGeckoCom/skill-speed_test) - Skill used to test your internet speed
