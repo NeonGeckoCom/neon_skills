@@ -1,0 +1,50 @@
+{
+    "title": "Ready",
+    "url": "https://github.com/NeonGeckoCom/skill-core_ready",
+    "summary": "Skill to speak when Neon is ready",
+    "short_description": "Skill to speak when Neon is ready",
+    "description": "When Neon is started or restarted, this skill will speak a notification to the user. This speech can be enabled/disabled by intent.",
+    "examples": [
+        "Enable ready notifications.",
+        "Disable load speech."
+    ],
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "neon-utils~=1.2",
+            "ovos-bus-client~=0.0.3",
+            "ovos-utils~=0.0.28",
+            "ovos-workshop~=0.0.12"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+    "category": "Daily",
+    "categories": [
+        "Daily"
+    ],
+    "tags": [
+        "NeonGecko Original",
+        "NeonAI"
+    ],
+    "credits": [
+        "NeonDaniel",
+        "NeonGeckoCom"
+    ],
+    "skillname": "skill-core_ready",
+    "authorname": "NeonGeckoCom",
+    "foldername": null
+}
