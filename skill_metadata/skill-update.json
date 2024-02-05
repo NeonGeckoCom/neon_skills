@@ -18,9 +18,9 @@
     "requirements": {
         "python": [
             "neon-phal-plugin-core-updater~=1.2",
-            "neon-utils~=1.6",
+            "neon-utils~=1.8",
             "ovos-workshop~=0.0.12",
-            "ovos_utils~=0.0.35"
+            "ovos_utils~=0.0, >=0.0.35"
         ],
         "system": {},
         "skill": []
