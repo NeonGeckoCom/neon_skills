@@ -34,7 +34,7 @@
             "json_database~=0.5",
             "neon-utils~=1.2",
             "ovos-bus-client~=0.0.3",
-            "ovos-utils~=0.0.32"
+            "ovos-utils~=0.0, >=0.0.32"
         ],
         "system": {},
         "skill": []
