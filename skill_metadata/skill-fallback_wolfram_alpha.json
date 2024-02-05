@@ -17,7 +17,7 @@
         "python": [
             "neon-api-proxy~=0.4",
             "neon-utils~=1.0",
-            "ovos-utils~=0.0.28",
+            "ovos-utils~=0.0, >=0.0.28",
             "requests>=2.13.0"
         ],
         "system": {},
