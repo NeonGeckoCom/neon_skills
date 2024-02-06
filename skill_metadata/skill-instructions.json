@@ -14,7 +14,7 @@
         "python": [
             "neon_utils~=1.0",
             "numpy",
-            "ovos-utils~=0.0.28",
+            "ovos-utils~=0.0, >=0.0.28",
             "wavfile",
             "word2number"
         ],
