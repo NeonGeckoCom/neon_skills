@@ -18,7 +18,7 @@
             "ovos-plugin-common-play~=0.0",
             "ovos-skill-installer~=0.0.5",
             "ovos-workshop~=0.0.7",
-            "ovos_utils~=0.0.28"
+            "ovos_utils~=0.0, >=0.0.28"
         ],
         "system": {},
         "skill": []
