@@ -13,9 +13,9 @@
     "systemDeps": false,
     "requirements": {
         "python": [
-            "neon-lang-plugin-libretranslate~=0.1",
             "neon-utils~=1.1",
-            "ovos-utils~=0.0.28"
+            "ovos-utils~=0.0.28",
+            "ovos-workshop~=0.0.15"
         ],
         "system": {},
         "skill": []
