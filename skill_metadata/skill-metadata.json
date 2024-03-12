@@ -1,6 +1,6 @@
 {
-    [
-        "skills": {
+    "skills": [
+        {
             "title": "About",
             "url": "https://github.com/NeonGeckoCom/skill-about",
             "summary": "Skill used to provide information about this assistant.",
