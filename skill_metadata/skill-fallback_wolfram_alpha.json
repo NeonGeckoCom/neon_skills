@@ -15,8 +15,8 @@
     "systemDeps": false,
     "requirements": {
         "python": [
-            "neon-api-proxy~=0.4",
-            "neon-utils~=1.0",
+            "adapt-parser~=1.0",
+            "neon-utils~=1.9",
             "ovos-utils~=0.0, >=0.0.28",
             "requests>=2.13.0"
         ],
