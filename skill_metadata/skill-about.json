@@ -14,8 +14,8 @@
     "systemDeps": false,
     "requirements": {
         "python": [
-            "neon-utils~=1.2,>=1.2.2",
-            "ovos-utils~=0.0.28"
+            "neon-utils~=1.2,>=1.2.2,!=1.9.0",
+            "ovos-utils~=0.0, >=0.0.28"
         ],
         "system": {},
         "skill": []
