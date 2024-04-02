@@ -14,9 +14,9 @@
     "requirements": {
         "python": [
             "multi-key-dict==2.0.3",
-            "neon-api-proxy~=0.4",
-            "neon-utils~=1.0",
-            "ovos_utils~=0.0.28",
+            "neon-utils~=1.9",
+            "ovos-utils~=0.0, >=0.0.28",
+            "ovos-workshop~=0.0",
             "requests>=2.13.0"
         ],
         "system": {},
