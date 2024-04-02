@@ -15,9 +15,9 @@
     "requirements": {
         "python": [
             "beautifulsoup4~=4.0",
-            "neon-utils~=1.0",
+            "neon-utils~=1.0,!=1.9.0",
             "ovos-bus-client~=0.0.3",
-            "ovos-utils~=0.0.28"
+            "ovos-utils~=0.0, >=0.0.28"
         ],
         "system": {},
         "skill": []
