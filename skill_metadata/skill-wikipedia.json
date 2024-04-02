@@ -20,7 +20,8 @@
     "requirements": {
         "python": [
             "neon-utils~=1.0",
-            "ovos_utils~=0.0.28",
+            "ovos-workshop~=0.0.15",
+            "ovos_utils~=0.0,>=0.0.28",
             "wikipedia-api~=0.5.8",
             "wikipedia_for_humans~=0.2.3"
         ],
