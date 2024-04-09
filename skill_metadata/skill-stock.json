@@ -3,7 +3,7 @@
     "url": "https://github.com/NeonGeckoCom/skill-stock",
     "summary": "This skill provides stock values.",
     "short_description": "This skill provides stock values.",
-    "description": "Use this skill to lookup stock prices. Use of this skill requires use of third-party APIs. If you do not have access to Neon API servers, you may access the Alpha Vantage API directly by providing a key in `~/alpha_vantage.txt`. You can generate an Alpha Vantage key [here](https://www.alphavantage.co/support/#api-key)",
+    "description": "Use this skill to lookup stock prices. Use of this skill requires use of third-party APIs. This skill will use Neon AI servers by default, but you can deploy your own instance of [Diana](https://github.com/NeonGeckoCom/neon-diana-utils).",
     "examples": [
         "What is the share price for Amazon?",
         "What is the stock price for Microsoft?"
@@ -13,9 +13,9 @@
     "systemDeps": false,
     "requirements": {
         "python": [
-            "neon-api-proxy~=0.4",
-            "neon-utils~=1.0",
-            "ovos-utils~=0.0, >=0.0.28"
+            "neon-utils~=1.9",
+            "ovos-utils~=0.0, >=0.0.28",
+            "ovos-workshop~=0.0.15"
         ],
         "system": {},
         "skill": []
