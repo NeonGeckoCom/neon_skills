@@ -1,8 +1,8 @@
 {
     "title": "Ready",
     "url": "https://github.com/NeonGeckoCom/skill-core_ready",
-    "summary": "Skill to speak when Neon is ready",
-    "short_description": "Skill to speak when Neon is ready",
+    "summary": "Skill to speak a notification when Neon is ready.",
+    "short_description": "Skill to speak a notification when Neon is ready.",
     "description": "When Neon is started or restarted, this skill will speak a notification to the user. This speech can be enabled/disabled by intent.",
     "examples": [
         "Enable ready notifications.",
@@ -30,7 +30,7 @@
     ],
     "branch": "master",
     "license": "BSD-3-Clause",
-    "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
+    "icon": "logo.svg",
     "category": "Daily",
     "categories": [
         "Daily"
