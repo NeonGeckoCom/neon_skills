@@ -14,6 +14,7 @@
     "requirements": {
         "python": [
             "neon-utils~=1.0",
+            "ovos-workshop~=0.0.15",
             "ovos_utils~=0.0, >=0.0.28"
         ],
         "system": {},
