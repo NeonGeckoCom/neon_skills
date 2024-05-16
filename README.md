@@ -1,4 +1,6 @@
 # Neon Original Skills
+[](https://github.com/NeonGeckoCom/skill-audio-recording) - 
+
 [About](https://github.com/NeonGeckoCom/skill-about) - Skill used to provide information about this assistant.
 
 [Alerts](https://github.com/NeonGeckoCom/skill-alerts) - A skill to schedule alarms, timers, and reminders.
