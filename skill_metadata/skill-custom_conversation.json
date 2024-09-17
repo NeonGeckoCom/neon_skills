@@ -18,9 +18,11 @@
         "python": [
             "bs4",
             "gitpython~=3.1",
-            "neon-utils~=1.1",
-            "ovos-bus-client~=0.0.3",
-            "ovos-utils~=0.0, >=0.0.28"
+            "neon-utils[network]~=1.1,>=1.11.1a3",
+            "ovos-bus-client~=0.0,>=0.0.3",
+            "ovos-lingua-franca~=0.4",
+            "ovos-utils~=0.0, >=0.0.28",
+            "ovos-workshop~=0.0,>=0.0.15"
         ],
         "system": {},
         "skill": []
