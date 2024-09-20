@@ -17,7 +17,6 @@
         "python": [
             "beautifulsoup4~=4.11",
             "neon-utils[network]~=1.0,>=1.11.1a3",
-            "ovos-plugin-common-play~=0.0.3",
             "ovos-utils~=0.0, >=0.0.28",
             "ovos-workshop~=0.0,>=0.0.7"
         ],
