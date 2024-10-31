@@ -47,7 +47,7 @@
 
 [Translation](https://github.com/NeonGeckoCom/skill-translation) - Translate phrases between languages.
 
-[User Settings](https://github.com/NeonGeckoCom/skill-user_settings) - Have Neon help you change and control your user settings.
+[User Settings](https://github.com/NeonGeckoCom/skill-user_settings-Ukrainian-update) - Have Neon help you change and control your user settings.
 
 # Neon Enhanced Skills
 [Audio Record](https://github.com/NeonGeckoCom/skill-audio_record) - Record and playback short audio clips with Neon.
