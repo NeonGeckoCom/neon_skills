@@ -1,6 +1,6 @@
 {
     "title": "User Settings",
-    "url": "https://github.com/NeonGeckoCom/skill-user_settings",
+    "url": "https://github.com/NeonGeckoCom/skill-user_settings-Ukrainian-update",
     "summary": "Have Neon help you change and control your user settings.",
     "short_description": "Have Neon help you change and control your user settings.",
     "description": "Neon can help you control your user preference settings via this skill.",
@@ -77,7 +77,7 @@
         "reginaneon",
         "NeonGeckoCom"
     ],
-    "skillname": "skill-user_settings",
+    "skillname": "skill-user_settings-Ukrainian-update",
     "authorname": "NeonGeckoCom",
     "foldername": null
 }
