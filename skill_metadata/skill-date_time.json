@@ -16,7 +16,7 @@
     "requirements": {
         "python": [
             "geocoder~=1.38",
-            "neon-utils[network]~=1.8,>=1.11.1a3",
+            "neon-utils~=1.12",
             "ovos-bus-client~=0.0,>=0.0.4",
             "ovos-lingua-franca~=0.4",
             "ovos-utils~=0.0, >=0.0.34",
