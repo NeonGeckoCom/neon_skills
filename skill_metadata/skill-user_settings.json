@@ -1,6 +1,6 @@
 {
     "title": "User Settings",
-    "url": "https://github.com/NeonGeckoCom/skill-user_settings-Ukrainian-update",
+    "url": "https://github.com/NeonGeckoCom/skill-user_settings",
     "summary": "Have Neon help you change and control your user settings.",
     "short_description": "Have Neon help you change and control your user settings.",
     "description": "Neon can help you control your user preference settings via this skill.",
@@ -44,9 +44,9 @@
     "systemDeps": false,
     "requirements": {
         "python": [
-            "neon-utils[network]~=1.4,>=1.11.1a3",
+            "neon-utils~=1.12",
             "ovos-bus-client~=0.0,>=0.0.3",
-            "ovos-utils~=0.0, >=0.0.32",
+            "ovos-utils~=0.0,>=0.0.32",
             "ovos-workshop~=0.0,>=0.0.15"
         ],
         "system": {},
@@ -77,7 +77,7 @@
         "reginaneon",
         "NeonGeckoCom"
     ],
-    "skillname": "skill-user_settings-Ukrainian-update",
+    "skillname": "skill-user_settings",
     "authorname": "NeonGeckoCom",
     "foldername": null
 }
