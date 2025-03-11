@@ -14,8 +14,8 @@
     "systemDeps": false,
     "requirements": {
         "python": [
-            "ovos-utils~=0.0, >=0.0.28",
-            "ovos_workshop~=0.0, >=0.0.12a27"
+            "ovos-utils~=0.0,>=0.0.28",
+            "ovos-workshop~=0.0,>=0.0.13"
         ],
         "system": {},
         "skill": []
