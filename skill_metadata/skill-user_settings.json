@@ -44,9 +44,10 @@
     "systemDeps": false,
     "requirements": {
         "python": [
-            "neon-utils[network]~=1.4",
-            "ovos-bus-client~=0.0.3",
-            "ovos-utils~=0.0, >=0.0.32"
+            "neon-utils~=1.12",
+            "ovos-bus-client~=0.0,>=0.0.3",
+            "ovos-utils~=0.0,>=0.0.32",
+            "ovos-workshop~=0.0,>=0.0.15"
         ],
         "system": {},
         "skill": []
