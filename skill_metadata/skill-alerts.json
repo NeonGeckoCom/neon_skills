@@ -32,9 +32,10 @@
         "python": [
             "combo_lock~=0.2",
             "json_database~=0.5",
-            "neon-utils~=1.2",
-            "ovos-bus-client~=0.0.3",
-            "ovos-utils~=0.0, >=0.0.32"
+            "neon-utils~=1.12",
+            "ovos-bus-client~=0.0,>=0.0.3",
+            "ovos-utils~=0.0, >=0.0.32",
+            "ovos-workshop~=0.0,>=0.0.12"
         ],
         "system": {},
         "skill": []
