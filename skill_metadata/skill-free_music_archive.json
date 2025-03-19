@@ -16,10 +16,9 @@
     "requirements": {
         "python": [
             "beautifulsoup4~=4.11",
-            "neon-utils~=1.0",
-            "ovos-plugin-common-play~=0.0.3",
-            "ovos-utils~=0.0, >=0.0.28",
-            "ovos-workshop~=0.0.7"
+            "neon-utils~=1.12",
+            "ovos-utils~=0.1",
+            "ovos-workshop~=0.0,>=0.0.7"
         ],
         "system": {},
         "skill": []
