@@ -12,9 +12,10 @@
     "systemDeps": false,
     "requirements": {
         "python": [
-            "neon_utils~=1.0",
+            "neon-utils~=1.12",
             "numpy",
-            "ovos-utils~=0.0.28",
+            "ovos-utils~=0.0, >=0.0.28",
+            "ovos-workshop~=0.0,>=0.0.15",
             "wavfile",
             "word2number"
         ],
