@@ -1,6 +1,6 @@
 {
     "title": "Weather",
-    "url": "https://github.com/NeonGeckoCom/skill-weather",
+    "url": "https://github.com/NeonDmitry/skill-weather",
     "summary": "Get current weather and forecast info.",
     "short_description": "Get current weather and forecast info.",
     "description": "This skill provides current weather information at different locations and forecasts up to 5 days. Use of this skill requires use of third-party APIs. If you do not have access to Neon API servers, you may access the Alpha Vantage API directly by providing a key in `~/owm.txt`. You can generate an Open Weather Map key [here](https://home.openweathermap.org/users/sign_up)",
@@ -42,7 +42,7 @@
         "reginaneon"
     ],
     "skillname": "skill-weather",
-    "authorname": "NeonGeckoCom",
+    "authorname": "NeonDmitry",
     "foldername": null,
     "troubleshooting": "Try asking for a different location or changing your default location by saying `Neon change my location to Seattle`."
 }
