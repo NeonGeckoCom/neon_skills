@@ -1,6 +1,6 @@
 {
     "title": "Ready",
-    "url": "https://github.com/NeonGeckoCom/skill-core_ready",
+    "url": "https://github.com/NeonDmitry/skill-core_ready_ua_translation",
     "summary": "Skill to speak a notification when Neon is ready.",
     "short_description": "Skill to speak a notification when Neon is ready.",
     "description": "When Neon is started or restarted, this skill will speak a notification to the user. This speech can be enabled/disabled by intent.",
@@ -43,7 +43,7 @@
         "NeonDaniel",
         "NeonGeckoCom"
     ],
-    "skillname": "skill-core_ready",
-    "authorname": "NeonGeckoCom",
+    "skillname": "skill-core_ready_ua_translation",
+    "authorname": "NeonDmitry",
     "foldername": null
 }
