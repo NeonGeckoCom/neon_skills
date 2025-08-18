@@ -1,6 +1,6 @@
 {
     "title": "Data Controls",
-    "url": "https://github.com/NeonGeckoCom/skill-data_controls",
+    "url": "https://github.com/NeonDmitry/skill-data_controls_Ua_translate",
     "summary": "Manage user data",
     "short_description": "Manage user data",
     "description": "Manage saved transcriptions and other user-generated media.",
@@ -49,7 +49,7 @@
         "NeonGeckoCom",
         "NeonDaniel"
     ],
-    "skillname": "skill-data_controls",
-    "authorname": "NeonGeckoCom",
+    "skillname": "skill-data_controls_Ua_translate",
+    "authorname": "NeonDmitry",
     "foldername": null
 }
