@@ -17,6 +17,7 @@
             "ovos-bus-client~=0.0,>=0.0.3",
             "ovos-utils~=0.0, >=0.0.28",
             "ovos-workshop~=0.0,>=0.0.15",
+            "pydantic~=2.0",
             "speedtest-cli~=2.1"
         ],
         "system": {},
