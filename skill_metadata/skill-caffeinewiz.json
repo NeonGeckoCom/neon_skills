@@ -18,7 +18,8 @@
             "neon-utils~=1.12",
             "ovos-bus-client~=0.0,>=0.0.3",
             "ovos-utils~=0.0, >=0.0.28",
-            "ovos-workshop~=0.0,>=0.0.12"
+            "ovos-workshop~=0.0,>=0.0.12",
+            "pydantic~=2.0"
         ],
         "system": {},
         "skill": []
