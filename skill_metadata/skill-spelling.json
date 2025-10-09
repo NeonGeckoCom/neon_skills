@@ -1,8 +1,7 @@
 {
-    "title": "Spelling",
-    "url": "https://github.com/NeonGeckoCom/skill-spelling",
+    "title": "neon-skill-spelling",
+    "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/book-reader.svg",
     "summary": "Let Neon help you spell words",
-    "short_description": "Let Neon help you spell words",
     "description": "Neon can spell any word which is understood by speech-to-text.",
     "examples": [
         "How do you spell aardvark?",
@@ -10,9 +9,24 @@
         "How do you spell bureacracy?",
         "Spell omnipotence."
     ],
-    "desktopFile": false,
-    "warning": "",
-    "systemDeps": false,
+    "credits": [
+        "Neongecko"
+    ],
+    "categories": [
+        "Information"
+    ],
+    "tags": [],
+    "category": "Information",
+    "package_name": "neon-skill-spelling",
+    "pip_spec": "neon-skill-spelling",
+    "license": "BSD-3-Clause",
+    "author": "Neongecko",
+    "version": "1.1.1",
+    "url": "https://github.com/NeonGeckoCom/skill-spelling",
+    "skill_id": "skill-spelling.neongeckocom=skill_spelling:SpellingSkill",
+    "skillname": "skill-spelling",
+    "authorname": "NeonGeckoCom",
+    "name": "neon-skill-spelling",
     "requirements": {
         "python": [
             "neon-utils~=1.12",
@@ -22,6 +36,9 @@
         "system": {},
         "skill": []
     },
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
     "incompatible_skills": [],
     "platforms": [
         "i386",
@@ -31,21 +48,6 @@
         "arm"
     ],
     "branch": "master",
-    "license": "BSD-3-Clause",
-    "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/book-reader.svg",
-    "category": "Information",
-    "categories": [
-        "Information"
-    ],
-    "tags": [
-        "spell",
-        "spelling"
-    ],
-    "credits": [
-        "Mycroft AI",
-        "NeonDaniel"
-    ],
-    "skillname": "skill-spelling",
-    "authorname": "NeonGeckoCom",
-    "foldername": null
+    "foldername": null,
+    "short_description": "Let Neon help you spell words"
 }
