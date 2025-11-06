@@ -23,7 +23,7 @@
     "pip_spec": "neon-skill-update",
     "license": "BSD-3-Clause",
     "author": "Neongecko",
-    "version": "3.1.2",
+    "version": "3.1.3a1",
     "url": "https://github.com/NeonGeckoCom/skill-update",
     "skill_id": "skill-update.neongeckocom=skill_update:UpdateSkill",
     "skillname": "skill-update",
