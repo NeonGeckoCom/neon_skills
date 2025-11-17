@@ -1,8 +1,7 @@
 {
-    "title": "Alerts",
-    "url": "https://github.com/NeonGeckoCom/skill-alerts",
+    "title": "neon-skill-alerts",
+    "icon": "logo.svg",
     "summary": "A skill to schedule alarms, timers, and reminders.",
-    "short_description": "A skill to schedule alarms, timers, and reminders.",
     "description": "The skill provides functionality to create alarms, timers and reminders, remove them by name, time, or type, and ask for what is active. You may also silence all alerts and ask for a summary of what was missed if you were away, your device was off, or you had quiet hours enabled. Alarms and reminders may be set to recur daily or weekly. An active alert may be snoozed for a specified amount of time while it is active. Any alerts that are not acknowledged will be added to a list of missed alerts that may be read and cleared when requested. Other modules may integrate with the alerts skill by listening for `neon.alert_expired` events. This event will be emitted when a scheduled alert expires and will include any context associated with the event creation. If the event was created with `mq` context, the mq connector module will forward the expired alert for the client module to handle and the alert will be marked `active` until the client module emits a `neon.acknowledge_alert` Message with the `alert_id` and `missed` data, i.e.: ``` Message(\"neon.acknowledge_alert\", {\"alert_id\": <alert_id>, \"missed\": False}, <context>) ```",
     "examples": [
         "Set an alarm for 8 AM.",
@@ -25,26 +24,45 @@
         "What did I miss?",
         "Did I miss anything?"
     ],
-    "desktopFile": false,
-    "warning": "",
-    "systemDeps": false,
-    "requirements": {
-        "python": [
-            "combo_lock~=0.2",
-            "json_database~=0.5",
-            "neon-utils~=1.12",
-            "ovos-bus-client~=0.0,>=0.0.3",
-            "ovos-utils~=0.0, >=0.0.32",
-            "ovos-workshop~=0.0,>=0.0.12"
-        ],
-        "system": {},
-        "skill": []
-    },
+    "credits": [
+        "Neongecko"
+    ],
+    "categories": [
+        "Productivity",
+        "Daily"
+    ],
+    "tags": [],
+    "category": "Productivity",
     "incompatible_skills": [
         "https://github.com/mycroftai/skill-reminder",
         "https://github.com/mycroftai/skill-alarm",
         "https://github.com/mycroftai/mycroft-timer"
     ],
+    "package_name": "neon-skill-alerts",
+    "pip_spec": "neon-skill-alerts",
+    "license": "BSD-3-Clause",
+    "author": "Neongecko",
+    "version": "3.0.1",
+    "url": "https://github.com/NeonGeckoCom/skill-alerts",
+    "skill_id": "skill-alerts.neongeckocom=skill_alerts:AlertSkill",
+    "skillname": "skill-alerts",
+    "authorname": "NeonGeckoCom",
+    "name": "neon-skill-alerts",
+    "requirements": {
+        "python": [
+            "json_database~=0.5",
+            "neon-utils~=1.12",
+            "combo_lock~=0.2",
+            "ovos-utils~=0.0, >=0.0.32",
+            "ovos-bus-client~=0.0,>=0.0.3",
+            "ovos-workshop~=0.0,>=0.0.12"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
     "platforms": [
         "i386",
         "x86_64",
@@ -53,27 +71,6 @@
         "arm"
     ],
     "branch": "master",
-    "license": "BSD-3-Clause",
-    "icon": "logo.svg",
-    "category": "Productivity",
-    "categories": [
-        "Productivity",
-        "Daily"
-    ],
-    "tags": [
-        "NeonGecko Original",
-        "NeonAI",
-        "alert",
-        "alarm",
-        "timer",
-        "reminder",
-        "schedule"
-    ],
-    "credits": [
-        "NeonGeckoCom",
-        "NeonDaniel"
-    ],
-    "skillname": "skill-alerts",
-    "authorname": "NeonGeckoCom",
-    "foldername": null
+    "foldername": null,
+    "short_description": "A skill to schedule alarms, timers, and reminders."
 }
