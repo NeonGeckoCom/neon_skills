@@ -1,8 +1,7 @@
 {
-    "title": "Wolfram Alpha",
-    "url": "https://github.com/NeonGeckoCom/skill-fallback_wolfram_alpha",
+    "title": "neon-skill-fallback_wolfram_alpha",
+    "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/question.svg",
     "summary": "General knowledge fallback handler based on [Wolfram Alpha](https://wolframalpha.com) services",
-    "short_description": "General knowledge fallback handler based on [Wolfram Alpha](https://wolframalpha.com) services",
     "description": "Answers general knowledge, math, and definition questions by using Wolfram Alpha API services. If the user is interested in knowing where the information for the spoken answer came from, Neon can send the most recent source of the spoken details to user\u2019s email. Use of this skill requires use of third-party APIs. This skill will use Neon AI servers by default, but you can deploy your own instance of [Diana](https://github.com/NeonGeckoCom/neon-diana-utils).",
     "examples": [
         "What is 2 + 2?",
@@ -10,19 +9,34 @@
         "How far away is the moon?",
         "Send me the source for that."
     ],
-    "desktopFile": false,
-    "warning": "",
-    "systemDeps": false,
+    "credits": [
+        "Neongecko"
+    ],
+    "category": "",
+    "package_name": "neon-skill-fallback_wolfram_alpha",
+    "pip_spec": "neon-skill-fallback_wolfram_alpha",
+    "license": "BSD-3-Clause",
+    "author": "Neongecko",
+    "tags": [],
+    "version": "3.0.0",
+    "url": "https://github.com/NeonGeckoCom/skill-fallback_wolfram_alpha",
+    "skill_id": "skill-fallback_wolfram_alpha.neongeckocom=neon_skill_fallback_wolfram_alpha:WolframAlphaSkill",
+    "skillname": "skill-fallback_wolfram_alpha",
+    "authorname": "NeonGeckoCom",
+    "name": "neon-skill-fallback_wolfram_alpha",
     "requirements": {
         "python": [
+            "requests>=2.13.0",
             "neon-utils~=1.12",
             "ovos-utils~=0.0,>=0.0.28",
-            "ovos-workshop~=0.0,>=0.0.15",
-            "requests>=2.13.0"
+            "ovos-workshop~=0.0,>=0.0.15"
         ],
         "system": {},
         "skill": []
     },
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
     "incompatible_skills": [],
     "platforms": [
         "i386",
@@ -32,17 +46,6 @@
         "arm"
     ],
     "branch": "master",
-    "license": "BSD-3-Clause",
-    "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/question.svg",
-    "category": "",
-    "categories": [],
-    "tags": [],
-    "credits": [
-        "Mycroft AI",
-        "NeonDaniel",
-        "reginaneon"
-    ],
-    "skillname": "skill-fallback_wolfram_alpha",
-    "authorname": "NeonGeckoCom",
-    "foldername": null
+    "foldername": null,
+    "short_description": "General knowledge fallback handler based on [Wolfram Alpha](https://wolframalpha.com) services"
 }
