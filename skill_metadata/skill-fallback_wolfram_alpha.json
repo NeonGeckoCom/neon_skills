@@ -18,7 +18,7 @@
     "license": "BSD-3-Clause",
     "author": "Neongecko",
     "tags": [],
-    "version": "3.0.0",
+    "version": "3.0.1a1",
     "url": "https://github.com/NeonGeckoCom/skill-fallback_wolfram_alpha",
     "skill_id": "skill-fallback_wolfram_alpha.neongeckocom=neon_skill_fallback_wolfram_alpha:WolframAlphaSkill",
     "skillname": "skill-fallback_wolfram_alpha",
