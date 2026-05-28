@@ -42,7 +42,7 @@
     "pip_spec": "neon-skill-alerts",
     "license": "BSD-3-Clause",
     "author": "Neongecko",
-    "version": "3.0.1",
+    "version": "3.0.2a1",
     "url": "https://github.com/NeonGeckoCom/skill-alerts",
     "skill_id": "skill-alerts.neongeckocom=skill_alerts:AlertSkill",
     "skillname": "skill-alerts",
@@ -51,7 +51,7 @@
     "requirements": {
         "python": [
             "json_database~=0.5",
-            "neon-utils~=1.12",
+            "neon-utils[network]~=1.12,>=1.14.1a1",
             "combo_lock~=0.2",
             "ovos-utils~=0.0, >=0.0.32",
             "ovos-bus-client~=0.0,>=0.0.3",
