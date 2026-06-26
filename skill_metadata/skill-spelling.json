@@ -21,7 +21,7 @@
     "pip_spec": "neon-skill-spelling",
     "license": "BSD-3-Clause",
     "author": "Neongecko",
-    "version": "1.1.2a1",
+    "version": "1.1.2a2",
     "url": "https://github.com/NeonGeckoCom/skill-spelling",
     "skill_id": "skill-spelling.neongeckocom=skill_spelling:SpellingSkill",
     "skillname": "skill-spelling",
