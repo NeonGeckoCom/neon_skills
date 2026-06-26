@@ -16,7 +16,7 @@
     "license": "BSD-3-Clause",
     "author": "Neongecko",
     "tags": [],
-    "version": "3.1.1a3",
+    "version": "3.1.1a4",
     "url": "https://github.com/NeonGeckoCom/skill-weather",
     "skill_id": "skill-weather.neongeckocom=neon_skill_weather:WeatherSkill",
     "skillname": "skill-weather",
@@ -26,7 +26,7 @@
         "python": [
             "multi-key-dict==2.0.3",
             "requests>=2.13.0",
-            "neon-utils[network]~=1.9,>=1.14.1a1",
+            "neon-utils~=1.14,>=1.14.1",
             "ovos-utils~=0.0, >=0.0.28",
             "ovos-workshop~=0.0",
             "pydantic~=2.0"
