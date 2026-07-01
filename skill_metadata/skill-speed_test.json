@@ -1,27 +1,46 @@
 {
-    "title": "Speed Test",
-    "url": "https://github.com/NeonGeckoCom/skill-speed_test",
+    "title": "neon-skill-speed_test",
+    "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
     "summary": "Skill used to test your internet speed",
-    "short_description": "Skill used to test your internet speed",
     "description": "This skill uses speedtest.net to check your internet speed",
     "examples": [
         "Run a speed test.",
         "How fast is my internet?"
     ],
-    "desktopFile": false,
-    "warning": "",
-    "systemDeps": false,
+    "categories": [
+        "Daily",
+        "Productivity"
+    ],
+    "credits": [
+        "Neongecko"
+    ],
+    "tags": [],
+    "category": "Daily",
+    "package_name": "neon-skill-speed_test",
+    "pip_spec": "neon-skill-speed_test",
+    "license": "BSD-3-Clause",
+    "author": "Neongecko",
+    "version": "1.0.5a4",
+    "url": "https://github.com/NeonGeckoCom/skill-speed_test",
+    "skill_id": "skill-speed_test.neongeckocom=neon_skill_speed_test:SpeedTestSkill",
+    "skillname": "skill-speed_test",
+    "authorname": "NeonGeckoCom",
+    "name": "neon-skill-speed_test",
     "requirements": {
         "python": [
             "neon-utils~=1.12",
-            "ovos-bus-client~=0.0,>=0.0.3",
+            "mbps~=0.1",
             "ovos-utils~=0.0, >=0.0.28",
+            "ovos-bus-client~=0.0,>=0.0.3",
             "ovos-workshop~=0.0,>=0.0.15",
-            "speedtest-cli~=2.1"
+            "pydantic~=2.0"
         ],
         "system": {},
         "skill": []
     },
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
     "incompatible_skills": [],
     "platforms": [
         "i386",
@@ -31,25 +50,6 @@
         "arm"
     ],
     "branch": "master",
-    "license": "BSD-3-Clause",
-    "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
-    "category": "Daily",
-    "categories": [
-        "Daily",
-        "Productivity"
-    ],
-    "tags": [
-        "NeonGecko Original",
-        "NeonAI",
-        "Internet",
-        "Utilities"
-    ],
-    "credits": [
-        "NeonDaniel",
-        "NeonGeckoCom",
-        "reginaneon"
-    ],
-    "skillname": "skill-speed_test",
-    "authorname": "NeonGeckoCom",
-    "foldername": null
+    "foldername": null,
+    "short_description": "Skill used to test your internet speed"
 }
