@@ -20,7 +20,7 @@
     "pip_spec": "neon-skill-speed_test",
     "license": "BSD-3-Clause",
     "author": "Neongecko",
-    "version": "1.0.5a3",
+    "version": "1.0.5a4",
     "url": "https://github.com/NeonGeckoCom/skill-speed_test",
     "skill_id": "skill-speed_test.neongeckocom=neon_skill_speed_test:SpeedTestSkill",
     "skillname": "skill-speed_test",
@@ -29,7 +29,7 @@
     "requirements": {
         "python": [
             "neon-utils~=1.12",
-            "speedtest-cli~=2.1",
+            "mbps~=0.1",
             "ovos-utils~=0.0, >=0.0.28",
             "ovos-bus-client~=0.0,>=0.0.3",
             "ovos-workshop~=0.0,>=0.0.15",
