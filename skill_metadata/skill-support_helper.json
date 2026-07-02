@@ -1,27 +1,41 @@
 {
-    "title": "Support Helper",
-    "url": "https://github.com/NeonGeckoCom/skill-support_helper",
+    "title": "neon-skill-support_helper",
+    "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/life-ring.svg",
     "summary": "Get diagnostic information sent via email.",
-    "short_description": "Get diagnostic information sent via email.",
     "description": "The skill provides the functionality to get core module status information and message information, including user profile information, sent to the user via email.",
     "examples": [
         "Create a troubleshooting package.",
         "Create a support ticket."
     ],
-    "desktopFile": false,
-    "warning": "",
-    "systemDeps": false,
+    "credits": [
+        "Neongecko"
+    ],
+    "tags": [],
+    "category": "",
+    "package_name": "neon-skill-support_helper",
+    "pip_spec": "neon-skill-support_helper",
+    "license": "BSD-3-Clause",
+    "author": "Neongecko",
+    "version": "1.2.5a2",
+    "url": "https://github.com/NeonGeckoCom/skill-support_helper",
+    "skill_id": "skill-support_helper.neongeckocom=skill_support_helper:SupportSkill",
+    "skillname": "skill-support_helper",
+    "authorname": "NeonGeckoCom",
+    "name": "neon-skill-support_helper",
     "requirements": {
         "python": [
             "neon-utils[network]~=1.12",
-            "ovos-bus-client~=0.0,>=0.0.3",
             "ovos-utils~=0.0, >=0.0.28",
-            "ovos-workshop~=0.0,>=0.0.12",
-            "pyyaml>=5.4,<7.0"
+            "pyyaml>=5.4,<7.0",
+            "ovos-bus-client~=0.0,>=0.0.3",
+            "ovos-workshop~=0.0,>=0.0.12"
         ],
         "system": {},
         "skill": []
     },
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
     "incompatible_skills": [],
     "platforms": [
         "i386",
@@ -31,23 +45,6 @@
         "arm"
     ],
     "branch": "master",
-    "license": "BSD-3-Clause",
-    "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/life-ring.svg",
-    "category": "",
-    "categories": [],
-    "tags": [
-        "NeonGecko Original",
-        "NeonAI",
-        "Support",
-        "Help"
-    ],
-    "credits": [
-        "NeonGeckoCom",
-        "NeonDaniel",
-        "reginaneon"
-    ],
-    "skillname": "skill-support_helper",
-    "authorname": "NeonGeckoCom",
     "foldername": null,
-    "troubleshooting": "If you do not see your troubleshooting email, check your spam folder."
+    "short_description": "Get diagnostic information sent via email."
 }
