@@ -1,8 +1,7 @@
 {
-    "title": "Date and Time",
-    "url": "https://github.com/NeonGeckoCom/skill-date_time",
+    "title": "neon-skill-date_time",
+    "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/calendar.svg",
     "summary": "Get the time, date, day of the week",
-    "short_description": "Get the time, date, day of the week",
     "description": "Get the local time or time for major cities around the world.  Times are given in 12-hour (2:30 pm) or 24-hour format (14:30) based on the Time Format setting at [Home](https://home.mycroft.ai/#/setting/basic) Time can optionally be shown on a display, like a digital clock.  See the [Skill Setting](https://home.mycroft.ai/#/skill).",
     "examples": [
         "What time is it?",
@@ -10,24 +9,42 @@
         "What's the date?",
         "Tell me the day of the week."
     ],
-    "desktopFile": false,
-    "warning": "",
-    "systemDeps": false,
+    "categories": [
+        "Daily"
+    ],
+    "credits": [
+        "Neongecko"
+    ],
+    "tags": [],
+    "category": "Daily",
+    "package_name": "neon-skill-date_time",
+    "pip_spec": "neon-skill-date_time",
+    "license": "BSD-3-Clause",
+    "author": "Neongecko",
+    "version": "1.1.2a3",
+    "url": "https://github.com/NeonGeckoCom/skill-date_time",
+    "skill_id": "skill-date_time.neongeckocom=neon_skill_date_time:TimeSkill",
+    "skillname": "skill-date_time",
+    "authorname": "NeonGeckoCom",
+    "name": "neon-skill-date_time",
     "requirements": {
         "python": [
-            "geocoder~=1.38",
-            "neon-utils~=1.12",
-            "ovos-bus-client~=0.0,>=0.0.4",
-            "ovos-lingua-franca~=0.4",
-            "ovos-utils~=0.0, >=0.0.34",
-            "ovos-workshop~=0.0,>=0.0.12",
-            "pydantic~=2.0",
             "pytz>=2022.1",
-            "timezonefinder~=5.2"
+            "geocoder~=1.38",
+            "timezonefinder~=5.2",
+            "ovos-bus-client~=0.0,>=0.0.4",
+            "ovos-utils~=0.0, >=0.0.34",
+            "neon-utils~=1.12",
+            "ovos-workshop~=0.0,>=0.0.12",
+            "ovos-lingua-franca~=0.4",
+            "pydantic~=2.0"
         ],
         "system": {},
         "skill": []
     },
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
     "incompatible_skills": [],
     "platforms": [
         "i386",
@@ -37,25 +54,6 @@
         "arm"
     ],
     "branch": "master",
-    "license": "BSD-3-Clause",
-    "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/calendar.svg",
-    "category": "Daily",
-    "categories": [
-        "Daily"
-    ],
-    "tags": [
-        "date",
-        "time",
-        "clock",
-        "world-time",
-        "world-clock",
-        "date-time"
-    ],
-    "credits": [
-        "Mycroft AI",
-        "NeonDaniel"
-    ],
-    "skillname": "skill-date_time",
-    "authorname": "NeonGeckoCom",
-    "foldername": null
+    "foldername": null,
+    "short_description": "Get the time, date, day of the week"
 }
