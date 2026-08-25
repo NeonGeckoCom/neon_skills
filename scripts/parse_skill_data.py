@@ -98,10 +98,16 @@ def update_readme():
 
 
 def _format_skill_name_html(skill: dict) -> str:
+    """
+    Parse skill name from data into an HTML-safe hyperlink string
+    """
     return f'\\<a href=\\"{skill["url"]}\\"\\>{skill["title"]}\\<a\\>'
 
 
 def _format_list_html(to_format: list) -> str:
+    """
+    Parse a list of strings into an HTML-safe list
+    """
     to_return = "\\<ul\\>\n"
     for el in to_format:
         to_return = f'{to_return}\\<li\\>{el}\\</li\\>\n'
@@ -109,11 +115,17 @@ def _format_list_html(to_format: list) -> str:
 
 
 def _format_list_to_html(data: list) -> str:
+    """
+    Parse a list of HTML-safe strings into an HTML table
+    """
     formatted = tabulate(data, tablefmt='html')
     return formatted.replace("\\&lt;", "<").replace("\\&gt;", ">").replace('\\&quot;', '"')
 
 
 def update_neon_skills_html():
+    """
+    Update `neon_skills.html` with current data from all skills
+    """
     all_skills = list()
     for skill in listdir(skill_meta_path):
         skill = read_skill_json(join(skill_meta_path, skill))
@@ -132,11 +144,40 @@ def update_neon_skills_html():
         f.write(_format_list_to_html(all_skills))
 
 
+def update_neon_skills_csv():
+    """
+    Update `neon_skills.csv` with current data from all skills
+    """
+    all_skills = list()
+    all_skills.insert(0, ["Skill", "URL", "Summary", "Examples"])
+
+    for skill in listdir(skill_meta_path):
+        skill = read_skill_json(join(skill_meta_path, skill))
+        table_data = [
+            skill["title"],
+            skill["url"],
+            skill["short_description"].replace('"', "'"),
+            ",".join(skill.get('examples') or []).replace('"', "'") or
+            "<No Examples Provided>"
+        ]
+        all_skills.append(table_data)
+    data = tabulate(all_skills, tablefmt='tsv')
+    csv_path = join(dirname(dirname(__file__)), 'csv',
+                    'neon_skills.tsv')
+
+    with open(csv_path, 'w+') as f:
+        f.write(data)
+
+
 def update_neon_mark_2_html():
+    """
+    Update `mark_2_default_skills.html` with current data from all skills
+    """
     required = "https://raw.githubusercontent.com/NeonGeckoCom/NeonCore/master/requirements/skills_required.txt"
     essential = "https://raw.githubusercontent.com/NeonGeckoCom/NeonCore/master/requirements/skills_essential.txt"
     default = "https://raw.githubusercontent.com/NeonGeckoCom/NeonCore/master/requirements/skills_default.txt"
     extended = "https://raw.githubusercontent.com/NeonGeckoCom/NeonCore/master/requirements/skills_extended.txt"
+    # TODO: Parse blacklist
     skills_list = list()
     for url in (required, essential, default, extended):
         skills = requests.get(url).text.split('\n')
@@ -178,5 +219,6 @@ def update_neon_mark_2_html():
 
 if __name__ == "__main__":
     update_readme()
+    update_neon_skills_csv()
     update_neon_skills_html()
     update_neon_mark_2_html()
