@@ -1,8 +1,7 @@
 {
-    "title": "Messaging",
-    "url": "https://github.com/NeonGeckoCom/skill-messaging",
+    "title": "neon-skill-messaging",
+    "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
     "summary": "Handles mobile requests for phone calls, SMS, and emails.",
-    "short_description": "Handles mobile requests for phone calls, SMS, and emails.",
     "description": "This handles SMS, phone call, and email requests.",
     "examples": [
         "call Daniel",
@@ -10,19 +9,34 @@
         "Send a text message to Daniel that says hello",
         "Send an email to demo@neongecko.com with the subject Test Email"
     ],
-    "desktopFile": false,
-    "warning": "",
-    "systemDeps": false,
+    "credits": [
+        "Neongecko"
+    ],
+    "tags": [],
+    "category": "",
+    "package_name": "neon-skill-messaging",
+    "pip_spec": "neon-skill-messaging",
+    "license": "BSD-3-Clause",
+    "author": "Neongecko",
+    "version": "0.0.2a7",
+    "url": "https://github.com/NeonGeckoCom/skill-messaging",
+    "skill_id": "skill-messaging.neongeckocom=skill_messaging:MessagingSkill",
+    "skillname": "skill-messaging",
+    "authorname": "NeonGeckoCom",
+    "name": "neon-skill-messaging",
     "requirements": {
         "python": [
+            "phonenumbers~=8.12",
             "neon-utils~=1.12",
             "ovos-utils~=0.0, >=0.0.28",
-            "ovos-workshop~=0.0,>=0.0.15",
-            "phonenumbers~=8.12"
+            "ovos-workshop~=0.0,>=0.0.15"
         ],
         "system": {},
         "skill": []
     },
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
     "incompatible_skills": [],
     "platforms": [
         "i386",
@@ -32,24 +46,6 @@
         "arm"
     ],
     "branch": "master",
-    "license": "BSD-3-Clause",
-    "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
-    "category": "",
-    "categories": [],
-    "tags": [
-        "NeonGecko Original",
-        "NeonAI",
-        "Communication",
-        "SMS",
-        "Email",
-        "Phone",
-        "Android"
-    ],
-    "credits": [
-        "NeonDaniel",
-        "NeonGeckoCom"
-    ],
-    "skillname": "skill-messaging",
-    "authorname": "NeonGeckoCom",
-    "foldername": null
+    "foldername": null,
+    "short_description": "Handles mobile requests for phone calls, SMS, and emails."
 }
