@@ -42,7 +42,7 @@
     "pip_spec": "neon-skill-alerts",
     "license": "BSD-3-Clause",
     "author": "Neongecko",
-    "version": "3.0.2a2",
+    "version": "3.1.0",
     "url": "https://github.com/NeonGeckoCom/skill-alerts",
     "skill_id": "skill-alerts.neongeckocom=skill_alerts:AlertSkill",
     "skillname": "skill-alerts",
